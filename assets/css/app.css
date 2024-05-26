@@ -1,0 +1,176 @@
+
+body{
+    background-color: #f5f5f5;
+}
+
+/* Cards */
+
+.main-card{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+}
+
+.card-main-results{
+    height: 640px !important;
+    width: 100% !important;
+}
+
+/* Selects */
+#select-CarBrands{
+    border: 1px solid lightgray;
+}
+
+/* Rows */
+
+/* RESPONSIVE */
+
+/* Smartphones */
+@media only screen and (min-width: 20px) and (max-width: 600px) {
+    .btn-search, .btn-clear-filters{
+        top: 0px !important;
+    }
+
+    #select-CarBrands{
+        height: 35px !important;
+    }
+
+    .table-onlyBody{
+        overflow-y: scroll;
+        z-index: 5;
+        height: 380px !important;
+    }
+}
+
+/* Tablets */
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+    .card {
+      background: #bada55;
+    }
+}
+
+/* Laptops */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .card {
+      background: #bada55;
+    }
+}
+
+/* PC */
+@media only screen and (min-width: 1200px) and (max-width: 3000px) {
+    .card {
+      background: #bada55;
+    }
+}
+
+/* Buttons
+
+.btn-add-register{
+    position: absolute;
+    top: 5px !important;
+}
+*/
+
+.row-btnRegister{
+    margin-top: -5px !important;
+    margin-bottom: 10px !important;
+}
+
+.border-rounded{
+    border-radius: 8px !important;
+}
+
+/*
+.btn, .btn-small{
+    text-transform: none !important;
+}*/
+
+.btn-clear-filters{
+    margin-right: 5px;
+    width: 40px;
+    padding-left: 10px;
+}
+
+.btn-clear-filters .material-icons{
+    margin-right: 0 !important;
+}
+
+.btn-search, .btn-clear-filters{
+    top: 35px;
+}
+
+.btn-add-register{
+    top: 0px;
+}
+
+.col-Num, .col-CarBrand, .col-PaintCode,.col-PaintName,.col-ModelCar,.col-Layer,.col-Stock{
+    background-color: rgba(1, 87, 155, 1);
+    color: white;
+    font-weight: 400;
+    border-radius: 0 !important;
+}
+
+/* Table css */
+
+table thead tr th{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+table tbody tr td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.table-onlyHeaders{
+    z-index: 10;
+}
+
+.table-onlyBody{
+    overflow-y: scroll;
+    z-index: 5;
+    height: 420px;
+}
+
+.col-Num, .row-Num{
+    width: 5%;
+    text-align: center;
+}
+
+.col-CarBrand, .row-CarBrand{
+    /* background-color: antiquewhite; */
+    padding-left: 10px;
+    width: 15%;
+} 
+
+.col-PaintCode, .row-PaintCode{
+    /* background-color: aqua; */
+    width: 30%;
+}
+
+.col-PaintName, .row-PaintName{
+    /* background-color: aquamarine; */
+    width: 25%;
+} 
+
+.col-ModelCar, .row-ModelCar{
+    /* background-color: beige; */
+    text-align: center;
+    width: 15%;
+}
+
+.col-Layer, .row-Layer{
+    /* background-color: burlywood; */
+    width: 5%;
+}
+
+.col-Stock, .row-Stock{
+    /* background-color: cadetblue; */
+    width: 5%;
+}
+
+/* Labels and text */
+.contianerNumRegisters{
+    margin-top: -15px;
+    margin-bottom: 5px;
+}

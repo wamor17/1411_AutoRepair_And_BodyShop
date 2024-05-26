@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Document CSS -->
+    <link rel="stylesheet" href="assets/css/app.css">
+
+    <title>Pain code inventory</title>
+</head>
+<body>
+
+    <ul id="slide-out" class="sidenav sidenav-fixed">  <!---->
+      <li><div class="user-view">
+        <div class="background">
+          <img src="https://hips.hearstapps.com/hmg-prod/images/porsche-paint-to-sample-106-1638196059.jpg?crop=1xw:0.42271875xh;center,top&resize=1200:*">
+        </div>
+        <a href="#user"><img class="circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcy1NkwC3RWLaBPATir2MkQ7eCsrLA8e2FDw&s"></a>
+        <a href="#name"><span class="white-text name">1411 Auto Repair & Body Shop</span></a>
+        <a href="#email"><span class="white-text email">19miguelmartinez77@gmail.com</span></a>
+      </div></li>
+      <li class="active"><a href="#!"><i class="material-icons">color_lens</i>Paints inventory</a></li>
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+    <div class="row">
+
+      <div class="col l3"></div>
+
+      <div class="col s12 m12 l8">
+
+        <div class="card white card-main-results border-rounded">
+          <div class="card-content">
+            
+            <!--<span class="card-title">Paint code inventory</span>-->
+
+            <div class="row">
+
+              <div class="input-field col s6 m3 l3 xl3">
+                <input placeholder="Example: WA800J" id="txtPaintCode" type="text" class="validate">
+                <label for="txtPaintCode">Paint code or name</label>
+              </div>
+
+              <div class="col s6 m2 l2 xl2">
+                <label>Car brand</label>
+                <select id="select-CarBrands" class="browser-default">
+                </select>
+              </div>
+
+              <div class="col s12 m7 l7 xl7">
+                <a class="waves-effect white btn-flat border-rounded btn-clear-filters left tooltipped black-text" data-position="bottom" data-tooltip="Borrar filtros"><i class="material-icons left">delete_sweep</i></a>
+                <a class="waves-effect blue darken-4 btn-small border-rounded btn-search left"><i class="material-icons left">search</i>Search</a>
+                <a class="waves-effect blue blue-grey lighten-2 btn-small border-rounded btn-add-register right"><i class="material-icons left">add</i>Registrar</a>
+              </div>
+
+            </div>
+
+            <div class="contianerNumRegisters">Number of records found: <span class="numRegisters"></span></div>
+            <div class="table-onlyHeaders">
+              
+              <table class="striped">
+                <thead>
+                  <tr>
+                      <th class="col-Num">Num</th>
+                      <th class="col-CarBrand">Brand</th>
+                      <th class="col-PaintCode">Paint code</th>
+                      <th class="col-PaintName">Paint name</th>
+                      <th class="col-ModelCar">Model</th>
+                      <th class="col-Layer">Layer</th>
+                      <th class="col-Stock">Stock</th>
+                  </tr>
+                </thead>
+
+              </table>
+
+            </div>
+            
+            <div class="table-onlyBody">
+              
+              <table class="striped">
+                
+        
+                <tbody id="dataTable-Body">
+                </tbody>
+              </table>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col l1"></div>
+
+    </div>
+
+    <!-- jQuery Javascript -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="assets/js/app.js" ></script>
+
+</body>
+</html>

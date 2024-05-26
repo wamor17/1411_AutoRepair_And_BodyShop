@@ -1,0 +1,375 @@
+﻿Num,paintKey,idPaint,batchNumber,carBrand,paintCodeAndName,paintCode,paintName,initYear,endYear,paintBrand,typePaint,purchaseDate,Unit,Layer,Volume
+1,PBT-1559971-C,1559971,34963855,Nissan,FAR / Airtech Blue Metallic,FAR , Airtech Blue Metallic,2011,2020,PBT - PRO//BASE 3.5 VOC,Basecoat,08/01/2023,,1 ,0.473 L
+2,2PNISSL1-W,-,-,Nissan,QAB / White,QAB , White,2008,2017,Wandabase HS,Basecoat,04/00/2019,,1/2,0.473 L
+3,PBT-1392391-B,1392391,22465177,Acura,NH782M / Graphite Luster Metallic,NH782M , Graphite Luster Metallic,2009,2017,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+4,PBT-1567736-B,1567736,12578562,Buick,GYO / WA204V / 204V / Deep Espresso Brown Metallic,GYO / WA204V / 204V , Deep Espresso Brown Metallic,2013,2016,PBT,-,11/26/2018,1 ,1 ,0.473 L
+5,PBT-100289442-B,100289442,00070888,Chevrolet,GVU / 76 / WA518Q / 518Q / Mocha Bronze Metallic,GVU / 76 / WA518Q / 518Q , Mocha Bronze Metallic,2008,2016,PBT,-,10/29/2018,1 ,1 ,0.473 L
+6,-,-,236878,Chrysler,EBCC04127 / Inferno Red Med Tint,EBCC04127 , Inferno Red Med Tint,1999,2006,LIMCO,Basecoat,03/18/2013,1 ,1 ,0.473 L
+7,PBT-1564990-A,1564990,20447494,Cadillac,815T / WA815T / GLK / Black Diamond,815T / WA815T / GLK , Black Diamond,2011,2015,PBT,Tricoat,12/01/2020,1 ,1 ,0.473 L
+8,PBN-5471307-B,5471307,-,Lincoln,G4 / Cashmere,G4 , Cashmere,2004,2007,Pro//Base National Rule - Pbn,Tricoat,-,1 ,1 ,0.473 L
+9,PBT-100698655-B,100698655,17331518,Chevrolet,GBN / V / A800J / 800J / 98 / White Diamond Pearl,GBN / V / A800J / 800J / 98 , White Diamond Pearl,2003,2016,PBT,-,02/05/2020,1 ,1 ,0.473 L
+10,C6-4977845-A,4977845,-,Toyota,040 / Super White li,040 , Super White li,1985,2015,Crossfire B/C,Basecoat,09/30/2017,1 ,1 ,0.473 L
+11,PBT-1560671-D,1560671,21338081,Acura,NH789M / Forged Silver Metallic,NH789M , Forged Silver Metallic,-,-,PBT,-,-,1 ,1 ,0.473 L
+12,PBT Midcoa - 1564562 - A,1564562,20447538,Cadillac,815T / WA815T / GLK / Black Diamond,815T / WA815T / GLK , Black Diamond,2011,2015,PBT,Midcoat,12/01/2020,1 ,1 ,0.473 L
+13,C6-100139566-A,100139566,35832499,Toyota,218 / Attitude Black Metallic,218 , Attitude Black Metallic,2011,2024,C6 - Crossfire B/C,-,-,1 ,1 ,0.473 L
+14,UFN - 4055282,4055282,-,Hyundai,2R / Quicksilver Metallic,2R , Quicksilver Metallic,2008,2011,-,Basecoat,-,1 ,1 ,0.473 L
+15,56-78775-00-C,4108776,-,Honda,R528P / Moroccan Red Pearl,R528P , Moroccan Red Pearl,2007,2008,Crossfire Platinum B/C 5.0,Basecoat,03/28/2012,1 ,1 ,0.473 L
+16,PBN-5664169-C,5664169,-,Lincoln,G4 / Cashmere,G4 , Cashmere,2004,2007,Pro//Base National Rule - Pbn,Tricoat,03/07/2017,1 ,1 ,0.473 L
+17,PBN-5377142-C,5377142,-,Toyota,8R3 / Grayish Blue Metallic,8R3 , Grayish Blue Metallic,2003,-,Pro//Base National Rule - Pbn,-,12/05/2017,1 ,1 ,0.473 L
+18,PBN-5507591-C,5507591,-,Toyota,1D6 / Silver Sky Metallic,1D6 , Silver Sky Metallic,2001,2015,Pro//Base National Rule - Pbn,Basecoat,02/13/2017,1 ,1 ,0.473 L
+19,-,-,-,Kia,D0 / Bronze Metallic,D0 , Bronze Metallic,2009,-,-,-,-,1 ,1 ,0.473 L
+20,PBN-5361004-B,5361004,-,Ford,G3 / Pueblo Gold Metallic,G3 , Pueblo Gold Metallic,2004,2015,Pro//Base National Rule - Pbn,Basecoat,11/30/2015,1 ,1 ,0.473 L
+21,PBN-5376483-B,5376483,-,Subaru,97J / Satin White Pearl,97J , Satin White Pearl,2005,2015,Pro//Base National Rule - Pbn,-,-,1 ,1 ,0.473 L
+22,PNB-5469191-C,5469191,-,Chevrolet,637R / Cyber Gray Metallic,637R , Cyber Gray Metallic,2009,2016,Pro//Base National Rule - Pbn,Basecoat,07/24/2017,1 ,1 ,0.473 L
+23,PBT-1456488-D,1456488,-,Chevrolet,GGU / 718S / WA718S / Evolution Blue Metallic,GGU / 718S / WA718S , Evolution Blue Metallic,2010,2013,PBT,-,-,1 ,1 ,0.473 L
+24,-,565731,-,Nissan,QT1 / Icelandic Pearl,QT1 , Icelandic Pearl,1997,2002,LIMCO Supreme Plus,-,06/25/2014,1 ,1 ,0.473 L
+25,C6-4982644-A,4982644,17041256,Dodge,PB8 / BB8 / Midnight Blue Pearl,PB8 / BB8 , Midnight Blue Pearl,2003,2020,-,-,-,1 ,1 ,0.473 L
+26,PBN-5361004-B,5361004,-,Ford,G3 / Pueblo Gold Metallic,G3 , Pueblo Gold Metallic,2004,2015,Pro//Base National Rule - Pbn,Basecoat,08/23/2016,1 ,1 ,0.473 L
+27,PBN-5507771-C,5507771,-,Cadillac,WA8933 / White Diamond,WA8933 , White Diamond,1991,2000,Pro//Base National Rule - Pbn,Midcoat,08/20/2015,1 ,1 ,0.473 L
+28,C6-4956712-B,4956712,-,BMW,354 / Titanium Silver Metallic,354 , Titanium Silver Metallic,2000,2014,Crossfire B/C,Basecoat,04/13/2015,1 ,1 ,0.473 L
+29,PBT-1392904-C,1392904,-,Chrysler,AY111JSC / JSC / PSC / Billet Metallic,AY111JSC / JSC / PSC , Billet Metallic,2011,2022,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+30,PBI Midcoa -100698877-D,100698877,19193965,Nissan,QX1 / Glacier Pearl,QX1 , Glacier Pearl,2002,2021,PBT Midcoat,Midcoat,08/03/2020,1 ,1 ,0.473 L
+31,PBT-1403946-C,1403946,15586604,Toyota,6T7 / Cypress Mica,6T7 , Cypress Mica,2008,2019,PBT,-,08/22/2019,1 ,1 ,0.473 L
+32,500DB-103232646,103232646,30595309,Ford,454 / 7283 / 0FK / 7XK / C4A / DST / DSTE / DSTEWTA / DSTEXTA / LFA / M7283A / PQ5 / RJA / RR / VB3 / Ruby Red Metallic,454 / 7283 / 0FK / 7XK / C4A / DST / DSTE / DSTEWTA / DSTEXTA / LFA / M7283A / PQ5 / RJA / RR / VB3 , Ruby Red Metallic,1990,2022,500 BeroBase,-,02/17/2023,1 ,1 ,0.473 L
+33,C6-4956835-A,4956835,-,Ford,Z1 / Oxford  White,Z1 , Oxford  White,1997,2016,Crossfire B/C,Basecoat,04/01/2014,1 ,1 ,0.473 L
+34,PBT-100280159-B,100280159,-,Ford,UX / 7226 / M7226A / 4AG / 5C / APF / APFF / C4E / EUK / LFE / PN4AG / PN4EK / SWV / WVR / Ingot Silver Metallic,UX / 7226 / M7226A / 4AG / 5C / APF / APFF / C4E / EUK / LFE / PN4AG / PN4EK / SWV / WVR , Ingot Silver Metallic,2001,2023,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+35,PBT-100280111-B,100280111,15165862,GMC,WA928L / Stealth Gray Metallic,WA928L , Stealth Gray Metallic,-,-,PBT,-,07/17/2019,1 ,1 ,0.473 L
+36,PBN-5512825-B,5512825,-,Toyota, 070 / Blizzard Pearl, 070 , Blizzard Pearl,2003,2015,Pro//Base National Rule - Pbn,Midcoat,07/10/2017,1 ,1 ,0.473 L
+37,PBT-1559436-B,1559436,11077292,Kia,BAH / Twilight Blue Metallic,BAH , Twilight Blue Metallic,2010,2018,PBT,-,07/23/2018,1 ,1 ,0.473 L
+38,PBN-5471843-C,5471843,-,Chevrolet,316N / Gold Mist Metallic,316N , Gold Mist Metallic,2007,2012,Pro//Base National Rule - Pbn,Basecoat,09/26/2017,1 ,1 ,0.473 L
+39,B8-4928123-Q,4928123,-,Suzuki,ZRJ / Ablaze Red li Pearl,ZRJ , Ablaze Red li Pearl,2011,2013,Tecbase,Basecoat,03/15/2016,1 ,1 ,0.473 L
+40,PBT-1401956-D,1401956,9922673,Honda,NH678M / Silver Pearl Metallic,NH678M , Silver Pearl Metallic,2005,2009,PBT,-,04/23/2018,1 ,1 ,0.473 L
+41,PBT-1565016-C,1565016,9922751,Hyundai,B7 / Golden Beige Metallic,B7 , Golden Beige Metallic,2005,2008,PBT,-,04/23/2018,1 ,1 ,0.473 L
+42,-,-,-,Toyota,TOY3Q3(L) / 3Q3 / Dark Red,TOY3Q3(L) / 3Q3 , Dark Red,2002,2017,Wandabase HS,-,-,1 ,1 ,0.473 L
+43,PBN-5378655-B,5378655,-,Buick,822K / Capuccino Frost Metallic,822K , Capuccino Frost Metallic,2003,2007,Pro//Base National Rule - Pbn,Basecoat,07/02/2014,1 ,1 ,0.473 L
+44,PBT-1398578-B,1398578,21309090,Chevrolet,GXH / WA122V / 122V / Berlin Blue Metallic,GXH / WA122V / 122V , Berlin Blue Metallic,2013,2018,PBT,-,-,1 ,1 ,0.473 L
+45,PBT-1368040-B,1368040,-,Chrysler,AY142KBU / KBU / PBB / True Blue Pearl,AY142KBU / KBU / PBB , True Blue Pearl,2012,2022,PBT,Basecoat,-,1 ,1 ,0.473 L
+46,C6-4966619-A,4966619,-,Ford,LL / Wedgewood Blue Metallic,LL , Wedgewood Blue Metallic,1999,2003,Crossfire B/C,Basecoat,02/07/2014,1 ,1 ,0.473 L
+47,C6-4961597-B,4961597,-,Mini,862 / Indi Blue Metallic,862 , Indi Blue Metallic,2004,-,Crossfire B/C,Basecoat,04/08/2015,1 ,1 ,0.473 L
+48,PBT-1394049-A,1394049,-,Infiniti,G10 / Galaxy Black Metallic ,G10 , Galaxy Black Metallic ,2004,2010,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+49,-,-,-,Toyota,051 / Diamon White Pearl,051 , Diamon White Pearl,1989,2005,LIMCO,Basecoat,10/13/2011,1 ,1 ,0.473 L
+50,PBN-5376990-B,5376990,-,Chevrolet,382E / Pewter Metallic,382E , Pewter Metallic,1998,2006,Pro//Base National Rule - Pbn,Basecoat,06/26/2015,1 ,1 ,0.473 L
+51,C6-4978030-B,4978030,12248275,Ford,E4 / M6470A / W4665 / Vermilion,E4 / M6470A / W4665 , Vermilion,1991,2017,C6 - Crossfire B/C,-,10/25/2018,1 ,1 ,0.473 L
+52,56-4107283-A,4107283,-,Toyota,1G3 / Magnetic Gray Metallic,1G3 , Magnetic Gray Metallic,2006,2014,Crossfire Platinum B/C 5.0,Basecoat,02/11/2014,1 ,1 ,0.473 L
+53,PBT-1401335-D,1401335,38922749,Subaru,H2Q /  HZ9 / Venetian Red Pearl,H2Q /  HZ9 , Venetian Red Pearl,2012,2022,PBT - PRO//BASE 3.5 VOC,Basecoat,02/07/2024,1 ,1 ,0.473 L
+54,PBT-100930656-A,100930656,-,Chevrolet,GB8 / WA384A / 384A / Black Meet Kettle Metallic,GB8 / WA384A / 384A , Black Meet Kettle Metallic,2016,2023,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+55,PBN-5507190-C,5507190,-,Ford,M7148A / HG / Smokestone Metallic,M7148A / HG , Smokestone Metallic,2006,2015,Pro//Base National Rule - Pbn,Basecoat,-,1 ,1 ,0.473 L
+56,PBN-5376865-C,5376865,-,Ford,L7 / Bright Magenta Metallic,L7 , Bright Magenta Metallic,2011,-,Pro//Base National Rule - Pbn,Basecoat,08/30/2016,1 ,1 ,0.473 L
+57,PNBN-5367833-B,5367833,-,Nissan,QAB / White Pearl,QAB , White Pearl,2009,2015,Pro//Base National Rule - Pbn,Groundcoat,-,1 ,1 ,0.473 L
+58,PBT-101014441-A,101014441,-,Dodge,PDN / 503 / 503B / 264 / Ceramic Gray,PDN / 503 / 503B / 264 , Ceramic Gray,2017,2024,PBT - PRO//BASE 3.5 VOC,Basecoat,03/29/2024,1 ,1 ,0.473 L
+59,PBT-1561615-B,1561615,-,Mazda,41W / Jet Black Mica,41W , Jet Black Mica,2012,2024,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+60,C6-4957989-A,4957989,36600983,Chevrolet,GAZ-8624 / 50 / 50U / GAZ / GCZ / 8624 / WA8624 Olympic White,GAZ-8624 / 50 / 50U / GAZ / GCZ / 8624 , WA8624 Olympic White,1990,2024,C6 - Crossfire B/C,-,10/26/2023,1 ,1 ,0.473 L
+61,-,-,-,Toyota,1D6 / Silver Metallic,1D6 , Silver Metallic,2000,2016,Wandabase HS,Two-coat,10/00/2016,1 ,1 ,0.473 L
+62,-,00419640,-,Ford,14:D7 / D7 / ER4EWHA / ER4EXTA / FA14:D7 / M7298 / Sunset,14:D7 / D7 / ER4EWHA / ER4EXTA / FA14:D7 / M7298 , Sunset,-,-,roberlo,,09/26/2023,1 ,1 ,0.473 L
+63,PBT-1386454-D,1386454,39588360,Jeep,PRV / NRV / Velvet Red Pearl,PRV / NRV , Velvet Red Pearl,2016,2024,PBT - PRO//BASE 3.5 VOC,Basecoat,03/04/2024,1 ,1 ,0.473 L
+64,PBT-100838823-B,100838823,-,Hyundai,2R / Continental Silver Metallic,2R , Continental Silver Metallic,2006,2016,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+65,PBT-1401441-B,1401441,-,Ford,6986 / AQ / M6985A / Arizona Beige Metallic,6986 / AQ / M6985A , Arizona Beige Metallic,1999,2022,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+66,PBT-1574439-B,1574439,14206598,BMW,A52 / Space Gray Metallic,A52 , Space Gray Metallic,2007,2019,PBT,-,-,1 ,1 ,0.473 L
+67,PBT-100699152-B,100699152,-,Chevrolet,GLJ / WA810T / Ashen Gray Metallic,GLJ / WA810T , Ashen Gray Metallic,2012,2016,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+68,PBN-5763921-B,5763921,-,Hyundai,P3 / Harbor Gray Metallic,P3 , Harbor Gray Metallic,2010,2014,Pro//Base National Rule - Pbn,Basecoat,08/10/2017,1 ,1 ,0.473 L
+69,C6-4957805-A,4957805,-,Ford,Z2 / Frozen White,Z2 , Frozen White,2008,-,C6 - Crossfire B/C,-,10/06/2023,1 ,1 ,0.473 L
+70,56-67615-00-A,3096802,-,Hyundai,XX / Tidal Wave Metallic,XX , Tidal Wave Metallic,1998,2004,Crossfire Platinum B/C 5.0,Basecoat,12/23/2013,1 ,1 ,0.473 L
+71,PBT-100991278-C,100991278,-,Ford,J7 / FM6E / FM6EWHA / FM6 / 0FU / 2ZQ / 7325 / 7XU / 93A / C4J / COB / EUQ / JKQ / LFJ / M7325A / MT / NYU / RJH / SWW / WVQ / Magnetic Metallic,J7 / FM6E / FM6EWHA / FM6 / 0FU / 2ZQ / 7325 / 7XU / 93A / C4J / COB / EUQ / JKQ / LFJ / M7325A / MT / NYU / RJH / SWW / WVQ , Magnetic Metallic,2013,2023,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+72,56-79713-00-B,4429247,-,Chevrolet,503Q / Ink Slate Metallic,503Q , Ink Slate Metallic,2008,2009,Crossfire Platinum B/C 5.0,Basecoat,10/30/2012,1 ,1 ,0.473 L
+73,PBT-100949541-B,100949541,-,Ford,APFEWH / UX / M7226A / Ingot Silver Metallic,APFEWH / UX / M7226A , Ingot Silver Metallic,2011,2017,PBT,-,03/05/2022,1 ,1 ,0.473 L
+74,PBT-1355131-C,1355131,-,Ford,LQ / M7235A / M7235 / 7235 / Pale Adobe Metallic,LQ / M7235A / M7235 / 7235 , Pale Adobe Metallic,2011,2014,PBT,-,-,1 ,1 ,0.473 L
+75,PBT-1570020-B,1570020,-,Chevrolet,GBN  / WA800J / 98 / White Diamond Pearl,GBN  / WA800J / 98 , White Diamond Pearl,2003,2016,PBT,-,10/06/2018,1 ,1 ,0.473 L
+76,C6-4975873-A,4975873,,Chevrolet,911L / Dark Tarnished Silver Metallic,911L , Dark Tarnished Silver Metallic,2006,2013,Crossfire B/C,Basecoat,11/24/2015,1 ,1 ,0.473 L
+77,PBT-1401630-B,1401630,41151019,Nissan,BKAD / KAD / Gun Metallic,BKAD / KAD , Gun Metallic,2008,2025,PBT - PRO//BASE 3.5 VOC,Basecoat,05/02/2024,1 ,1 ,0.473 L
+78,PBT-100304057-C,100304057,-,Nissan,B51 / Electric Blue Metallic,B51 , Electric Blue Metallic,2006,2025,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+79,C6-4962127-B,4962127,41074276,Chrysler,AY111WS2 / PS2 / QS2 / S2 / WS2 / Bright Silver Metallic,AY111WS2 / PS2 / QS2 / S2 / WS2 , Bright Silver Metallic,1999,2022,C6 - Crossfire B/C,-,04/30/2024,1 ,1 ,0.473 L
+80,C6-4979784-A,4979784,19115078,Chevrolet,805K / WA805K / 62 / Dark Spiral Gray Metallic,805K / WA805K / 62 , Dark Spiral Gray Metallic,2003,2006,C6,-,-,1 ,1 ,0.473 L
+81,C6-5794895-B,5794895,-,Ford,DX / Dark Blue Pearl,DX , Dark Blue Pearl,2003,2015,Crossfire B/C,Basecoat,10/10/2017,1 ,1 ,0.473 L
+82,PBT Midcoa - 1570024 - D,1570024,12697786,Chevrolet,WA88J / 800J / 987 White Diamond Pearl,WA88J / 800J , 987 White Diamond Pearl,2003,2016,PBT Midcoat,Midcoat,12/06/2016,1 ,1 ,0.473 L
+83,500-163132,-,398,Honda,NH797M / Modern Steel Metallic,NH797M,Modern Steel Metallic,-,-,500 Series Berobase,-,04/22/2022,1 ,1 ,0.473 L
+84,-,-,-,Jeep,PSC / JSC / Billet SIlver Metallic,PSC / JSC , Billet SIlver Metallic,-,-,Prospray Basecoat,Single Layer,-,1 ,1 ,0.473 L
+85,PBT-100289935-B,100289935,21157774,Lexus,8P6 / Blue Vapor Metallic,8P6 , Blue Vapor Metallic,2001,2006,PBT,-,-,1 ,1 ,0.473 L
+86,PBN-5379142-C,5379142,-,Chevrolet,502Q / Inferno Orange Metallic,502Q , Inferno Orange Metallic,2008,2016,Pro//Base National Rule - Pbn,Basecoat,08/24/2017,1 ,1 ,0.473 L
+87,-,-,-,Nissan,NISNAC(Y) / New Red Metallic,NISNAC(Y) , New Red Metallic,2009,2015,Wandabase HS,Two-coat,-,1 ,1 ,0.473 L
+88,C6-4957413-B,4957413,-,Nissan,A20 / Code Red,A20 , Code Red,2005,2015,C6 - Crossfire B/C,Basecoat,05/30/2017,1 ,1 ,0.473 L
+89,PBN-5378125-B,5378125,-,Ford,T7 / Charcoal Beige Metallic,T7 , Charcoal Beige Metallic,2005,2009,Pro//Base National Rule - Pbn,Basecoat,08/15/2018,1 ,1 ,0.473 L
+90,PBT-1353312-B,1353312,-,Chevrolet,WA213M / Graystone Metallic,WA213M , Graystone Metallic,-,-,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+91,C6-4981380-B,4981380,-,GMC,9927 / Dark Hunt Club Red Metallic,9927 , Dark Hunt Club Red Metallic,1993,1996,Crossfire B/C,Basecoat,06/13/2017,1 ,1 ,0.473 L
+92,PBT-1404589-D,1404589,-,Buick,WA317N / 317N / GCH / 53 / Antique Bronze Metallic,WA317N / 317N / GCH / 53 , Antique Bronze Metallic,2006,2007,PBT,-,-,1 ,1 ,0.473 L
+93,C6-5325230-A,5325230,-,Chevrolet,GHA / 706S / Magna Steel Metallic,GHA / 706S , Magna Steel Metallic,-,-,C6 - Crossfire B/C,-,-,1 ,1 ,0.473 L
+94,B8100416887-Q,100416887,-,Cadillac,GBE / 897W505Q / 505Q / Crystal Claret Tintcoat,GBE / 897W505Q / 505Q , Crystal Claret Tintcoat,2012,2016,B8,-,03/10/2020,1 ,1 ,0.473 L
+95,PBT-1406939-B,1406939,-,Nissan,BW5 / Twilight Blue Metallic,BW5 , Twilight Blue Metallic,1999,2003,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+96,-,-,-,Honda,NH662P / Sagebrush Pearl,NH662P , Sagebrush Pearl,2003,2006,-,Basecoat,09/30/2014,1 ,1 ,0.473 L
+97,PBT-1456533-B,1456533,16729746,Nissan,RAP / Metallic Fish Metallic,RAP , Metallic Fish Metallic,2010,2012,PBT,-,12/09/2019,1 ,1 ,0.473 L
+98,C6-4957989-A,4957989,38619875,Buick,50 / GAZ / 8624 / WA8624 / GAZ-8624 / Olympic White,50 / GAZ / 8624 / WA8624 / GAZ-8624 , Olympic White,2000,2024,C6 - Crossfire B/C,Basecoat,06/25/2024,1 ,1 ,0.473 L
+99,PBT-100275514-B,100275514,12219492,Honda,NH741M / Pewter Metallic,NH741M , Pewter Metallic,-,-,PBT,-,10/24/2018,1 ,1 ,0.473 L
+100,PBT-100936840-B,100936840,-,GMC,GBV / 57 / WA637R / 637R / WA618U / 618U / WA618J / 618J / Cyber Gray Metallic,GBV / 57 / WA637R / 637R / WA618U / 618U / WA618J / 618J , Cyber Gray Metallic,2009,2017,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+101,C6-4983244-A,4983244,-,Chrysler,PBM / Steel Blue Metallic,PBM , Steel Blue Metallic,2007,2010,Crossfire B/C,Basecoat,-,1 ,1 ,0.473 L
+102,PBT-1395420-D,1395420,-,Chrysler,PVE / Tangerine Pearl,PVE , Tangerine Pearl,2003,2008,PBT,-,08/16/2018,1 ,1 ,0.473 L
+103,C6-4960081-A,4960081,28126447,Chrysler,GW7 / PW7 / W12 / Bright White,GW7 / PW7 / W12 , Bright White,1991,2023,C6 - Crossfire B/C,-,10/17/2022,1 ,1 ,0.473 L
+104,PBT-100842074-D,100842074,24096088,Ford,UK / M7207A / 7207 / Royal Red Metallic,UK / M7207A / 7207 , Royal Red Metallic,2009,2012,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+105,PBN-5377586-B,5377586,-,Hyundai,S3 / Phantom Black Metallic,S3 , Phantom Black Metallic,2010,2015,Pro//Base National Rule - Pbn,Basecoat,-,1 ,1 ,0.473 L
+106,-,-,-,Suzuki,73L / Bright Red,73L , Bright Red,2004,2008,Crossfire B/C,Basecoat,08/14/2014,1 ,1 ,0.473 L
+107,3PNISSL2-W,-,-,Nissan,QAB / White,QAB , White,2008,2017,Wandabase HS,Basecoat,,1 ,2/2,0.473 L
+108,PBT-1395461-D,1395461,28364175,Honda,R529P / Dark Cherry Pearl,R529P , Dark Cherry Pearl,2007,2020,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+109,PBN-5376192-C,5376192,-,Kia,IR / IRR / Dark Cherry Metallic,IR / IRR , Dark Cherry Metallic,2010,2016,Pro//Base National Rule - Pbn,Basecoat,09/12/2017,1 ,1 ,0.473 L
+110,-,-,-,Ford,U1 / Sport Blue Metallic,U1 , Sport Blue Metallic,2009,2010,Crossfire B/C,Basecoat,07/07/2014,1 ,1 ,0.473 L
+111,PBN-5360385-B,5360385,-,Chevrolet,GAR / WA501Q / Carbon Flash Metallic,GAR / WA501Q , Carbon Flash Metallic,2008,2016,Pro//Base National Rule - Pbn,Basecoat,06/15/2017,1 ,1 ,0.473 L
+112,PBT-100125458-B,100125458,12167680,Chevrolet,GAR / 58 / WA501Q / 501Q / Carbon Flash Metallic,GAR / 58 / WA501Q / 501Q , Carbon Flash Metallic,2008,2018,PBT,Basecoat,10/18/2018,1 ,1 ,0.473 L
+113,C6-4966043-B,4966043,-,Ford,L2 / True Blue Metallic,L2 , True Blue Metallic,2001,2009,Crossfire B/C,Basecoat,01/15/2017,1 ,1 ,0.473 L
+114,-,-,-,Hyundai,9W / Laguna Sand Metallic,9W , Laguna Sand Metallic,2007,2010,Crossfire Platinum B/C 5.0,Basecoat,04/08/2014,1 ,1 ,0.473 L
+115,PBT-1397499-C,1397499,-,Toyota,1C7 / Thunder Gray Metallic,1C7 , Thunder Gray Metallic,-,-,PBT,-,-,1 ,1 ,0.473 L
+116,C6-4957104-A,4957104,23188895,Ford,PH / Creme Brulee,PH , Creme Brulee,-,-,C6 - Crossfire B/C,-,10/11/2021,1 ,1 ,0.473 L
+117,PBN-5377428-B,5377428,-,Toyota,8V5 / Shoreline BLUE Pearl,8V5 , Shoreline BLUE Pearl,2010,2015,Pro//Base National Rule - Pbn,Basecoat,11/01/2017,1 ,1 ,0.473 L
+118,-,4952790,-,Ford,9L / M5920A / Oxford White,9L / M5920A , Oxford White,1983,2001,C6 - Crossfire B/C,-,-,1 ,1 ,0.473 L
+119,PBT-100936458-A,100936458,-,Chevrolet,G7Q / WA139X / 139X / Son Of A Gun Gray Metallic,G7Q / WA139X / 139X , Son Of A Gun Gray Metallic,2016,2021,PBT,-,-,1 ,1 ,0.473 L
+120,-,5374100,-,Toyota,070 / Blizzard Pearl,070 , Blizzard Pearl,-,-,Pro//Base National Rule - Pbn,-,-,1 ,1 ,0.473 L
+121,PBN-100989713-B,100989713,22240326,Subaru,F4T / Cypress Green Pearl,F4T , Cypress Green Pearl,2010,2014,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+122,C6-4955658-A,4955658,9389234,Chevrolet,WA8554 / 8554 / White,WA8554 / 8554 , White,1991,2015,C6,-,03/12/2018,1 ,1 ,0.473 L
+123,PBT-1401516-C,1401516,12795500,GM,WA213M / Graystone Metallic,WA213M , Graystone Metallic,-,-,PBT,-,10/14/2018,1 ,1 ,0.473 L
+124,-,-,-,Ford,Z1 / Oxford  White,Z1 , Oxford  White,1997,2016,Crossfire B/C,Basecoat,06/25/2018,1 ,1 ,0.473 L
+125,PBT-1355131-C,1355131,16573707,Ford,LQ / M7235A / Pale Adobe Metallic,LQ / M7235A , Pale Adobe Metallic,2011,2014,PBT,-,11/21/2019,1 ,1 ,0.473 L
+126,56-47605-00-A,1769186,-,Toyota,8M6 / 196 / Pewter Pearl,8M6 / 196 , Pewter Pearl,1998,2010,Crossfire Platinum B/C 5.0,Basecoat,05/07/2014,1 ,1 ,0.473 L
+127,PBT-1440035-B,1440035,15371673,Ford,DI / M7187A / Dark Ink Blue Metallic,DI / M7187A , Dark Ink Blue Metallic,2008,2010,PBT,-,08/05/2019,1 ,1 ,0.473 L
+128,-,20318,-,Toyota,051 / Diamon White Pearl,051 , Diamon White Pearl,1989,2005,Limco Supreme,Basecoat,-,1 ,1/2,0.473 L
+129,-,20318,-,Toyota,051 / Diamon White Pearl,051 , Diamon White Pearl,1989,2005,Limco Supreme,Basecoat,-,1 ,2/2,0.473 L
+130,C6-4978385-B,4978385,-,Chevrolet,227M / Laser Blue Metallic,227M , Laser Blue Metallic,2005,2007,Crossfire B/C,Basecoat,03/15/2018,1 ,1 ,0.473 L
+131,C6-4980863-A,4980863,35078664,Chevrolet,GAR / 58 / 58U / WA501Q / 501Q / 04Y / 693R / Carbon Flash Metallic,GAR / 58 / 58U / WA501Q / 501Q / 04Y / 693R , Carbon Flash Metallic,2007,2024,C6 - Crossfire B/C,-,-,1 ,1 ,0.473 L
+132,C6-4974585-D,4974585,12061871,RAM,PDA / EDA / AY97EDA / Light Graystone Pearl,PDA / EDA / AY97EDA , Light Graystone Pearl,2011,-,C6,-,10/10/2018,1 ,1 ,0.473 L
+133,PBT-101125897-D,101125897,34348930,GM,WA931L / Blue Ice Metallic,WA931L , Blue Ice Metallic,-,-,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+134,PBT-1577359-B,1577359,-,Dodge,KDB / PDB / Crystal Blue Pearl,KDB / PDB , Crystal Blue Pearl,2013,-,PBT,-,05/22/2019,1 ,1 ,0.473 L
+135,C6-5262532-A,5262532,-,Chevrolet,403P / Imperial Blue Metallic,403P , Imperial Blue Metallic,2007,2012,Crossfire B/C,Basecoat,03/27/2018,1 ,1 ,0.473 L
+136,PBT-1482977-D,1482977,-,Lexus,4T5 / Truffle Mica,4T5 , Truffle Mica,2007,2012,PBT,-,-,1 ,1 ,0.473 L
+137,C6-4980117-B,4980117,-,Chrysler,PSE / Silver Metallic,PSE , Silver Metallic,-,-,C6,-,12/16/2020,1 ,1 ,0.473 L
+138,PBT-1401873-D,1401873,-,Ford,CX / M7039A / Dark Shadow Gray Metallic,CX / M7039A , Dark Shadow Gray Metallic,2002,2011,PBT,-,05/30/2019,1 ,1 ,0.473 L
+139,PBT-100280731-B,100280731,12459163,Acura,NH788P / Orchid White Pearl,NH788P , Orchid White Pearl,2011,2019,PBT,-,11/18/2018,1 ,1 ,0.473 L
+140,C6-5794895-C,5794895,21604500,Ford,M7083A / DX / 7083 / Dark Blue Pearl,M7083A / DX / 7083 , Dark Blue Pearl,2003,2015,C6,-,-,1 ,1 ,0.473 L
+141,PBT-1560615-C,1560615,20330180,Chevrolet,534F / Driftwood Pearl,534F , Driftwood Pearl,-,-,PBT,-,11/17/2020,1 ,1 ,0.473 L
+142,PBT-1401910-C,1401910,21157981,Lexus,UCA76 / Medium Gray Pearl,UCA76 , Medium Gray Pearl,-,-,PBT,-,-,1 ,1 ,0.473 L
+143,-,-,-,Mazda,22V / Sunlight Silver Metallic,22V , Sunlight Silver Metallic,-,-,-,Basecoat,10/29/2021,1 ,1 ,0.473 L
+144,1PNISSL1-W,-,-,Nissan,QAB / White,QAB , White,2008,2017,Wandabase HS,Basecoat,-,1 ,1/2,0.473 L
+145,-,5363424,-,Chevrolet,316N / Gold Mist Metallic,316N , Gold Mist Metallic,2007,2012,Pro//Base National Rule - Pbn,Basecoat,-,1 ,1 ,0.473 L
+146,PBT-1390650-C,1390650,16290946,Jeep,PSB / WSB / AY96WSB / Bright Silver Metallic,PSB / WSB / AY96WSB , Bright Silver Metallic,2002,2007,PBT,-,10/25/2019,1 ,1 ,0.473 L
+147,PBT-1662782-D,1662782,-,Honda,NH679M / Slate Green Metallic,NH679M , Slate Green Metallic,2005,2014,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+148,PBT-1403946-C,1403946,15241316,Toyota,6T7 / Cypress Mica,6T7 , Cypress Mica,2008,2019,PBT,-,07/24/2019,1 ,1 ,0.473 L
+149,-,-,-,Toyota,TOY1F7 / 1F7 / Silver,TOY1F7 / 1F7 , Silver,2004,2017,Wandabase HS,-,-,1 ,1 ,0.473 L
+150,PBT-100842908-B,100842908,-,Mercury,T3 / M7130A / 7130 / Satellite Silver Metallic,T3 / M7130A / 7130 , Satellite Silver Metallic,2005,2007,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+151,C6-4960093-C,4960093,25015452,Chrysler,PM4 / Claret Red Metallit,PM4 , Claret Red Metallit,1991,2005,C6 - Crossfire B/C,-,-,1 ,1 ,0.473 L
+152,PBT-1389019-B,1389019,33073521,Subaru,CB4 / D4S / EH3 / Crystal Black Silica Pearl,CB4 / D4S / EH3 , Crystal Black Silica Pearl,2009,2023,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+153,PBT-1440044-D,1440044,11447735,Honda,B564M / Celestial Blue Metallic,B564M , Celestial Blue Metallic,2011,2014,PBT,-,08/21/2018,1 ,1 ,0.473 L
+154,-,1580143,-,Lexus,B7 / Golden Beige Metallic,B7 , Golden Beige Metallic,2006,2018,PBT,-,03/29/2018,1 ,1 ,0.473 L
+155,-,-,-,Acura,NH-737M / P01/2017 / Polished Gray Metal Metallic,NH-737M / P01/2017 , Polished Gray Metal Metallic,2008,2015,Wandabase HS,Two-coat,-,1 ,1 ,0.473 L
+156,PBT-100121208-C,100121208,21337571,Ford,CX / Dark Shadow Gray Metallic,CX , Dark Shadow Gray Metallic,2010,2012,PBT,-,-,1 ,1 ,0.473 L
+157,-,711023,-,Subaru,37J / Satin White Pearl Metallic,37J , Satin White Pearl Metallic,2005,2012,Diamont,Basecoat,01/30/2012,1 ,1 ,0.473 L
+158,PBN-5368389-C,5368389,-,Ford,T3 / Satellite Silver Metallic,T3 , Satellite Silver Metallic,2006,2007,Pro//Base National Rule - Pbn,Basecoat,03/10/2018,1 ,1 ,0.473 L
+159,-,-,-,Subaru,37J / Satin White Pearl Metallic,37J , Satin White Pearl Metallic,2005,2012,Diamont,Basecoat,01/30/2012,1 ,1 ,0.473 L
+160,PBT-1405295-B,1405295,23089631,Chevrolet,GXG / WA121V / 121V / Iridium Metallic,GXG / WA121V / 121V , Iridium Metallic,2013,2018,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+161,PBN-5763939-C,5763939,-,Ford,ZY / Vapor Silver Metallic,ZY , Vapor Silver Metallic,2008,2009,Pro//Base National Rule - Pbn,Basecoat,09/19/2017,1 ,1 ,0.473 L
+162,-,-,-,Ford,J1 / Kodiak Brown Metallic,J1 , Kodiak Brown Metallic,2014,-,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+163,PBT-1339111-B,1339111,16059099,Chrysler,PS2 / WS2 / AY111WS2 / Bright SIlver Metallic,PS2 / WS2 / AY111WS2 , Bright SIlver Metallic,1999,2012,PBT,Basecoat,10/04/2019,1 ,1 ,0.473 L
+164,B8-66819-00-L,4340315,-,Chevrolet,964L / Sport Red Tintcoat,964L , Sport Red Tintcoat,2007,2009,Tecbase,Midcoat,05/28/2013,1 ,1 ,0.473 L
+165,PBN-5468982-C,5468982,-,Chevrolet,301N / Red Jewel Tintcoat Metallic,301N , Red Jewel Tintcoat Metallic,2009,2012,Pro//Base National Rule - Pbn,Basecoat,02/02/2017,1 ,1 ,0.473 L
+166,PBT-1393276-C,1393276,15069138,Toyota,3R0 / Sizzling Crimson Pearl,3R0 , Sizzling Crimson Pearl,2011,2020,PBT,-,07/09/2019,1 ,1 ,0.473 L
+167,-,-,-,Nissan,ES0 / Beige Mist Metallic,ES0 , Beige Mist Metallic,1998,2000,Wandabase HS,Two-coat,-,1 ,1 ,0.473 L
+168,-,-,-,GM,565Q / Carbon Flash Metallic,565Q , Carbon Flash Metallic,2008,2015,Wandabase HS,Two-coat,-,1 ,1 ,0.473 L
+169,PBN-5691168-C,5691168,-,Chevrolet,121V / Iridium Metallic,121V , Iridium Metallic,2013,2016,Pro//Base National Rule - Pbn,Basecoat,07/07/2017,1 ,1 ,0.473 L
+170,PBT-1401875-B,1401875,-,Volkswagen,LD7X / D7X / 2R / 2R2R / 9046 / Platinum Gray Metallic,LD7X / D7X / 2R / 2R2R / 9046 , Platinum Gray Metallic,2002,2024,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+171,PBT-100239895-B,100239895,10442191,Toyota,6T6 / Evergalde Mica,6T6 , Evergalde Mica,2006,2008,PBT,-,06/01/2018,1 ,1 ,0.473 L
+172,-,-,-,GM,800J / P 02/2018 / White Diamond,800J / P 02/2018 , White Diamond,2002,2016,Wandabase HS,Layer 2,-,1 ,1 ,0.236 L
+173,PBT Midcoa - 100698657 - D,100698657,17331515,Chevrolet,GBN / WA800J / 800J / 98 / White Diamond Pearl,GBN / WA800J / 800J / 98 , White Diamond Pearl,2003,2016,PBT Midcoat,Midcoat,02/05/2020,1 ,1 ,0.473 L
+174,PBT-1456378-C,1456378,-,Ford,N1 / Blue Jeans Metallic,N1 , Blue Jeans Metallic,2002,2005,PBT,-,-,1 ,1 ,0.473 L
+175,C6-5209116-B,5209116,10035182,Ford,M7236A / BRQAWHA / BRQAXWA / PQ / Race Red,M7236A / BRQAWHA / BRQAXWA / PQ , Race Red,2011,2019,C6,-,05/01/2018,1 ,1 ,0.473 L
+176,-,-,-,Nissan,NISCAJ / P 12 / 2016 / Tobacco,NISCAJ / P 12 / 2016 , Tobacco,2012,2015,Wandabase HS,-,-,1 ,1 ,0.473 L
+177,-,622809,-,GM,WA800J / White Diamond Pearl,WA800J , White Diamond Pearl,2002,-,LIMCO Supreme Plus,Basecoat,05/23/2014,1 ,1 ,0.473 L
+178,-,-,-,Toyota,082 / P 11 / 2016 / Lime White Pearl,082 / P 11 / 2016 , Lime White Pearl,2011,2016,Wandabase HS,Three-coat,-,1 ,1 ,0.473 L
+179,PBT-100699408-B,100699408,24292199,Nissan,QAB / BQAB / White Pearl,QAB / BQAB , White Pearl,2009,2022,PBT - PRO//BASE 3.5 VOC,Basecoat,03/04/2022,1 ,1 ,0.473 L
+180,C6-4968836-B,4968836,-,Dodge,PB7 / WB7 / AY442WB / Patriot Blue Pearl,PB7 / WB7 / AY442WB , Patriot Blue Pearl,-,2009,C6,-,11/07/2018,1 ,1 ,0.473 L
+181,PBT-100842793-C,100842793,21066651,Buick,WA931L / 931L / 68 / Blue Ice Metallic,WA931L / 931L / 68 , Blue Ice Metallic,2004,2007,PBT,-,-,1 ,1 ,0.473 L
+182,PBT-1394058-B,1394058,31358026,Ford,6926 / B2 / M6926A / T0 / Harvest Gold Metallic,6926 / B2 / M6926A / T0 , Harvest Gold Metallic,1999,2020,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+183,PBT-100238249-B,100238249,15695730,Mini,A28 / Hyper Blue Metallic,A28 , Hyper Blue Metallic,2004,2008,PBT,-,09/03/2019,1 ,1 ,0.473 L
+184,PBT-1395210-D,1395210,11557366,Ford,U6 / M7219A . 9SSE / Red Candy Tint Metallic,U6 / M7219A . 9SSE , Red Candy Tint Metallic,2009,2012,PBT,Basecoat,08/29/2018,1 ,1 ,0.473 L
+185,-,-,-,Honda,R543P / Crimson Pearl,R543P , Crimson Pearl,-,-,Tecbase,Basecoat,03/24/2014,1 ,1 ,0.473 L
+186,-,-,-,Toyota,32911 / 3R3 / Barcelona Red ,32911 / 3R3 , Barcelona Red ,2006,2023,Reberlo,-,-,1 ,1 ,0.473 L
+187,C6-4964349-C,4964349,-,Chrysler,PJC / AJC / Light Khaki Metallic,PJC / AJC , Light Khaki Metallic,2007,-,Crossfire B/C,Basecoat,-,1 ,1 ,0.473 L
+188,PBN-1496486-C,1496486,39564063,Nissan,RBD / Dark Blue Metallic,RBD , Dark Blue Metallic,2013,2022,PBN,-,03/04/2024,1 ,1 ,0.473 L
+189,PBT-1401541-C,1401541,-,Honda,YR578M / Urban Titanium Metallic,YR578M , Urban Titanium Metallic,1999,2017,PBT,-,-,1 ,1 ,0.473 L
+190,PBT-100939548-B,100939548,-,Nissan,RBD / Dark Blue Metallic,RBD , Dark Blue Metallic,2013,2022,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+191,-,-,-,GM,72 / WA526F / Redfire Metallic,72 / WA526F , Redfire Metallic,-,-,Omni,-,02/15/2016,1 ,1 ,0.473 L
+192,PBTM-100699412-B,100699412,24292219,Nissan,QAB / BQAB / White Pearl,QAB / BQAB , White Pearl,2009,2022,PBT - PRO//BASE 3.5 VOC,Midcoat,03/04/2022,1 ,1 ,0.473 L
+193,PBT-100272443-B,100272443,-,Hyundai,2B / Ice Blue Metallic,2B , Ice Blue Metallic,-,-,PBT,-,-,1 ,1 ,0.473 L
+194,PBT-1440838-D,1440838,9590313,Toyota,3T0 / Ooh La la Rouge Mica,3T0 , Ooh La la Rouge Mica,2013,2018,PBT,-,03/27/2018,1 ,1 ,0.473 L
+195,B8-65073-00-P,4271146,-,Toyota,1E7 / Silver Streak Mica,1E7 , Silver Streak Mica,2003,2014,Tecbase,Basecoat,07/11/2018,1 ,1 ,0.473 L
+196,PBN-5374100-B,5374100,-,Toyota,070 / Blizzard Pearl,070 , Blizzard Pearl,2003,2015,Pro//Base National Rule - Pbn,Groundcoat,07/10/2017,1 ,1 ,0.473 L
+197,PBT-100324693-B,100324693,33072317,Honda,NH797M / Modern Steel Metallic,NH797M , Modern Steel Metallic,1995,2023,PBT - PRO//BASE 3.5 VOC,-,06/05/2023,1 ,1 ,0.473 L
+198,C6-5188440-C,5188440,-,Chrysler,PRH / Inferno Red Crystal Pearl,PRH , Inferno Red Crystal Pearl,2004,2010,Crossfire B/C,Basecoat,12/19/2016,1 ,1 ,0.473 L
+199,C6-4963688-A,4963688,23228269,Ford,T9 / M7173A / 7173 / Monterey Metallic,T9 / M7173A / 7173 , Monterey Metallic,2008,2012,C6 - Crossfire B/C,-,-,1 ,1 ,0.473 L
+200,C6-4968673-A,4968673,13798392,Chevrolet,WA722J / Dark Ming Blue Metallic,WA722J , Dark Ming Blue Metallic,2004,2018,C6,-,03/19/2019,1 ,1 ,0.473 L
+201,PBT-100238286-C,100238286,-,Mercedes-Benz,548 / 3548 / PV3 / Amber Red Metallic,548 / 3548 / PV3 , Amber Red Metallic,1999,2014,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+202,PBT-1395390-B,1395390,14274984,Chrysler,GBS / PBS / Deep Water Pearl,GBS / PBS , Deep Water Pearl,2008,2010,PBT,-,04/29/2019,1 ,1 ,0.473 L
+203,PBT-1561056-B,1561056,9411571,Toyota,4T3 / Pyrite Mica,4T3 , Pyrite Mica,2007,2017,PBT,Basecoat,03/13/2018,1 ,1 ,0.473 L
+204,PBN-5371323-C,5371323,-,Chrysler,PBL / Modern Blue Pearl,PBL , Modern Blue Pearl,2007,2011,Pro//Base National Rule - Pbn,Basecoat,12/05/2017,1 ,1 ,0.473 L
+205,PBN-5513869-C,5513869,-,Subaru,37J / Satin White Pearl,37J , Satin White Pearl,2005,2015,Pro//Base National Rule - Pbn,Midcoat,01/05/2018,1 ,1 ,0.473 L
+206,-,654646,-,Jeep,AY96AJC / STD / Light Khaki Metallic,AY96AJC / STD , Light Khaki Metallic,2003,2009,Limco Supreme,-,05/11/2011,1 ,1 ,0.473 L
+207,PBT-100470584-C,100470584,14369990,Volkswagen,LR8V / Aubergine Pearl,LR8V , Aubergine Pearl,2004,2006,PBT,-,05/07/2019,1 ,1 ,0.473 L
+208,C6-495883,495883,-,Ford,6887 / M6887 / Z1 / Z1-6887 / Oxford White,6887 / M6887 / Z1 / Z1-6887 , Oxford White,1997,2024,C6 - Crossfire B/C,-,-,1 ,1 ,0.473 L
+209,-,234443,-,Jaguar,CGG / Carnival Red Mica,CGG , Carnival Red Mica,1998,2003,Limco Supreme,-,03/01/2012,1 ,1 ,0.473 L
+210,-,-,-,Kia,KDG / Gravity Gray Metallic,KDG , Gravity Gray Metallic,2009,2024,PBT - PRO//BASE 3.5 VOC,-,-,1 ,1 ,0.473 L
+211,PBT-100494572-A,100494572,15625277,Chevrolet,GB8 / WA384A / 384A / Black Meet Kettle Metallic,GB8 / WA384A / 384A , Black Meet Kettle Metallic,2016,2020,PBT,-,08/27/2019,1 ,1 ,0.473 L
+212,56-74090-00-B,4283372,-,Honda,B537M / Atomic Blue Metallic,B537M , Atomic Blue Metallic,2006,2011,Crossfire Platinum B/C 5.0,Basecoat,-,1 ,1 ,0.473 L
+213,-,-,-,Volkswagen,VWLC5F / Blue Graphite Pearl,VWLC5F , Blue Graphite Pearl,2002,2016,Wandabase HS,-,-,1 ,1 ,0.473 L
+214,PBN-5763885-C,5763885,-,Mercedes-Benz,368 / Flint Gray Metallic,368 , Flint Gray Metallic,2005,2012,Pro//Base National Rule - Pbn,Basecoat,03/29/2016,1 ,1 ,0.473 L
+215,C6-4968809-B,4968809,19806765,Pontiac,946L / Cobalt Red,946L , Cobalt Red,2005,2008,C6,-,-,1 ,1 ,0.473 L
+216,-,762206,-,Toyota,4T8 / Sandy Beach Metallic,4T8 , Sandy Beach Metallic,2007,2011,Limco Supreme,-,-,1 ,1 ,0.473 L
+217,PBT-1391051-C,1391051,-,Honda,NH700M / NH700M-4 / Alabaster Silver Metallic,NH700M / NH700M-4 , Alabaster Silver Metallic,2005,2018,PBT,-,-,1 ,1 ,0.473 L
+218,PBT-1571086-B,1571086,-,Ford,JP / M7052A / M7052 / 7052 / Silver Birch Metallic,JP / M7052A / M7052 / 7052 , Silver Birch Metallic,2002,2020,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+219,PBT-100779562-B,100779562,35910421,Lexus,3R5 / Royal Ruby Mica,3R5 , Royal Ruby Mica,2006,2008,PBT - PRO//BASE 3.5 VOC,-,09/20/2023,1 ,1 ,0.473 L
+220,PBN-5373792-B,5373792,-,Audi,LY7R / Crystal Blue Metallic,LY7R , Crystal Blue Metallic,2002,2005,Pro//Base National Rule - Pbn,Basecoat,04/06/2017,1 ,1 ,0.473 L
+221,C6-4952679-A,4952679,-,Mercedes-Benz,904 / 5904 / DB-904 / DB-5904 / Midnight Blue,904 / 5904 / DB-904 / DB-5904 , Midnight Blue,-,-,C6,-,04/11/2019,1 ,1 ,0.473 L
+222,PBN-5664143-B,5664143,-,Nissan,QAB / White Pearl,QAB , White Pearl,2009,2015,Pro//Base National Rule - Pbn,Midcoat,06/09/2017,1 ,1 ,0.473 L
+223,56-60589-00-B,4428897,-,Ford,L2 / True Blue Metallic,L2 , True Blue Metallic,2001,2009,Crossfire Platinum B/C 5.0,Basecoat,05/06/2013,1 ,1 ,0.473 L
+224,PBT-100699501-C,100699501,-,Chevrolet,GWT / WA120V / 120V / Champagne Silver Metallic,GWT / WA120V / 120V , Champagne Silver Metallic,2013,2017,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+225,C6-4978030-B,4978030,-,Ford,E4 / Vermilion,E4 , Vermilion,1989,2015,Crossfire B/C,Basecoat,11/29/017,1 ,1 ,0.473 L
+226,56-75600-00-B,4107267,-,Buick,414P / Cocoa Metallic,414P , Cocoa Metallic,2007,2012,Crossfire Platinum B/C 5.0,Basecoat,05/06/2014,1 ,1 ,0.473 L
+227,PBT-100698876-B,100698876,-,Nissan,QX1 / Glacier Pearl,QX1 , Glacier Pearl,2002,2021,PBT,-,-,1 ,1 ,0.473 L
+228,PBT-1391189-D,1391189,21831121,Jeep,PRP / JRP / Deep Cherry Red Crystal Pearl,PRP / JRP , Deep Cherry Red Crystal Pearl,2011,2015,PBT,-,-,1 ,1 ,0.473 L
+229,C6-4971191-B,4971191,10034703,Chevrolet,WA9792 / 39A / 39 / 9792 / Indigo Blue Metallic,WA9792 / 39A / 39 / 9792 , Indigo Blue Metallic,2000,2018,C6,-,05/01/2018,1 ,1 ,0.473 L
+230,PBN-5378086-C,5378086,-,Chevrolet,9539 / Medium Green Metallic,9539 , Medium Green Metallic,1992,2015,Pro//Base National Rule - Pbn,Basecoat,06/23/2017,1 ,1 ,0.473 L
+231,C6-4951995-B,4951995,10054317,Honda,NH678M / Silver Pearl Metallic,NH678M , Silver Pearl Metallic,2005,2009,C6,-,05/02/2018,1 ,1 ,0.473 L
+232,PBTM-100779605-C,100779605,35920422,Lexus,3R5 / Royal Ruby Mica,3R5 , Royal Ruby Mica,2006,2008,PBT - PRO//BASE 3.5 VOC,-,09/28/2023,1 ,1 ,0.473 L
+233,C6-4972929-A,4972929,17083879,Nissan,RAP / Metallic Fish Metallic,RAP , Metallic Fish Metallic,2010,2012,C6,-,06/15/2020,1 ,1 ,0.473 L
+234,C6-4957989-A,4957989,36600983,Chevrolet,GAZ-8624 / 50 / 50U / GAZ / GCZ / 8624 / WA8624 Olympic White,GAZ-8624 / 50 / 50U / GAZ / GCZ / 8624 , WA8624 Olympic White,1990,2024,C6 - Crossfire B/C,-,10/26/2023,1 ,1 ,0.473 L
+235,B8-57066-00-P,4233840,-,Buick,534F / Light Bronze Mist Metallic,534F , Light Bronze Mist Metallic,2000,2004,-,Basecoat,12/18/2014,1 ,1 ,0.473 L
+236,C6-4984581-C,4984581,39602887,Chevrolet,GAN-636R / GAN / 636R / WA636R / 17 / 17U / 8636 / Switchblade Silver Metallic,GAN-636R / GAN / 636R / WA636R / 17 / 17U / 8636 , Switchblade Silver Metallic,2009,2023,C6 - Crossfire B/C,-,03/05/2024,1 ,1 ,0.473 L
+237,-,-,-,Hyundai,S3 / Phantom Black Metallic,S3 , Phantom Black Metallic,-,-,-,Basecoat,08/10/2021,1 ,1 ,0.473 L
+238,C6-5270836-D,5270836,36607742,Hyundai,MAD / MM / Carbon Grey Mist Metallic,MAD / MM , Carbon Grey Mist Metallic,2009,2011,C6 - Crossfire B/C,-,10/26/2023,1 ,1 ,0.473 L
+239,PBT-100605876-B,100605876,30843622,Hyundai,SM / Silver Metallic,SM , Silver Metallic,2009,2014,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+240,C6-105359309-A,105359309,-,Kia,ABP / Aurora Black Pearl,ABP , Aurora Black Pearl,2012,2024,C6 - Crossfire B/C,-,10/26/2023,1 ,1 ,0.473 L
+241,C6-100139582-C,100139582,35107990,Kia,4SS / Ultra Silver Metallic,4SS , Ultra Silver Metallic,2014,2023,C6 - Crossfire B/C,-,08/28/2023,1 ,1 ,0.473 L
+242,PBT-1402028-B,1402028,34621130,Chevrolet,410Y / Old Blue Eyes Metallic,410Y , Old Blue Eyes Metallic,-,-,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+243,PBT-5507770-D,5507770,-,Cadillac,WA8933 / White Diamond,WA8933 , White Diamond,1991,2000,Pro//Base National Rule - Pbn, -,-,1 ,1 ,0.473 L
+244,C64954263-B,4954263,-,Ford,YN / Silver Metallic,YN , Silver Metallic,1990,2011,Crossfire B/C,Basecoat,08/01/2014,1 ,1 ,0.473 L
+245,C6-101041016-A,101041016,-,Chrysler,AXR / AY112AXR / PXR / Brilliant Black Crystal Pearl,AXR / AY112AXR / PXR , Brilliant Black Crystal Pearl,2003,2024,C6 - Crossfire B/C,-,-,1 ,1 ,0.473 L
+246,PBN-5369910-B,5369910,-,Chevrolet,805K / Dark Spiral Gray Metallic,805K , Dark Spiral Gray Metallic,2003,2008,Pro//Base National Rule - Pbn,Basecoat,12/27/2017,1 ,1 ,0.473 L
+247,C6-4978694-B,4978694,-,Honda,B536P / Royal Blue Pearl,B536P , Royal Blue Pearl,2006,2012,Crossfire B/C,Basecoat,10/23/2017,1 ,1 ,0.473 L
+248,B8-5761153-N,5761153,-,Mercedes-Benz,992 / Selenite Gray Metallic,992 , Selenite Gray Metallic,2014,2015,Tecbase,Basecoat,10/25/2016,1 ,1 ,0.473 L
+249,500DB-103204279-3,103204279,31400108,Chevrolet,WA348D / 348D / 23 / Bright Blue Metallic,WA348D / 348D / 23 , Bright Blue Metallic,1997,2001,500 BeroBase,-,03/24/2023,1 ,1 ,0.473 L
+250,PBT-1641441-C,1641441,19633346,Toyota,4T8 / Sandy Beach Metallic,4T8 , Sandy Beach Metallic,2008,2020,PBT,-,09/11/2020,1 ,1 ,0.473 L
+251,PBT-100930656-A,100930656,,Chevrolet,GB8 / WA384A / 384A / Black Meet Kettle Metallic,GB8 / WA384A / 384A , Black Meet Kettle Metallic,2016,2023,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+252,PBT-1440579-C,1440579,15532140,Chevrolet,WA503Q / 503Q / Ink Slate Metallic,WA503Q / 503Q , Ink Slate Metallic,2008,2009,PBT,-,08/19/2019,1 ,1 ,0.473 L
+253,-,-,-,Honda,YR562R / Carbon Bronze Pearl,YR562R , Carbon Bronze Pearl,-,-,-,Basecoat,06/07/2021,1 ,1 ,0.473 L
+254,PBT-100547506-A,100547506,24730310,Lincoln,G1 / M7343A / M7343 / G9ZEWHA / 7343 / Absolute Black,G1 / M7343A / M7343 / G9ZEWHA / 7343 , Absolute Black,2015,2021,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+255,PBN-5376039-B,5376039,-,Ford,UG / White Platinum Pearl,UG , White Platinum Pearl,2009,2016,Pro//Base National Rule - Pbn,Groundcoat,06/22/2017,1 ,1 ,0.473 L
+256,PBN-5379165-C,5379165,-,Mazda,32S / Galaxy Gray Mica,32S , Galaxy Gray Mica,2006,2012,Pro//Base National Rule - Pbn,Basecoat,07/06/2017,1 ,1 ,0.473 L
+257,PBT-1407834-A,1407834,-,Chevrolet,GAR / 58 / WA501Q / 501Q / Carbon Flash Metallic,GAR / 58 / WA501Q / 501Q , Carbon Flash Metallic,2008,2020,PBT,-,-,1 ,1 ,0.473 L
+258,-,28051,-,GM,WA379E / Crimson Pearl,WA379E , Crimson Pearl,1998,2007,Limco Supreme,-,10/20/2011,1 ,1 ,0.473 L
+259,PBT-1389019-B,1389019,37251823,Subaru,CB4 / D4S / EH3 / Crystal Black Silica Pearl,CB4 / D4S / EH3 , Crystal Black Silica Pearl,2009,2024,PBT - PRO//BASE 3.5 VOC,-,-,1 ,1 ,0.473 L
+260,PBT-100699501-C,100699501,-,Chevrolet,GWT / WA120V / 120V / Champagne Silver Metallic,GWT / WA120V / 120V , Champagne Silver Metallic,2013,2017,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+261,B8-67174-00-P,4394996,-,Pontiac,946J / Barbados Metallic,946J , Barbados Metallic,2004,2005,Tecbase,Basecoat,05/05/2015,1 ,1 ,0.473 L
+262,PBT-1440531-D,1440531,16397492,Toyota,1E3 / U1E3 / Phantom Gray Pearl,1E3 / U1E3 , Phantom Gray Pearl,1986,2008,PBT,-,11/05/2018,1 ,1 ,0.473 L
+263,PBT Midcoa - 100280747- B,100280747,12459173,Acura,NH788P / Orchid White Pearl,NH788P , Orchid White Pearl,2011,2019,PBT Midcoat,Midcoat,11/13/2018,1 ,1 ,0.473 L
+264,PBT-1392373-D,1392373,-,Toyota,3R3 / Barcelona Red,3R3 , Barcelona Red,2006,2024,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+265,C6-4975767-B,4975767,-,Toyota,1B2 / Antique Sage Pearl,1B2 , Antique Sage Pearl,1997,2001,Crossfire B/C,Basecoat,02/06/2015,1 ,1 ,0.473 L
+266,C6-4968159-C,4968159,12394205,Chevrolet,GCE / WA412P / 412P / 66 / Sonoma Jewel Metallic,GCE / WA412P / 412P / 66 , Sonoma Jewel Metallic,2007,2016,C6,-,11/07/2018,1 ,1 ,0.473 L
+267,B8-67075-01-N,4272654,-,Jeep,PGV / Deep Beryl Green Pearl,PGV , Deep Beryl Green Pearl,2004,2006,Tecbase,Basecoat,12/03/2012,1 ,1 ,0.473 L
+268,PBN-5375134-C,5375134,-,Subaru,33J / Garnet Red Pearl,33J , Garnet Red Pearl,2004,2006,Pro//Base National Rule - Pbn,Basecoat,06/08/2017,1 ,1 ,0.473 L
+269,-,-,-,GM,45 / Medium Green Metallic,45 , Medium Green Metallic,2001,2003,Wandabase HS,-,-,1 ,1 ,0.473 L
+270,PBN-5365022-B,5365022,-,Ford,TK / Mineral Gray Metallic,TK , Mineral Gray Metallic,2001,2014,Pro//Base National Rule - Pbn,Basecoat,06/28/2014,1 ,1 ,0.473 L
+271,-,712006,-,Toyota,1F7 / Classic Silver,1F7 , Classic Silver,2004,2011,Limco Supreme,-,05/05/2011,1 ,1 ,0.473 L
+272,-,-,-,Chrysler,PS2 / Bright Silver,PS2 , Bright Silver,1999,2917,Wandabase HS,-,-,1 ,1 ,0.473 L
+273,PBT-1366190-D,1366190,18256272,Nissan,NAH / Red Pearl,NAH , Red Pearl,2011,2021,PBT,-,-,1 ,1 ,0.473 L
+274,PBN-5378934-C,5378934,-,Ford,UX / Ingot Silver Metallic,UX , Ingot Silver Metallic,2010,2016,Pro//Base National Rule - Pbn,Basecoat,09/28/2016,1 ,1 ,0.473 L
+275,PBN-5469203-C,5469203,-,Lexus,1H9 / Mercury Gray Mica,1H9 , Mercury Gray Mica,2010,2015,Pro//Base National Rule - Pbn,Basecoat,08/07/2017,1 ,1 ,0.473 L
+276,-,-,-,Mazda,26X / Dark Steel,26X , Dark Steel,2003,2005,Wandabase HS,-,-,1 ,1 ,0.473 L
+277,C6-4958995-C,4958995,10550133,Chevrolet,51 / 203C / WA203C / Dark Toreador Metallic,51 / 203C / WA203C , Dark Toreador Metallic,1996,2002,C6,-,06/11/2018,1 ,1 ,0.473 L
+278,-,248757,-,Mitsubishi,R70 / Patriot Red Pearl,R70 , Patriot Red Pearl,2000,2002,Limco Supreme,-,01/27/2012,1 ,1 ,0.473 L
+279,-,-,-,Toyota,1C8 / Silver,1C8 , Silver,1998,2007,Wandabase HS,-,-,1 ,1 ,0.473 L
+280,C6-4975289-B,4975289,-,Ford,R1 / Dark Teal Metallic,R1 , Dark Teal Metallic,1999,2003,Crossfire B/C,Basecoat,07/08/2014,1 ,1 ,0.473 L
+281,PBT-100842930-D,100842930,41497995,Hyundai,YG7 / Dark Knight Pearl,YG7 , Dark Knight Pearl,2018,2024,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.473 L
+282,C6-4958153-C,4958153,-,Ford,DX / Dark Blue Pearl,DX , Dark Blue Pearl,2003,2015,Crossfire B/C,Basecoat,07/10/2014,1 ,1 ,0.956 L
+283,-,-,-,Volkswagen,VWLC8Z / Mocha Brown,VWLC8Z , Mocha Brown,2004,2014,Wandabase HS,-,-,1 ,1 ,0.956 L
+284,PBN-5363554-B,5363554,-,Toyota,8S6 / Nautical Blue Metallic,8S6 , Nautical Blue Metallic,2004,2015,Pro//Base National Rule - Pbn,Basecoat,12/13/2017,1 ,1 ,0.956 L
+285,PBN-5376369-B,5376369,-,Chevrolet,929L / Cashmere Metallic,929L , Cashmere Metallic,2004,2013,Pro//Base National Rule - Pbn,Basecoat,07/06/2016,1 ,1 ,0.956 L
+286,56-59928-B,59928,-,Nissan,KV9 / Warm Silver Metallic,KV9 , Warm Silver Metallic,2000,-,Crossfire Platinum B/C 5.0,-,09/23/2010,1 ,1 ,0.956 L
+287,B8-45698-00-N,45698,-,Mercedes-Benz,181 / Atlas Gray Metallic,181 , Atlas Gray Metallic,1991,2000,Tecbase,-,06/10/2010,1 ,1 ,0.956 L
+288,56-65724-00-B,65724,-,Chevrolet,WA928L / Stealth Gray Metallic,WA928L , Stealth Gray Metallic,2004,2009,Crossfire Platinum B/C 5.0, -,-,1 ,1 ,0.956 L
+289,-,-,-,Toyota,6R1 / Woodland Green Pearl,6R1 , Woodland Green Pearl,1999,2003,Crossfire Platinum B/C 5.0,-,-,1 ,1 ,0.956 L
+290,C6-4966427-A,4966427,-,Honda,B538M / Glacier Blue Metallic,B538M , Glacier Blue Metallic,2007,2011,Crossfire B/C,Basecoat,09/28/2012,1 ,1 ,0.956 L
+291,56-34983-00-B,1766414,-,Chevrolet,WA8774 / Bright Red,WA8774 , Bright Red,1991,2002,Crossfire Platinum B/C 5.0,Basecoat,03/11/2013,1 ,1 ,0.956 L
+292,-,-,-,Toyota,4M9 / Cashmere Beige Metallic,4M9 , Cashmere Beige Metallic,1994,2001,Tecbase,-,12/29/2010,1 ,1 ,0.956 L
+293,PBN-5691080-C,5691080,-,Jeep,-,-,-,2014,2015,Pro//Base National Rule - Pbn,Basecoat,06/11/2016,1 ,1 ,0.956 L
+294,PBN-5377136-C,5377136,-,Ford,UJ / Sterling Gray Metallic,UJ , Sterling Gray Metallic,2009,2015,Pro//Base National Rule - Pbn,Basecoat,08/30/2016,1 ,1 ,0.956 L
+295,PBN-5366438-C,5366438,-,Chevrolet,308N / Cosmic Quartz Metallic,308N , Cosmic Quartz Metallic,2006,2009,Pro//Base National Rule - Pbn,Basecoat,10/10/2017,1 ,1 ,0.956 L
+296,PBT-1573207-D,1573207,13967498,Audi,LY1Q / 9X / 9X9X / Dakar Beige Metallic,LY1Q / 9X / 9X9X , Dakar Beige Metallic,2005,2011,PBT,-,04/02/2019,1 ,1 ,0.956 L
+297,-,766245,-,Honda,NH701M-4 / Galaxy Gray Metallic,NH701M-4 , Galaxy Gray Metallic,2006,-,Chromebase ,-,06/29/2021,1 ,1 ,0.956 L
+298,56-6232-00-B,2136349,-,Toyota,1D4 / Titanium Metallic,1D4 , Titanium Metallic,2008,2009,Crossfire Platinum B/C 5.0,Basecoat,11/14/2012,1 ,1 ,0.956 L
+299,-,-,-,Ford,G2 / RC / Medium Platinum Metallic,G2 / RC , Medium Platinum Metallic,2002,2005,Tecbase,-,-,1 ,1 ,0.956 L
+300,PBN-5365554-C,5365554,-,Chevrolet,253A / Wheatland Yellow,253A , Wheatland Yellow,1997,2015,Pro//Base National Rule - Pbn,Basecoat,12/13/2017,1 ,1 ,0.956 L
+301,C6-4970406-D,4970406,10326805,Chevrolet,63 / 817K / WA817K / Sport Red Metallic,63 / 817K / WA817K , Sport Red Metallic,2004,2010,C6,-,05/23/2018,1 ,1 ,0.956 L
+302,56-57133-00-B,-,-,Hyundai,BX / Bright Silver Metallic,BX , Bright Silver Metallic,1998,2004,Crossfire Platinum B/C 5.0,-,-,1 ,1 ,0.956 L
+303,C6-10141016-A,10141016,24441178,Dodge,PXR / AXR / AY112AXR / Brilliant Black Pearl,PXR / AXR / AY112AXR , Brilliant Black Pearl,2008,2020,C6 - Crossfire B/C,-,-,1 ,1 ,0.956 L
+304,56-56106-00-B,1771008,-,Mazda,18G / Highlight Silver Metallic,18G , Highlight Silver Metallic,1997,2012,Crossfire Platinum B/C 5.0,Basecoat,11/07/2013,1 ,1 ,0.956 L
+305,C6-4964192-A,4964192,26440735,Toyota,1D6 / U1D6 / Silver Sky Metallic,1D6 / U1D6 , Silver Sky Metallic,2000,2023,C6 - Crossfire B/C,-,07/28/2022,1 ,1 ,0.956 L
+306,B8-45696-00-P,-,-,Mercedes-Benz,744 / Brilliatn Silver Metallic,744 , Brilliatn Silver Metallic,1991,2004,Tecbase,-,01/26/2011,1 ,1 ,0.956 L
+307,PBN-5366908-C,5366908,-,Lexus,3R1 / Matador Red Mica,3R1 , Matador Red Mica,2005,2015,Pro//Base National Rule - Pbn,Basecoat,02/07/2017,1 ,1 ,0.956 L
+308,C6-4973509-B,4973509,-,Acura,BG50M / Havasu Blue Metallic,BG50M , Havasu Blue Metallic,2003,-,Crossfire B/C,Basecoat,11/02/2016,1 ,1 ,0.956 L
+309,56-80116-B,-,-,Dodge,PFF / Lt Pweter Metallic,PFF , Lt Pweter Metallic,2001,2002,Crossfire Platinum B/C 5.0,-,20/18/2010,1 ,1 ,0.956 L
+310,PBT-100133824-B,100133824,9931500,Toyota,1G3 / Magnetic Gray Metallic,1G3 , Magnetic Gray Metallic,-,-,PBT,-,04/23/2018,1 ,1 ,0.956 L
+311,56-60609-00-B,4428898,-,Mitsubishi,A45 / Franklin Silver Metallic,A45 , Franklin Silver Metallic,2000,2004,Crossfire Platinum B/C 5.0,Basecoat,10/12/2012,1 ,1 ,0.956 L
+312,C6-4977675-A,4977675,-,Ford,P5 / Aspen Green Metallic,P5 , Aspen Green Metallic,2002,2009,Crossfire B/C,Basecoat,01/26/2017,1 ,1 ,0.956 L
+313,C64963944-A,4963944,36530150,Chrysler,AY110SW1 / AY95SW1 / PW1 / SW1 / W1 / Stone White,AY110SW1 / AY95SW1 / PW1 / SW1 / W1 , Stone White,1996,2022,C6 - Crossfire B/C,-,10/24/2023,1 ,1 ,0.956 L
+314,-,-,-,GM,382E / Pewter Metallic,382E , Pewter Metallic,1998,2005,Wandabase HS,-,-,1 ,1 ,0.956 L
+315,56-69218-00-A,3467252,-,Mazda,32P / Tungsten Gray Metallic,32P , Tungsten Gray Metallic,2006,2008,Crossfire Platinum B/C 5.0,Basecoat,05/30/2013,1 ,1 ,0.956 L
+316,-,737227,-,GM,WA412P / Deep Ruby Metallic,WA412P , Deep Ruby Metallic,2007,2014,LIMCO Supreme Plus,Basecoat,11/28/2017,1 ,2/2,0.956 L
+317,-,737227,-,GM,WA412P / Deep Ruby Metallic,WA412P , Deep Ruby Metallic,2007,2014,LIMCO Supreme Plus,Basecoat,11/28/2017,1 ,1/2,0.956 L
+318,-,-,-,Acura,NH643M / Anthracite Metallic,NH643M , Anthracite Metallic,2002,2006,-,-,-,1 ,1 ,0.956 L
+319,PBN-5471019-C,5471019,-,Toyota,6R6 / Mineral Green Mica,6R6 , Mineral Green Mica,2001,2006,Pro//Base National Rule - Pbn,Basecoat,04/10/2017,1 ,1 ,0.956 L
+320,PBT-1660685-C,1660685,32416294,Toyota,1H1 / Predawn Gray Mica,1H1 , Predawn Gray Mica,2010,2023,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.956 L
+321,PBT-1393362-B,1393362,10556218,Ford,TK / Mineral Gray Metallic,TK , Mineral Gray Metallic,-,-,PBT,-,06/11/2018,1 ,1 ,0.956 L
+322,56-6243-1-00-B,-,-,Toyota,1D7 / Silver Shadow Prl,1D7 , Silver Shadow Prl,2001,2010,Crossfire Platinum B/C 5.0,Basecoat Clearcoat,08/18/2011,1 ,1 ,0.956 L
+323,68144-00-B,4106713,-,Kia,6C / Clear Silver Metallic,6C , Clear Silver Metallic,2004,2012,Crossfire Platinum B/C 5.0,Basecoat Clearcoat,12/06/2011,1 ,1 ,0.956 L
+324,-,-,-,Chrysler,PPK / BPK / Magnesium Pearl,PPK / BPK , Magnesium Pearl,2005,2007,Crossfire Platinum B/C 5.0,Basecoat,09/12/2013,1 ,1 ,0.956 L
+325,56-58299-00-B,-,-,Ford,AQ / Arizona Beige Metallic,AQ , Arizona Beige Metallic,2004,2010,Crossfire Platinum B/C 5.0,Basecoat Clearcoat,09/19/2014,1 ,1 ,0.956 L
+326,56-61272-00-B,1773392,-,Toyota,8P4 / Indigo Ink Pearl,8P4 , Indigo Ink Pearl,2001,2008,Crossfire Platinum B/C 5.0,Basecoat,05/14/2013,1 ,1 ,0.956 L
+327,C6-4952679-A,4952679,-,Mercedes-Benz,904 / Midnight Blue,904 , Midnight Blue,1968,1994,Crossfire B/C,Basecoat,03/22/2016,1 ,1 ,0.956 L
+328,PBT-1557613-C,1557613,13392694,Honda,R94 / R94X / San Marino Red,R94 / R94X , San Marino Red,1995,2019,PBT,-,02/11/2019,1 ,1 ,0.956 L
+329,PBT-1385024-C,1385024,13671578,Honda,YR524M / Naples Gold Metallic,YR524M , Naples Gold Metallic,1999,2010,PBT,-,03/07/2019,1 ,1 ,0.956 L
+330,PBT-100942987-B,100942987,28288307,Toyota,Desert Sand Mica,-,Desert Sand Mica,1999,2011,PBT - PRO//BASE 3.5 VOC,Basecoat,10/25/2022,1 ,1 ,0.956 L
+331,PBN-5528192-B,5528192,-,Ford,BT / Dark Side Metallic,BT , Dark Side Metallic,2014,2015,Pro//Base National Rule - Pbn,Basecoat,05/10/2018,1 ,1 ,0.956 L
+332,B8-74091-V,-,-,Honda,NH700M / Alabaster Silver Metallic,NH700M , Alabaster Silver Metallic,2006,2011,Tecbase,-,11/22/2010,1 ,1 ,0.956 L
+333,PBN-5376486-C,5376486,-,Honda,NH705M / Nimbus Gray Metallic,NH705M , Nimbus Gray Metallic,2007,2009,Pro//Base National Rule - Pbn,Basecoat,09/21/2017,1 ,1 ,0.956 L
+334,56-75800-00-B,4107313,-,Lexus,4T1 / Golden Almond Metallic,4T1 , Golden Almond Metallic,2007,2011,Crossfire Platinum B/C 5.0,Basecoat,06/13/2012,1 ,1 ,0.956 L
+335,C6-4957007-B,4957007,-,Honda,B518P / Midnight Blue Pearl,B518P , Midnight Blue Pearl,2003,2007,Crossfire B/C,Basecoat,08/21/2015,1 ,1 ,0.956 L
+336,PBT-1565257-B,1565257,11187399,Ford,G1 / M7343A / M7343 / G9ZEWHA / 7343 / Absolute Black,G1 / M7343A / M7343 / G9ZEWHA / 7343 , Absolute Black,2015,2019,PBT,-,07/31/2018,1 ,1 ,0.956 L
+337,C6-4979548-A,4979548,-,GM,WA8993 / Medium Sapphr Blue F Metallic,WA8993 , Medium Sapphr Blue F Metallic,1987,1990,Crossfire B/C,Basecoat,09/27/2014,1 ,1 ,0.956 L
+338,56-48882-00-B,-,-,Mitsubishi,H81 / Silver Metallic,H81 , Silver Metallic,1994,1996,Crossfire Platinum B/C 5.0,Basecoat Clearcoat,05/09/2011,1 ,1 ,0.956 L
+339,56-53876-00-A,-,-,Ford,FS / Spruce Green Metallic,FS , Spruce Green Metallic,1998,2016,Crossfire Platinum B/C 5.0,Basecoat Clearcoat,09/28/2012,1 ,1 ,0.956 L
+340,56-63489-00-A,2666136,-,Subaru,08V / Midnight Black Pearl,08V , Midnight Black Pearl,2002,2004,Crossfire Platinum B/C 5.0,Basecoat,05/14/2013,1 ,1 ,0.956 L
+341,B852965-V-00,-,-,Chevrolet,WA331D / Silvermist Metallic,WA331D , Silvermist Metallic,1997,2011,Tecbase,-,07/06/2017,1 ,1 ,0.956 L
+342,PBT-101203131-B,101203131,30207893,Honda,NH830M / Lunar Silver Metallic,NH830M , Lunar Silver Metallic,1997,2023,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.956 L
+343,56-66692-22,3042019,-,Chevrolet,929L / Cashmere Metallic,929L , Cashmere Metallic,2004,2013,Crossfire Platinum B/C 5.0,Basecoat,10/12/2018,1 ,1 ,0.956 L
+344,PBT-100357065-C,100357065,16716428,Acura,YR509P / YR509P-1 / Granite Silver Pearl,YR509P / YR509P-1 , Granite Silver Pearl,1995,1998,PBT,-,12/06/2019,1 ,1 ,0.956 L
+345,PBT-1457092-B,1457092,-,Chevrolet,G7J / WA136X / 136X / Unripened Green Metallic,G7J / WA136X / 136X , Unripened Green Metallic,2014,2018,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.956 L
+346,C6-4973296-C,4973296,25003764,Dodge,PR3 / ZR3 / High Performance Red,PR3 / ZR3 , High Performance Red,2007,2022,C6 - Crossfire B/C,-,05/03/2022,1 ,1 ,0.956 L
+347,56-42294-00-A,-,-,Volvo,081 / Blue,081 , Blue,-,-,Crossfire Platinum B/C 5.0,-,-,1 ,1 ,0.956 L
+348,PBT-1271980-C,1271980,30443532,Honda,R548P / Basque Red Pearl,R548P , Basque Red Pearl,2012,2020,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.956 L
+349,PBT-1391532-C,1391532,15120793,Dodge,PBJ / ZBJ / AY112ZBJ / Atlantic Blue Pearl,PBJ / ZBJ / AY112ZBJ , Atlantic Blue Pearl,2002,2006,PBT,-,07/12/2019,1 ,1 ,0.956 L
+350,-,-,-,-,Piedra,-,Piedra,-,-,-,-,-,1 ,1 ,0.956 L
+351,PBT-1392391-B,1392391,-,Acura,NH782M / Graphite Luster Metallic,NH782M , Graphite Luster Metallic,2009,2023,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.956 L
+352,PBT-100983227-B,100983227,-,Mercedes-Benz,5-890 / 890 / 5890 / Cavansite Blue Metallic,5-890 / 890 / 5890 , Cavansite Blue Metallic,2011,2023,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.956 L
+353,C6-4953430-A,4953430,26786301,Honda,NH731P / Crystal Black Pearl,NH731P , Crystal Black Pearl,2004,2023,C6 - Crossfire B/C,-,08/15/2022,1 ,1 ,0.956 L
+354,PBT-100274215-D,100274215,16166803,Toyota,1C8 / U1C8 / Lunar Mist Metallic,1C8 / U1C8 , Lunar Mist Metallic,2000,2006,PBT,-,10/15/2019,1 ,1 ,0.956 L
+355,PBT-1454840-D,1454840,9987111,Ford,HI / M7310A / DKFC / DKFCWWA / Tectonic Silver Metallic,HI / M7310A / DKFC / DKFCWWA , Tectonic Silver Metallic,2013,2016,PBT,-,08/26/2018,1 ,1 ,0.956 L
+356,56-60796-00-B,4428909,-,Honda,YR528M / Shoreline Mist Metallic,YR528M , Shoreline Mist Metallic,2000,2007,Crossfire Platinum B/C 5.0,Basecoat,09/12/2013,1 ,1 ,0.956 L
+357,PBT-101051382-B,101051382,3058554,Ford,CX / Dark Shadow Gray Metallic,CX , Dark Shadow Gray Metallic,2001,2005,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.956 L
+358,C6-4955898-C,4955898,-,Chevrolet,220C / Light Drift Sand Metallic,220C , Light Drift Sand Metallic,1996,2005,Crossfire B/C,Basecoat,01/07/2017,1 ,1 ,0.956 L
+359,56-64594-00-C,3332059,-,Buick,811K / Berry Metallic,811K , Berry Metallic,2003,2005,Crossfire Platinum B/C 5.0,Basecoat Clearcoat,03/07/2012,1 ,1 ,0.956 L
+360,C6-4975767-B,4975767,-,Toyota,1B2 / Antique Sage Pearl,1B2 , Antique Sage Pearl,1997,2001,Crossfire B/C,Basecoat,07/01/2016,1 ,1 ,0.956 L
+361,PBN-5470612-A,5470612,-,Toyota,779 / Capri Sea Metallic,779 , Capri Sea Metallic,2009,2010,Pro//Base National Rule - Pbn,Basecoat,05/30/2014,1 ,1 ,0.956 L
+362,-,-,-,Chevrolet,14 / WA391E / Storm Gray Metallic,14 / WA391E , Storm Gray Metallic,1999,2005,Crossfire Platinum B/C 5.0,-,10/09/2010,1 ,1 ,0.956 L
+363,PBN-5364191-C,5364191,-,Honda,NH623M / Satin Silver Metallic,NH623M , Satin Silver Metallic,1999,2010,Pro//Base National Rule - Pbn,Basecoat,01/05/2018,1 ,1 ,0.956 L
+364,-,-,-,Dodge,PKG / FKG / Light Sandstone Metallic,PKG / FKG , Light Sandstone Metallic,2008,2010,Tecbase,-,12/07/2010,1 ,1 ,0.956 L
+365,PBT-1454857-C,1454857,30604611,Toyota,221 / Blackish Ageha Metallic,221 , Blackish Ageha Metallic,2014,2022,PBT - PRO//BASE 3.5 VOC,Basecoat,-,1 ,1 ,0.956 L
+366,56-4944268-C,4944268,-,Chrysler,PBG / Clearwater Blue Pearl,PBG , Clearwater Blue Pearl,2008,2010,Crossfire Platinum B/C 5.0,Basecoat,07/11/2013,1 ,1 ,0.956 L
+367,-,-,-,Toyota,4M9 / Cashmere Beige Metallic,4M9 , Cashmere Beige Metallic,1994,2001,Tecbase,-,-,1 ,1 ,0.956 L
+368,-,-,-,Honda,HON9696 / Smoky Topaz,HON9696 , Smoky Topaz,2011,2015,Wandabase HS,-,-,1 ,1 ,0.956 L
+369,-,-,-,-,Sparkle,-,Sparkle,-,-,-,-,-,1 ,1 ,0.956 L
+370,56-2119-00-B,4408201,-,Ford,3M / Silver Bright Blue Metallic,3M , Silver Bright Blue Metallic,1973,1976,Crossfire Platinum B/C 5.0,Basecoat,09/12/2013,1 ,1 ,0.956 L
+371,-,-,-,Toyota,086988 / 202 / 98367 / KA3 / Black,086988 / 202 / 98367 / KA3 , Black,-,-,roberlo,-,05/16/2023,1 ,1 ,0.956 L
+372,B8-63498-06-V,-,-,Nissan,KY2 / Polished Pewter Metallic,KY2 , Polished Pewter Metallic,2002,2007,Tecbase,Basecoat Clearcoat,06/14/2011,1 ,1 ,0.956 L
+373,56-78820-00-B,4136221,-,Honda,R529P / Dark Cherry Pearl,R529P , Dark Cherry Pearl,2007,2013,Crossfire Platinum B/C 5.0,Basecoat,11/14/2012,1 ,1 ,0.956 L
+374,56-70900-00B,4106876,-,Ford,NH / Light Sage Metallic,NH , Light Sage Metallic,2007,2009,Crossfire Platinum B/C 5.0,Basecoat,06/03/2013,1 ,1 ,0.956 L
