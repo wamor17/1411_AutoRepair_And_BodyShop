@@ -1,4 +1,5 @@
 
+/*
 var inventory = 
 [
     {
@@ -6734,26 +6735,47 @@ var inventory =
       "Volume": "0.956 L"
     }
    ];
+*/
 
 var server_dir = 'https://script.google.com/macros/s/AKfycbz48-iFT3ZGmtB6n815pH5qZ81WN47hV2P8axyWkfvC_hYP4q1RRRZh1wAWY3_FDtgY/exec';
-var allCarBrands  = inventory.map( inventory => inventory.carBrand  );
-var allPaintCodes = inventory.map( inventory => inventory.paintCode );
-var allPaintNames = inventory.map( inventory => inventory.paintName );
-var carBrands = [...new Set(allCarBrands)];
+var inventory;
 
 $( document ).ready(function(){
     $('.sidenav').sidenav();
     $('.tooltipped').tooltip();
  
-    loadCardBrands();
-    addTableResultData( inventory );
+    getDataPaints();
     //console.log( "App ready => " + carBrands.length );
 });
 
+function getDataPaints(){
+  var server_dir = "https://script.google.com/macros/s/AKfycbyH0OLqVUGmK7fqahHCO1EXEDVGjEDV6CRw3euqQ5tA6dhJUb1XfQCe4e0hduTT5PnI/exec";
+  var allCarBrands, allPaintCodes, allPaintNames, carBrandsObj;
+
+  $.get(server_dir, {}, function(ServerResponse){
+      allPaintCodes = ServerResponse.map( ServerResponse => ServerResponse.paintCode );
+      allPaintNames = ServerResponse.map( ServerResponse => ServerResponse.paintName );
+      allCarBrands  = ServerResponse.map( ServerResponse => ServerResponse.carBrand  );
+      carBrandsObj = [...new Set(allCarBrands)];
+
+      localStorage.setItem( 'dataPaints',     JSON.stringify( ServerResponse  ) );
+      localStorage.setItem( 'allPaintCodes',  JSON.stringify( allPaintCodes   ) );
+      localStorage.setItem( 'allPaintNames',  JSON.stringify( allPaintNames   ) );
+      localStorage.setItem( 'carBrands',      JSON.stringify( carBrandsObj    ) );
+
+      loadCardBrands();
+      addTableResultData( ServerResponse );
+
+  }).done(function(){
+      console.log( " *** Done HTTP request *** " );
+  })//.fail(function(error_srv) {});
+}
+
 function loadCardBrands(){
+    var carBrands = JSON.parse( localStorage.getItem('carBrands') );
     var dataCarBrands_InnerSelect = "<option value=-1> All </option>";
 
-    for(var brands = 0; brands<carBrands.length; brands++){
+    for(var brands = 0; brands < carBrands.length; brands++){
         dataCarBrands_InnerSelect = dataCarBrands_InnerSelect +
         "<option value="+brands+">" + carBrands[brands] + "</option>"
     }
@@ -6761,10 +6783,10 @@ function loadCardBrands(){
     $("#select-CarBrands").html( dataCarBrands_InnerSelect );
 }
 
-function addTableResultData( dataInventoryInput ){    
+function addTableResultData( dataPaints ){
     var dataInventory_InnerTable = "";
 
-    if( isEmpty( dataInventoryInput ) ){
+    if( isEmpty( dataPaints ) ){
         var noDataFound = 
         "<tr>" +
             "<td colspan='6' class='center-align'>No data found</td>" +
@@ -6775,7 +6797,7 @@ function addTableResultData( dataInventoryInput ){
         $('.table-onlyBody').css('width', "100%");
     }else{
 
-        if( dataInventoryInput.length <= 13 ){
+        if( dataPaints.length <= 13 ){
             $('.table-onlyBody').css('overflow-y', 'visible');
             $('.table-onlyBody').css('width', "100%");
         }else{
@@ -6783,71 +6805,37 @@ function addTableResultData( dataInventoryInput ){
             $('.table-onlyBody').css('width', "102%");
         }
 
-        for(var i=0; i<dataInventoryInput.length; i++){
+        for(var i=0; i<dataPaints.length; i++){
             var modelCar = "";
 
-            if( dataInventoryInput[i].initYear == "-" && dataInventoryInput[i].endYear == "-" ){
+            if( dataPaints[i].initYear == "-" && dataPaints[i].endYear == "-" ){
                 modelCar = modelCar + "<td class='row-tableResults row-ModelCar'>-</td>";
-            }else if( dataInventoryInput[i].initYear == "-" ){
-                modelCar = modelCar + "<td class='row-tableResults row-ModelCar'>" + dataInventoryInput[i].endYear + "</td>";
-            }else if( dataInventoryInput[i].endYear == "-" ){
-                modelCar = modelCar + "<td class='row-tableResults row-ModelCar'>" + dataInventoryInput[i].initYear + "</td>";
+            }else if( dataPaints[i].initYear == "-" ){
+                modelCar = modelCar + "<td class='row-tableResults row-ModelCar'>" + dataPaints[i].endYear + "</td>";
+            }else if( dataPaints[i].endYear == "-" ){
+                modelCar = modelCar + "<td class='row-tableResults row-ModelCar'>" + dataPaints[i].initYear + "</td>";
             }else{
                 modelCar = modelCar + 
-                "<td class='row-tableResults row-ModelCar'>" + dataInventoryInput[i].initYear + " - " + dataInventoryInput[i].endYear + "</td>";
+                "<td class='row-tableResults row-ModelCar'>" + dataPaints[i].initYear + " - " + dataPaints[i].endYear + "</td>";
             }
 
             dataInventory_InnerTable = dataInventory_InnerTable +
             "<tr>" +
                 "<td class='row-tableResults row-Num'>" + (i+1)  + "</td>" +
-                "<td class='row-tableResults row-CardBrand'>" + dataInventoryInput[i].carBrand  + "</td>" +
-                "<td class='row-tableResults row-PaintCode'>" + dataInventoryInput[i].paintCode + "</td>" +
-                "<td class='row-tableResults row-PaintName'>" + dataInventoryInput[i].paintName + "</td>" +
+                "<td class='row-tableResults row-CardBrand'>" + dataPaints[i].carBrand  + "</td>" +
+                "<td class='row-tableResults row-PaintCode'>" + dataPaints[i].paintCode + "</td>" +
+                "<td class='row-tableResults row-PaintName'>" + dataPaints[i].paintName + "</td>" +
                         modelCar                        +
-                "<td class='row-tableResults row-Layer center-align'>" + dataInventoryInput[i].Layer     + "</td>" +
-                "<td class='row-tableResults row-Stock center-align'>" + dataInventoryInput[i].Unit      + "</td>" +
+                "<td class='row-tableResults row-Layer center-align'>" + dataPaints[i].Layer     + "</td>" +
+                "<td class='row-tableResults row-Stock center-align'>" + dataPaints[i].Unit      + "</td>" +
             "</tr>"
         }
 
-        $('.numRegisters').html( dataInventoryInput.length );
+        $('.numRegisters').html( dataPaints.length );
         $('#dataTable-Body').html( dataInventory_InnerTable );
     }
 
     
-}
-
-function setDataServer(){
-  var titleByLimits = getChangeTitleCategoriesByLimits();
-  var MapData = getDataCities();
-  var MapColor = getMapColor();
-  var CategoriesName = getNameCategories();
-  var CategoriesValues = getCategoriesValues();
-  var LabelsColor = getLabelsColorByCategory();
-  var titleFormat = getTitleMap();
-  var namemap = $('#select-maps option:selected').val();
-
-  $.post(server_dir, {TypeFunction: "setDataMap", MapName: namemap, AbasoloValue: MapData[ 0], AcambaroValue: MapData[ 1], SanMiguelValue: MapData[ 2], ApaseoElAltoValue: MapData[ 3], ApaseoElGrandeValue: MapData[ 4], AtarjeaValue: MapData[ 5], CelayaValue: MapData[ 6], ManuelDobladoValue: MapData[ 7], ComonfortValue: MapData[ 8], CoroneoValue: MapData[ 9], CortazarValue: MapData[10], CueramaroValue: MapData[11], DoctorMoraValue: MapData[12], DoloresHidalgoValue: MapData[13], GuanajuatoValue: MapData[14], HuanimaroValue: MapData[15], IrapuatoValue: MapData[16], JaralDelProgesoValue: MapData[17], JerecuaroValue: MapData[18], LeonValue: MapData[19], MoroleonValue: MapData[20], OcampoValue: MapData[21], PenjamoValue: MapData[22], PuebloNuevoValue: MapData[23], PurisimaDelRinconValue: MapData[24], RomitaValue: MapData[25], SalamancaValue: MapData[26], SalvatierraValue: MapData[27], SanDiegoDeLaUnionValue: MapData[28], SanFelipeValue: MapData[29], SanFranciscoDelRinconValue: MapData[30], SanJoseIturbideValue: MapData[31], SanLuisDeLaPazValue: MapData[32], SantaCatarinaValue: MapData[33], JuventinoRosasValue: MapData[34], SantiagoMaravatíoValue: MapData[35], SilaoValue: MapData[36], TarandacuaoValue: MapData[37], TarimoroValue: MapData[38], TierraBlancaValue: MapData[39], UriangatoValue: MapData[40], ValleDeSantiagoValue: MapData[41], VictoriaValue: MapData[42], VillagranValue: MapData[43], XichuValue: MapData[44], YuririaValue: MapData[45], TitleMap: titleFormat.TitleMap, FontSize: titleFormat.FontSize, FontBold: titleFormat.FontBold, FontItalic: titleFormat.FontItalic, ColorScheme: MapColor.Name, RangeTitle: titleByLimits.RangeTitle, RangePorcentage: titleByLimits.RangePorcentage, Category1_Name: CategoriesName.Category1, Category1_Min: CategoriesValues.Category1.Min, Category1_Max: CategoriesValues.Category1.Max, Category1_LabelsColor: LabelsColor.LabelsCategory1, Category2_Name: CategoriesName.Category2, Category2_Min: CategoriesValues.Category2.Min, Category2_Max: CategoriesValues.Category2.Max, Category2_LabelsColor: LabelsColor.LabelsCategory2, Category3_Name: CategoriesName.Category3, Category3_Min: CategoriesValues.Category3.Min, Category3_Max: CategoriesValues.Category3.Max, Category3_LabelsColor: LabelsColor.LabelsCategory3, Category4_Name: CategoriesName.Category4, Category4_Min: CategoriesValues.Category4.Min, Category4_Max: CategoriesValues.Category4.Max, Category4_LabelsColor: LabelsColor.LabelsCategory4}, function(ServerResponse){
-      $('.card-map-preloader').show();
-      $('.sidenav-options-preloader').show();
-
-      if( ServerResponse.Status == "Correct" )
-          M.toast({html: 'Datos guardados correctamente', classes: 'green darken-3 rounded'});
-      else
-          M.toast({html: 'Error al guardar los datos', classes: 'red lighten-2 rounded'});
-
-      console.log( ServerResponse );
-  }).done(function(){
-      $('.card-map-preloader').fadeOut(); 
-      $('.sidenav-options-preloader').fadeOut();
-
-      $('.fixed-action-btn').fadeIn();
-  }).fail(function(error_srv) {
-      $('.card-map-preloader').fadeOut(); 
-      $('.sidenav-options-preloader').fadeOut();
-      EmptyMap();
-
-      M.toast({html: 'Error al actualizar datos', classes: 'red lighten-1 rounded'})
-  });
 }
 
 function isEmpty(obj) {
@@ -6860,24 +6848,28 @@ $('.btn-clear-filters').on('click', function(){
 });
 
 $('.btn-search').on('click', function(){
+    var dataPaints      = JSON.parse( localStorage.getItem( 'dataPaints'    ) );
+    var carBrands       = JSON.parse( localStorage.getItem( 'carBrands' ) );
+    var allPaintCodes   = JSON.parse( localStorage.getItem( 'allPaintCodes' ) );
+    var allPaintNames   = JSON.parse( localStorage.getItem( 'allPaintNames' ) );
     var carBrandSelected = $('#select-CarBrands').val();
     var txtPaintCode = $('#txtPaintCode').val();
     var dataFiltered;
 
     if( carBrandSelected == -1 && txtPaintCode == "" ){
         console.log( "carBrand => '' | txtPaintCode => ''" );
-        dataFiltered = inventory;
+        dataFiltered = dataPaints;
     }else if( carBrandSelected == -1 && txtPaintCode != "" ){
         console.log( "carBrand => '' | txtPaintCode => " + txtPaintCode );
-        dataFiltered = inventory.filter( inventory => inventory.paintCode.includes( txtPaintCode ) || inventory.paintName.includes( txtPaintCode ) );
+        dataFiltered = dataPaints.filter( dataPaints => dataPaints.paintCode.includes( txtPaintCode ) || dataPaints.paintName.includes( txtPaintCode ) );
     }else if( carBrandSelected !== -1 && txtPaintCode == "" ){
         console.log( "carBrand => "+carBrands[carBrandSelected]+" | txtPaintCode => ''" );
-        dataFiltered = inventory.filter( inventory => inventory.carBrand === carBrands[carBrandSelected] );
+        dataFiltered = dataPaints.filter( dataPaints => dataPaints.carBrand === carBrands[carBrandSelected] );
     }else if( carBrandSelected !== -1 && txtPaintCode !== "" ){
         console.log( "carBrand => "+carBrands[carBrandSelected]+" | txtPaintCode => " + txtPaintCode );
-        dataFiltered = inventory.filter( 
-            inventory => inventory.paintCode.includes( txtPaintCode ) || 
-            inventory.paintName.includes( txtPaintCode )
+        dataFiltered = dataPaints.filter( 
+            dataPaints => dataPaints.paintCode.includes( txtPaintCode ) || 
+            dataPaints.paintName.includes( txtPaintCode )
         );
 
         dataFiltered = dataFiltered.filter( dataFiltered => dataFiltered.carBrand === carBrands[carBrandSelected] );
