@@ -17,6 +17,7 @@
 </head>
 <body>
 
+    <!-- SIDENAV FIXED -->
     <ul id="slide-out" class="sidenav sidenav-fixed">  <!---->
       <li><div class="user-view">
         <div class="background">
@@ -39,8 +40,7 @@
         <div class="card white card-main-results border-rounded">
           <div class="card-content">
             
-            <!--<span class="card-title">Paint code inventory</span>-->
-
+            <!-- FILTERS -->
             <div class="row">
 
               <div class="input-field col s6 m3 l3 xl3">
@@ -57,12 +57,14 @@
               <div class="col s12 m7 l7 xl7">
                 <a class="waves-effect white btn-flat border-rounded btn-clear-filters left tooltipped black-text" data-position="bottom" data-tooltip="Borrar filtros"><i class="material-icons left">delete_sweep</i></a>
                 <a class="waves-effect blue darken-4 btn-small border-rounded btn-search left"><i class="material-icons left">search</i>Search</a>
-                <a class="waves-effect blue blue-grey lighten-2 btn-small border-rounded btn-add-register right"><i class="material-icons left">add</i>Registrar</a>
+                <a class="waves-effect blue blue-grey lighten-2 btn-small border-rounded btn-add-register right"><i class="material-icons left">add</i>Register new paint</a>
               </div>
 
             </div>
 
             <div class="contianerNumRegisters">Number of records found: <span class="numRegisters"></span></div>
+            
+            <!-- RESULT TABLES -->
             <div class="table-onlyHeaders">
               
               <table class="striped">
@@ -85,12 +87,27 @@
             <div class="table-onlyBody">
               
               <table class="striped">
-                
-        
                 <tbody id="dataTable-Body">
                 </tbody>
               </table>
 
+            </div>
+
+            <div class="card card-loading-data">
+
+                <div class="preloader-wrapper preloader-table-data big active">
+                  <div class="spinner-layer spinner-blue-only">
+                    <div class="circle-clipper left">
+                      <div class="circle"></div>
+                    </div><div class="gap-patch">
+                      <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                      <div class="circle"></div>
+                    </div>
+                  </div>
+                </div>
+                
+                
             </div>
 
           </div>
@@ -108,6 +125,7 @@
     <!-- Materialize JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <!-- APP SCRIPT -->
     <script src="assets/js/app.js" ></script>
 
 </body>

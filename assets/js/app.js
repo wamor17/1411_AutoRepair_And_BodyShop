@@ -6749,6 +6749,7 @@ $( document ).ready(function(){
 });
 
 function getDataPaints(){
+  $('.card-loading-data').show();
   var server_dir = "https://script.google.com/macros/s/AKfycbyH0OLqVUGmK7fqahHCO1EXEDVGjEDV6CRw3euqQ5tA6dhJUb1XfQCe4e0hduTT5PnI/exec";
   var allCarBrands, allPaintCodes, allPaintNames, carBrandsObj;
 
@@ -6768,7 +6769,20 @@ function getDataPaints(){
 
   }).done(function(){
       console.log( " *** Done HTTP request *** " );
-  })//.fail(function(error_srv) {});
+      $('.card-loading-data').hide();
+  }).fail(function(error_srv) {
+      $('.card-loading-data').hide();
+      var noDataFound = 
+      "<tr>" +
+          "<td colspan='6' class='center-align'>"+
+          "An error occurred while obtaining data from the server" +
+          "</td>" +
+      "</tr>";
+
+      $('#dataTable-Body').html( noDataFound );
+      $('.table-onlyBody').css('overflow-y', 'visible');
+      $('.table-onlyBody').css('width', "100%");
+  });
 }
 
 function loadCardBrands(){
