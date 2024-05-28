@@ -17,6 +17,7 @@
 </head>
 <body>
 
+    <!-- SIDENAV FIXED -->
     <ul id="slide-out" class="sidenav sidenav-fixed">  <!---->
       <li><div class="user-view">
         <div class="background">
@@ -36,11 +37,10 @@
 
       <div class="col s12 m12 l8">
 
-        <div class="card white card-main-results border-rounded">
+        <div class="card white card-main-results">
           <div class="card-content">
             
-            <!--<span class="card-title">Paint code inventory</span>-->
-
+            <!-- FILTERS -->
             <div class="row">
 
               <div class="input-field col s6 m3 l3 xl3">
@@ -57,12 +57,14 @@
               <div class="col s12 m7 l7 xl7">
                 <a class="waves-effect white btn-flat border-rounded btn-clear-filters left tooltipped black-text" data-position="bottom" data-tooltip="Borrar filtros"><i class="material-icons left">delete_sweep</i></a>
                 <a class="waves-effect blue darken-4 btn-small border-rounded btn-search left"><i class="material-icons left">search</i>Search</a>
-                <a class="waves-effect blue blue-grey lighten-2 btn-small border-rounded btn-add-register right"><i class="material-icons left">add</i>Registrar</a>
+                <a class="waves-effect blue blue-grey lighten-2 btn-small border-rounded btn-add-register modal-trigger right" href="#modal-data-paint"><i class="material-icons left">add</i>Register new paint</a>
               </div>
 
             </div>
 
             <div class="contianerNumRegisters">Number of records found: <span class="numRegisters"></span></div>
+            
+            <!-- RESULT TABLES -->
             <div class="table-onlyHeaders">
               
               <table class="striped">
@@ -84,13 +86,28 @@
             
             <div class="table-onlyBody">
               
-              <table class="striped">
-                
-        
+              <table > <!--class="striped"-->
                 <tbody id="dataTable-Body">
                 </tbody>
               </table>
 
+            </div>
+
+            <div class="card card-loading-data">
+
+                <div class="preloader-wrapper preloader-table-data big active">
+                  <div class="spinner-layer spinner-blue-only">
+                    <div class="circle-clipper left">
+                      <div class="circle"></div>
+                    </div><div class="gap-patch">
+                      <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                      <div class="circle"></div>
+                    </div>
+                  </div>
+                </div>
+                
+                
             </div>
 
           </div>
@@ -102,12 +119,103 @@
 
     </div>
 
+    <!-- Modal Structure -->
+    <div id="modal-data-paint" class="modal bottom-sheet modal-fixed-footer">
+      <div class="modal-content">
+        
+        <h4>Paint information</h3>
+        
+        <div class="row">
+
+          <div class="input-field col s6 m3 l2 xl2">
+            <input placeholder="Example: -" id="txtCarBrand" type="text" class="validate">
+            <label for="txtCarBrand">Car brand</label>
+          </div>
+
+          <div class="input-field col s6 m3 l3 xl3">
+            <input placeholder="Example: -" id="txtPaintCodeM" type="text" class="validate">
+            <label for="txtPaintCodeM">Paint code</label>
+          </div>
+
+          <div class="input-field col s6 m3 l2 xl3">
+            <input placeholder="Example: -" id="txtPaintName" type="text" class="validate">
+            <label for="txtPaintName">Paint name</label>
+          </div>
+
+          <div class="input-field col s6 m3 l1 xl1">
+            <input placeholder="Example: -" id="txtInitYear" type="text" class="validate">
+            <label for="txtInitYear">Init year</label>
+          </div>
+
+          <div class="input-field col s6 m3 l1 xl1">
+            <input placeholder="Example: -" id="txtEndYear" type="text" class="validate">
+            <label for="txtEndYear">End year</label>
+          </div>
+          
+          <div class="input-field col s6 m3 l1 xl1">
+            <input placeholder="Example: -" id="txtLayersM" type="text" class="validate">
+            <label for="txtLayers">Layers</label>
+          </div>
+
+          <div class="input-field col s6 m3 l1 xl1">
+            <input placeholder="Example: -" id="txtUnitsM" type="text" class="validate">
+            <label for="txtUnits">Stock</label>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="input-field col s6 m3 l2 xl2">
+            <input placeholder="Example: -" id="txtPaintKey" type="text" class="validate">
+            <label for="txtPaintKey">Paint key</label>
+          </div>
+
+          <div class="input-field col s6 m3 l1 xl1">
+            <input placeholder="Example: -" id="txtIdPaint" type="text" class="validate">
+            <label for="txtIdPaint">Id paint</label>
+          </div>
+
+          <div class="input-field col s6 m3 l1 xl1">
+            <input placeholder="Example: -" id="txtBatchNumber" type="text" class="validate">
+            <label for="txtBatchNumber">Batch number</label>
+          </div>
+
+          <div class="input-field col s6 m3 l1 xl1">
+            <input placeholder="Example: -" id="txtPurchaseDate" type="text" class="validate">
+            <label for="txtPurchaseDate">Purchase date</label>
+          </div>
+
+          <div class="input-field col s6 m3 l2 xl3">
+            <input placeholder="Example: -" id="txtPaintBrand" type="text" class="validate">
+            <label for="txtPaintBrand">Paint brand</label>
+          </div>
+
+          <div class="input-field col s6 m3 l2 xl2">
+            <input placeholder="Example: -" id="txtTypePaint" type="text" class="validate">
+            <label for="txtTypePaint">Type paint</label>
+          </div>
+
+          <div class="input-field col s6 m3 l1 xl1">
+            <input placeholder="Example: -" id="txtVolumenM" type="text" class="validate">
+            <label for="txtVolumen">Volumen</label>
+          </div>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect blue darken-3 btn btn-close-modal-paint-data border-rounded right">Save changes </a>
+        <a href="#!" class="modal-close waves-effect grey darken-1 btn btn-save-changes-paint-data border-rounded left">Close </a>
+      </div>
+    </div>
+
     <!-- jQuery Javascript -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
     <!-- Materialize JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <!-- APP SCRIPT -->
     <script src="assets/js/app.js" ></script>
 
 </body>
