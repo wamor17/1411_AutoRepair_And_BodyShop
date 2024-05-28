@@ -203,6 +203,15 @@ table tbody tr:hover{
     display: none;
 }
 
+.lblVersion{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: white;
+}
+
 /* RESPONSIVE */
 
 /* Smartphones */
