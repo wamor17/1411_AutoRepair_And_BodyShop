@@ -28,7 +28,7 @@ h4{
     margin: 6px 15px;
 }
 
-#modal-data-paint{
+#modal-data-paint, #modal-edit-data-paint{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
@@ -68,22 +68,42 @@ h4{
 }
 
 /* Selects */
-#select-CarBrands{
+#select-CarBrands, #select-CarBrands2, #txtInitYear_NewPaint, #txtEndYear_NewPaint{
     border: 1px solid lightgray;
+}
+
+/* Rows and Cols */
+.col-switch-new-car-brand{
+    padding-left: 50px !important;
+}
+
+.col-select-CarBrands2, .col-select-initYear-new-car-brand, .col-select-endYear-new-car-brand{
+    margin-top: -2px !important;
 }
 
 /* Rows */
 
 /* Buttons */
 
+.btn-edit-data-paint{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.btn{
+    text-transform: none !important;
+}
+
 .btn-close-modal-paint-data{
     margin-left: 25px !important;
+    text-transform: none !important;
 }
 
 .btn-save-changes-paint-data{
     margin-right: 30px !important;
+    text-transform: none !important;
 }
-
 
 .row-btnRegister{
     margin-top: -5px !important;
@@ -103,6 +123,7 @@ h4{
     margin-right: 5px;
     width: 40px;
     padding-left: 10px;
+    text-transform: none !important;
 }
 
 .btn-clear-filters .material-icons{
@@ -111,10 +132,12 @@ h4{
 
 .btn-search, .btn-clear-filters{
     top: 35px;
+    text-transform: none !important;
 }
 
 .btn-add-register{
     top: 0px;
+    text-transform: none !important;
 }
 
 .col-Num, .col-CarBrand, .col-PaintCode,.col-PaintName,.col-ModelCar,.col-Layer,.col-Stock{
@@ -210,6 +233,19 @@ table tbody tr:hover{
     top: 0;
     right: 15px;
     color: white;
+}
+
+.lblNewCarBrand{
+    margin: 0px 1px 20px 1px !important
+}
+
+.lblTitleModal_PaintInformation{
+    width: 80% !important;
+}
+
+/* Switch */
+.switch-new-car-brand-margin{
+    margin: 6px 5px 10px 5px !important;
 }
 
 /* RESPONSIVE */
