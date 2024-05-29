@@ -1,9 +1,9 @@
 
-/*
+
 var inventory = 
 [
     {
-      "Num": 1,
+      "id": 1,
       "paintKey": "PBT-1559971-C",
       "idPaint": "1559971",
       "batchNumber": "34963855",
@@ -21,7 +21,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 2,
+      "id": 2,
       "paintKey": "2PNISSL1-W",
       "idPaint": "-",
       "batchNumber": "-",
@@ -39,7 +39,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 3,
+      "id": 3,
       "paintKey": "PBT-1392391-B",
       "idPaint": "1392391",
       "batchNumber": "22465177",
@@ -57,7 +57,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 4,
+      "id": 4,
       "paintKey": "PBT-1567736-B",
       "idPaint": "1567736",
       "batchNumber": "12578562",
@@ -75,7 +75,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 5,
+      "id": 5,
       "paintKey": "PBT-100289442-B",
       "idPaint": "100289442",
       "batchNumber": "00070888",
@@ -93,7 +93,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 6,
+      "id": 6,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "236878",
@@ -111,7 +111,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 7,
+      "id": 7,
       "paintKey": "PBT-1564990-A",
       "idPaint": "1564990",
       "batchNumber": "20447494",
@@ -129,7 +129,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 8,
+      "id": 8,
       "paintKey": "PBN-5471307-B",
       "idPaint": "5471307",
       "batchNumber": "-",
@@ -147,7 +147,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 9,
+      "id": 9,
       "paintKey": "PBT-100698655-B",
       "idPaint": "100698655",
       "batchNumber": "17331518",
@@ -165,7 +165,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 10,
+      "id": 10,
       "paintKey": "C6-4977845-A",
       "idPaint": "4977845",
       "batchNumber": "-",
@@ -183,7 +183,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 11,
+      "id": 11,
       "paintKey": "PBT-1560671-D",
       "idPaint": "1560671",
       "batchNumber": "21338081",
@@ -201,7 +201,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 12,
+      "id": 12,
       "paintKey": "PBT Midcoa - 1564562 - A",
       "idPaint": "1564562",
       "batchNumber": "20447538",
@@ -219,7 +219,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 13,
+      "id": 13,
       "paintKey": "C6-100139566-A",
       "idPaint": "100139566",
       "batchNumber": "35832499",
@@ -237,7 +237,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 14,
+      "id": 14,
       "paintKey": "UFN - 4055282",
       "idPaint": "4055282",
       "batchNumber": "-",
@@ -255,7 +255,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 15,
+      "id": 15,
       "paintKey": "56-78775-00-C",
       "idPaint": "4108776",
       "batchNumber": "-",
@@ -273,7 +273,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 16,
+      "id": 16,
       "paintKey": "PBN-5664169-C",
       "idPaint": "5664169",
       "batchNumber": "-",
@@ -291,7 +291,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 17,
+      "id": 17,
       "paintKey": "PBN-5377142-C",
       "idPaint": "5377142",
       "batchNumber": "-",
@@ -309,7 +309,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 18,
+      "id": 18,
       "paintKey": "PBN-5507591-C",
       "idPaint": "5507591",
       "batchNumber": "-",
@@ -327,7 +327,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 19,
+      "id": 19,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -345,7 +345,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 20,
+      "id": 20,
       "paintKey": "PBN-5361004-B",
       "idPaint": "5361004",
       "batchNumber": "-",
@@ -363,7 +363,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 21,
+      "id": 21,
       "paintKey": "PBN-5376483-B",
       "idPaint": "5376483",
       "batchNumber": "-",
@@ -381,7 +381,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 22,
+      "id": 22,
       "paintKey": "PNB-5469191-C",
       "idPaint": "5469191",
       "batchNumber": "-",
@@ -399,7 +399,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 23,
+      "id": 23,
       "paintKey": "PBT-1456488-D",
       "idPaint": "1456488",
       "batchNumber": "-",
@@ -417,7 +417,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 24,
+      "id": 24,
       "paintKey": "-",
       "idPaint": "565731",
       "batchNumber": "-",
@@ -435,7 +435,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 25,
+      "id": 25,
       "paintKey": "C6-4982644-A",
       "idPaint": "4982644",
       "batchNumber": "17041256",
@@ -453,7 +453,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 26,
+      "id": 26,
       "paintKey": "PBN-5361004-B",
       "idPaint": "5361004",
       "batchNumber": "-",
@@ -471,7 +471,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 27,
+      "id": 27,
       "paintKey": "PBN-5507771-C",
       "idPaint": "5507771",
       "batchNumber": "-",
@@ -489,7 +489,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 28,
+      "id": 28,
       "paintKey": "C6-4956712-B",
       "idPaint": "4956712",
       "batchNumber": "-",
@@ -507,7 +507,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 29,
+      "id": 29,
       "paintKey": "PBT-1392904-C",
       "idPaint": "1392904",
       "batchNumber": "-",
@@ -525,7 +525,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 30,
+      "id": 30,
       "paintKey": "PBI Midcoa -100698877-D",
       "idPaint": "100698877",
       "batchNumber": "19193965",
@@ -543,7 +543,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 31,
+      "id": 31,
       "paintKey": "PBT-1403946-C",
       "idPaint": "1403946",
       "batchNumber": "15586604",
@@ -561,7 +561,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 32,
+      "id": 32,
       "paintKey": "500DB-103232646",
       "idPaint": "103232646",
       "batchNumber": "30595309",
@@ -579,7 +579,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 33,
+      "id": 33,
       "paintKey": "C6-4956835-A",
       "idPaint": "4956835",
       "batchNumber": "-",
@@ -597,7 +597,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 34,
+      "id": 34,
       "paintKey": "PBT-100280159-B",
       "idPaint": "100280159",
       "batchNumber": "-",
@@ -615,7 +615,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 35,
+      "id": 35,
       "paintKey": "PBT-100280111-B",
       "idPaint": "100280111",
       "batchNumber": "15165862",
@@ -633,7 +633,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 36,
+      "id": 36,
       "paintKey": "PBN-5512825-B",
       "idPaint": "5512825",
       "batchNumber": "-",
@@ -651,7 +651,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 37,
+      "id": 37,
       "paintKey": "PBT-1559436-B",
       "idPaint": "1559436",
       "batchNumber": "11077292",
@@ -669,7 +669,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 38,
+      "id": 38,
       "paintKey": "PBN-5471843-C",
       "idPaint": "5471843",
       "batchNumber": "-",
@@ -687,7 +687,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 39,
+      "id": 39,
       "paintKey": "B8-4928123-Q",
       "idPaint": "4928123",
       "batchNumber": "-",
@@ -705,7 +705,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 40,
+      "id": 40,
       "paintKey": "PBT-1401956-D",
       "idPaint": "1401956",
       "batchNumber": "9922673",
@@ -723,7 +723,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 41,
+      "id": 41,
       "paintKey": "PBT-1565016-C",
       "idPaint": "1565016",
       "batchNumber": "9922751",
@@ -741,7 +741,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 42,
+      "id": 42,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -759,7 +759,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 43,
+      "id": 43,
       "paintKey": "PBN-5378655-B",
       "idPaint": "5378655",
       "batchNumber": "-",
@@ -777,7 +777,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 44,
+      "id": 44,
       "paintKey": "PBT-1398578-B",
       "idPaint": "1398578",
       "batchNumber": "21309090",
@@ -795,7 +795,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 45,
+      "id": 45,
       "paintKey": "PBT-1368040-B",
       "idPaint": "1368040",
       "batchNumber": "-",
@@ -813,7 +813,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 46,
+      "id": 46,
       "paintKey": "C6-4966619-A",
       "idPaint": "4966619",
       "batchNumber": "-",
@@ -831,7 +831,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 47,
+      "id": 47,
       "paintKey": "C6-4961597-B",
       "idPaint": "4961597",
       "batchNumber": "-",
@@ -849,7 +849,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 48,
+      "id": 48,
       "paintKey": "PBT-1394049-A",
       "idPaint": "1394049",
       "batchNumber": "-",
@@ -867,7 +867,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 49,
+      "id": 49,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -885,7 +885,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 50,
+      "id": 50,
       "paintKey": "PBN-5376990-B",
       "idPaint": "5376990",
       "batchNumber": "-",
@@ -903,7 +903,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 51,
+      "id": 51,
       "paintKey": "C6-4978030-B",
       "idPaint": "4978030",
       "batchNumber": "12248275",
@@ -921,7 +921,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 52,
+      "id": 52,
       "paintKey": "56-4107283-A",
       "idPaint": "4107283",
       "batchNumber": "-",
@@ -939,7 +939,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 53,
+      "id": 53,
       "paintKey": "PBT-1401335-D",
       "idPaint": "1401335",
       "batchNumber": "38922749",
@@ -957,7 +957,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 54,
+      "id": 54,
       "paintKey": "PBT-100930656-A",
       "idPaint": "100930656",
       "batchNumber": "-",
@@ -975,7 +975,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 55,
+      "id": 55,
       "paintKey": "PBN-5507190-C",
       "idPaint": "5507190",
       "batchNumber": "-",
@@ -993,7 +993,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 56,
+      "id": 56,
       "paintKey": "PBN-5376865-C",
       "idPaint": "5376865",
       "batchNumber": "-",
@@ -1011,7 +1011,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 57,
+      "id": 57,
       "paintKey": "PNBN-5367833-B",
       "idPaint": "5367833",
       "batchNumber": "-",
@@ -1029,7 +1029,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 58,
+      "id": 58,
       "paintKey": "PBT-101014441-A",
       "idPaint": "101014441",
       "batchNumber": "-",
@@ -1047,7 +1047,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 59,
+      "id": 59,
       "paintKey": "PBT-1561615-B",
       "idPaint": "1561615",
       "batchNumber": "-",
@@ -1065,7 +1065,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 60,
+      "id": 60,
       "paintKey": "C6-4957989-A",
       "idPaint": "4957989",
       "batchNumber": "36600983",
@@ -1083,7 +1083,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 61,
+      "id": 61,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -1101,7 +1101,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 62,
+      "id": 62,
       "paintKey": "-",
       "idPaint": "00419640",
       "batchNumber": "-",
@@ -1119,7 +1119,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 63,
+      "id": 63,
       "paintKey": "PBT-1386454-D",
       "idPaint": "1386454",
       "batchNumber": "39588360",
@@ -1137,7 +1137,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 64,
+      "id": 64,
       "paintKey": "PBT-100838823-B",
       "idPaint": "100838823",
       "batchNumber": "-",
@@ -1155,7 +1155,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 65,
+      "id": 65,
       "paintKey": "PBT-1401441-B",
       "idPaint": "1401441",
       "batchNumber": "-",
@@ -1173,7 +1173,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 66,
+      "id": 66,
       "paintKey": "PBT-1574439-B",
       "idPaint": "1574439",
       "batchNumber": "14206598",
@@ -1191,7 +1191,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 67,
+      "id": 67,
       "paintKey": "PBT-100699152-B",
       "idPaint": "100699152",
       "batchNumber": "-",
@@ -1209,7 +1209,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 68,
+      "id": 68,
       "paintKey": "PBN-5763921-B",
       "idPaint": "5763921",
       "batchNumber": "-",
@@ -1227,7 +1227,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 69,
+      "id": 69,
       "paintKey": "C6-4957805-A",
       "idPaint": "4957805",
       "batchNumber": "-",
@@ -1245,7 +1245,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 70,
+      "id": 70,
       "paintKey": "56-67615-00-A",
       "idPaint": "3096802",
       "batchNumber": "-",
@@ -1263,7 +1263,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 71,
+      "id": 71,
       "paintKey": "PBT-100991278-C",
       "idPaint": "100991278",
       "batchNumber": "-",
@@ -1281,7 +1281,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 72,
+      "id": 72,
       "paintKey": "56-79713-00-B",
       "idPaint": "4429247",
       "batchNumber": "-",
@@ -1299,7 +1299,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 73,
+      "id": 73,
       "paintKey": "PBT-100949541-B",
       "idPaint": "100949541",
       "batchNumber": "-",
@@ -1317,7 +1317,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 74,
+      "id": 74,
       "paintKey": "PBT-1355131-C",
       "idPaint": "1355131",
       "batchNumber": "-",
@@ -1335,7 +1335,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 75,
+      "id": 75,
       "paintKey": "PBT-1570020-B",
       "idPaint": "1570020",
       "batchNumber": "-",
@@ -1353,7 +1353,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 76,
+      "id": 76,
       "paintKey": "C6-4975873-A",
       "idPaint": "4975873",
       "batchNumber": "",
@@ -1371,7 +1371,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 77,
+      "id": 77,
       "paintKey": "PBT-1401630-B",
       "idPaint": "1401630",
       "batchNumber": "41151019",
@@ -1389,7 +1389,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 78,
+      "id": 78,
       "paintKey": "PBT-100304057-C",
       "idPaint": "100304057",
       "batchNumber": "-",
@@ -1407,7 +1407,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 79,
+      "id": 79,
       "paintKey": "C6-4962127-B",
       "idPaint": "4962127",
       "batchNumber": "41074276",
@@ -1425,7 +1425,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 80,
+      "id": 80,
       "paintKey": "C6-4979784-A",
       "idPaint": "4979784",
       "batchNumber": "19115078",
@@ -1443,7 +1443,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 81,
+      "id": 81,
       "paintKey": "C6-5794895-B",
       "idPaint": "5794895",
       "batchNumber": "-",
@@ -1461,7 +1461,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 82,
+      "id": 82,
       "paintKey": "PBT Midcoa - 1570024 - D",
       "idPaint": "1570024",
       "batchNumber": "12697786",
@@ -1479,7 +1479,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 83,
+      "id": 83,
       "paintKey": "500-163132",
       "idPaint": "-",
       "batchNumber": "398",
@@ -1497,7 +1497,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 84,
+      "id": 84,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -1515,7 +1515,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 85,
+      "id": 85,
       "paintKey": "PBT-100289935-B",
       "idPaint": "100289935",
       "batchNumber": "21157774",
@@ -1533,7 +1533,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 86,
+      "id": 86,
       "paintKey": "PBN-5379142-C",
       "idPaint": "5379142",
       "batchNumber": "-",
@@ -1551,7 +1551,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 87,
+      "id": 87,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -1569,7 +1569,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 88,
+      "id": 88,
       "paintKey": "C6-4957413-B",
       "idPaint": "4957413",
       "batchNumber": "-",
@@ -1587,7 +1587,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 89,
+      "id": 89,
       "paintKey": "PBN-5378125-B",
       "idPaint": "5378125",
       "batchNumber": "-",
@@ -1605,7 +1605,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 90,
+      "id": 90,
       "paintKey": "PBT-1353312-B",
       "idPaint": "1353312",
       "batchNumber": "-",
@@ -1623,7 +1623,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 91,
+      "id": 91,
       "paintKey": "C6-4981380-B",
       "idPaint": "4981380",
       "batchNumber": "-",
@@ -1641,7 +1641,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 92,
+      "id": 92,
       "paintKey": "PBT-1404589-D",
       "idPaint": "1404589",
       "batchNumber": "-",
@@ -1659,7 +1659,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 93,
+      "id": 93,
       "paintKey": "C6-5325230-A",
       "idPaint": "5325230",
       "batchNumber": "-",
@@ -1677,7 +1677,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 94,
+      "id": 94,
       "paintKey": "B8100416887-Q",
       "idPaint": "100416887",
       "batchNumber": "-",
@@ -1695,7 +1695,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 95,
+      "id": 95,
       "paintKey": "PBT-1406939-B",
       "idPaint": "1406939",
       "batchNumber": "-",
@@ -1713,7 +1713,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 96,
+      "id": 96,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -1731,7 +1731,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 97,
+      "id": 97,
       "paintKey": "PBT-1456533-B",
       "idPaint": "1456533",
       "batchNumber": "16729746",
@@ -1749,7 +1749,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 98,
+      "id": 98,
       "paintKey": "C6-4957989-A",
       "idPaint": "4957989",
       "batchNumber": "38619875",
@@ -1767,7 +1767,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 99,
+      "id": 99,
       "paintKey": "PBT-100275514-B",
       "idPaint": "100275514",
       "batchNumber": "12219492",
@@ -1785,7 +1785,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 100,
+      "id": 100,
       "paintKey": "PBT-100936840-B",
       "idPaint": "100936840",
       "batchNumber": "-",
@@ -1803,7 +1803,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 101,
+      "id": 101,
       "paintKey": "C6-4983244-A",
       "idPaint": "4983244",
       "batchNumber": "-",
@@ -1821,7 +1821,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 102,
+      "id": 102,
       "paintKey": "PBT-1395420-D",
       "idPaint": "1395420",
       "batchNumber": "-",
@@ -1839,7 +1839,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 103,
+      "id": 103,
       "paintKey": "C6-4960081-A",
       "idPaint": "4960081",
       "batchNumber": "28126447",
@@ -1857,7 +1857,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 104,
+      "id": 104,
       "paintKey": "PBT-100842074-D",
       "idPaint": "100842074",
       "batchNumber": "24096088",
@@ -1875,7 +1875,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 105,
+      "id": 105,
       "paintKey": "PBN-5377586-B",
       "idPaint": "5377586",
       "batchNumber": "-",
@@ -1893,7 +1893,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 106,
+      "id": 106,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -1911,7 +1911,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 107,
+      "id": 107,
       "paintKey": "3PNISSL2-W",
       "idPaint": "-",
       "batchNumber": "-",
@@ -1929,7 +1929,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 108,
+      "id": 108,
       "paintKey": "PBT-1395461-D",
       "idPaint": "1395461",
       "batchNumber": "28364175",
@@ -1947,7 +1947,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 109,
+      "id": 109,
       "paintKey": "PBN-5376192-C",
       "idPaint": "5376192",
       "batchNumber": "-",
@@ -1965,7 +1965,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 110,
+      "id": 110,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -1983,7 +1983,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 111,
+      "id": 111,
       "paintKey": "PBN-5360385-B",
       "idPaint": "5360385",
       "batchNumber": "-",
@@ -2001,7 +2001,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 112,
+      "id": 112,
       "paintKey": "PBT-100125458-B",
       "idPaint": "100125458",
       "batchNumber": "12167680",
@@ -2019,7 +2019,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 113,
+      "id": 113,
       "paintKey": "C6-4966043-B",
       "idPaint": "4966043",
       "batchNumber": "-",
@@ -2037,7 +2037,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 114,
+      "id": 114,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -2055,7 +2055,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 115,
+      "id": 115,
       "paintKey": "PBT-1397499-C",
       "idPaint": "1397499",
       "batchNumber": "-",
@@ -2073,7 +2073,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 116,
+      "id": 116,
       "paintKey": "C6-4957104-A",
       "idPaint": "4957104",
       "batchNumber": "23188895",
@@ -2091,7 +2091,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 117,
+      "id": 117,
       "paintKey": "PBN-5377428-B",
       "idPaint": "5377428",
       "batchNumber": "-",
@@ -2109,7 +2109,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 118,
+      "id": 118,
       "paintKey": "-",
       "idPaint": "4952790",
       "batchNumber": "-",
@@ -2127,7 +2127,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 119,
+      "id": 119,
       "paintKey": "PBT-100936458-A",
       "idPaint": "100936458",
       "batchNumber": "-",
@@ -2145,7 +2145,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 120,
+      "id": 120,
       "paintKey": "-",
       "idPaint": "5374100",
       "batchNumber": "-",
@@ -2163,7 +2163,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 121,
+      "id": 121,
       "paintKey": "PBN-100989713-B",
       "idPaint": "100989713",
       "batchNumber": "22240326",
@@ -2181,7 +2181,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 122,
+      "id": 122,
       "paintKey": "C6-4955658-A",
       "idPaint": "4955658",
       "batchNumber": "9389234",
@@ -2199,7 +2199,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 123,
+      "id": 123,
       "paintKey": "PBT-1401516-C",
       "idPaint": "1401516",
       "batchNumber": "12795500",
@@ -2217,7 +2217,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 124,
+      "id": 124,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -2235,7 +2235,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 125,
+      "id": 125,
       "paintKey": "PBT-1355131-C",
       "idPaint": "1355131",
       "batchNumber": "16573707",
@@ -2253,7 +2253,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 126,
+      "id": 126,
       "paintKey": "56-47605-00-A",
       "idPaint": "1769186",
       "batchNumber": "-",
@@ -2271,7 +2271,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 127,
+      "id": 127,
       "paintKey": "PBT-1440035-B",
       "idPaint": "1440035",
       "batchNumber": "15371673",
@@ -2289,7 +2289,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 128,
+      "id": 128,
       "paintKey": "-",
       "idPaint": "20318",
       "batchNumber": "-",
@@ -2307,7 +2307,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 129,
+      "id": 129,
       "paintKey": "-",
       "idPaint": "20318",
       "batchNumber": "-",
@@ -2325,7 +2325,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 130,
+      "id": 130,
       "paintKey": "C6-4978385-B",
       "idPaint": "4978385",
       "batchNumber": "-",
@@ -2343,7 +2343,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 131,
+      "id": 131,
       "paintKey": "C6-4980863-A",
       "idPaint": "4980863",
       "batchNumber": "35078664",
@@ -2361,7 +2361,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 132,
+      "id": 132,
       "paintKey": "C6-4974585-D",
       "idPaint": "4974585",
       "batchNumber": "12061871",
@@ -2379,7 +2379,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 133,
+      "id": 133,
       "paintKey": "PBT-101125897-D",
       "idPaint": "101125897",
       "batchNumber": "34348930",
@@ -2397,7 +2397,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 134,
+      "id": 134,
       "paintKey": "PBT-1577359-B",
       "idPaint": "1577359",
       "batchNumber": "-",
@@ -2415,7 +2415,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 135,
+      "id": 135,
       "paintKey": "C6-5262532-A",
       "idPaint": "5262532",
       "batchNumber": "-",
@@ -2433,7 +2433,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 136,
+      "id": 136,
       "paintKey": "PBT-1482977-D",
       "idPaint": "1482977",
       "batchNumber": "-",
@@ -2451,7 +2451,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 137,
+      "id": 137,
       "paintKey": "C6-4980117-B",
       "idPaint": "4980117",
       "batchNumber": "-",
@@ -2469,7 +2469,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 138,
+      "id": 138,
       "paintKey": "PBT-1401873-D",
       "idPaint": "1401873",
       "batchNumber": "-",
@@ -2487,7 +2487,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 139,
+      "id": 139,
       "paintKey": "PBT-100280731-B",
       "idPaint": "100280731",
       "batchNumber": "12459163",
@@ -2505,7 +2505,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 140,
+      "id": 140,
       "paintKey": "C6-5794895-C",
       "idPaint": "5794895",
       "batchNumber": "21604500",
@@ -2523,7 +2523,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 141,
+      "id": 141,
       "paintKey": "PBT-1560615-C",
       "idPaint": "1560615",
       "batchNumber": "20330180",
@@ -2541,7 +2541,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 142,
+      "id": 142,
       "paintKey": "PBT-1401910-C",
       "idPaint": "1401910",
       "batchNumber": "21157981",
@@ -2559,7 +2559,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 143,
+      "id": 143,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -2577,7 +2577,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 144,
+      "id": 144,
       "paintKey": "1PNISSL1-W",
       "idPaint": "-",
       "batchNumber": "-",
@@ -2595,7 +2595,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 145,
+      "id": 145,
       "paintKey": "-",
       "idPaint": "5363424",
       "batchNumber": "-",
@@ -2613,7 +2613,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 146,
+      "id": 146,
       "paintKey": "PBT-1390650-C",
       "idPaint": "1390650",
       "batchNumber": "16290946",
@@ -2631,7 +2631,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 147,
+      "id": 147,
       "paintKey": "PBT-1662782-D",
       "idPaint": "1662782",
       "batchNumber": "-",
@@ -2649,7 +2649,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 148,
+      "id": 148,
       "paintKey": "PBT-1403946-C",
       "idPaint": "1403946",
       "batchNumber": "15241316",
@@ -2667,7 +2667,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 149,
+      "id": 149,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -2685,7 +2685,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 150,
+      "id": 150,
       "paintKey": "PBT-100842908-B",
       "idPaint": "100842908",
       "batchNumber": "-",
@@ -2703,7 +2703,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 151,
+      "id": 151,
       "paintKey": "C6-4960093-C",
       "idPaint": "4960093",
       "batchNumber": "25015452",
@@ -2721,7 +2721,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 152,
+      "id": 152,
       "paintKey": "PBT-1389019-B",
       "idPaint": "1389019",
       "batchNumber": "33073521",
@@ -2739,7 +2739,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 153,
+      "id": 153,
       "paintKey": "PBT-1440044-D",
       "idPaint": "1440044",
       "batchNumber": "11447735",
@@ -2757,7 +2757,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 154,
+      "id": 154,
       "paintKey": "-",
       "idPaint": "1580143",
       "batchNumber": "-",
@@ -2775,7 +2775,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 155,
+      "id": 155,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -2793,7 +2793,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 156,
+      "id": 156,
       "paintKey": "PBT-100121208-C",
       "idPaint": "100121208",
       "batchNumber": "21337571",
@@ -2811,7 +2811,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 157,
+      "id": 157,
       "paintKey": "-",
       "idPaint": "711023",
       "batchNumber": "-",
@@ -2829,7 +2829,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 158,
+      "id": 158,
       "paintKey": "PBN-5368389-C",
       "idPaint": "5368389",
       "batchNumber": "-",
@@ -2847,7 +2847,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 159,
+      "id": 159,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -2865,7 +2865,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 160,
+      "id": 160,
       "paintKey": "PBT-1405295-B",
       "idPaint": "1405295",
       "batchNumber": "23089631",
@@ -2883,7 +2883,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 161,
+      "id": 161,
       "paintKey": "PBN-5763939-C",
       "idPaint": "5763939",
       "batchNumber": "-",
@@ -2901,7 +2901,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 162,
+      "id": 162,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -2919,7 +2919,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 163,
+      "id": 163,
       "paintKey": "PBT-1339111-B",
       "idPaint": "1339111",
       "batchNumber": "16059099",
@@ -2937,7 +2937,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 164,
+      "id": 164,
       "paintKey": "B8-66819-00-L",
       "idPaint": "4340315",
       "batchNumber": "-",
@@ -2955,7 +2955,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 165,
+      "id": 165,
       "paintKey": "PBN-5468982-C",
       "idPaint": "5468982",
       "batchNumber": "-",
@@ -2973,7 +2973,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 166,
+      "id": 166,
       "paintKey": "PBT-1393276-C",
       "idPaint": "1393276",
       "batchNumber": "15069138",
@@ -2991,7 +2991,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 167,
+      "id": 167,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -3009,7 +3009,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 168,
+      "id": 168,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -3027,7 +3027,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 169,
+      "id": 169,
       "paintKey": "PBN-5691168-C",
       "idPaint": "5691168",
       "batchNumber": "-",
@@ -3045,7 +3045,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 170,
+      "id": 170,
       "paintKey": "PBT-1401875-B",
       "idPaint": "1401875",
       "batchNumber": "-",
@@ -3063,7 +3063,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 171,
+      "id": 171,
       "paintKey": "PBT-100239895-B",
       "idPaint": "100239895",
       "batchNumber": "10442191",
@@ -3081,7 +3081,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 172,
+      "id": 172,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -3099,7 +3099,7 @@ var inventory =
       "Volume": "0.236 L"
     },
     {
-      "Num": 173,
+      "id": 173,
       "paintKey": "PBT Midcoa - 100698657 - D",
       "idPaint": "100698657",
       "batchNumber": "17331515",
@@ -3117,7 +3117,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 174,
+      "id": 174,
       "paintKey": "PBT-1456378-C",
       "idPaint": "1456378",
       "batchNumber": "-",
@@ -3135,7 +3135,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 175,
+      "id": 175,
       "paintKey": "C6-5209116-B",
       "idPaint": "5209116",
       "batchNumber": "10035182",
@@ -3153,7 +3153,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 176,
+      "id": 176,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -3171,7 +3171,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 177,
+      "id": 177,
       "paintKey": "-",
       "idPaint": "622809",
       "batchNumber": "-",
@@ -3189,7 +3189,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 178,
+      "id": 178,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -3207,7 +3207,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 179,
+      "id": 179,
       "paintKey": "PBT-100699408-B",
       "idPaint": "100699408",
       "batchNumber": "24292199",
@@ -3225,7 +3225,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 180,
+      "id": 180,
       "paintKey": "C6-4968836-B",
       "idPaint": "4968836",
       "batchNumber": "-",
@@ -3243,7 +3243,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 181,
+      "id": 181,
       "paintKey": "PBT-100842793-C",
       "idPaint": "100842793",
       "batchNumber": "21066651",
@@ -3261,7 +3261,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 182,
+      "id": 182,
       "paintKey": "PBT-1394058-B",
       "idPaint": "1394058",
       "batchNumber": "31358026",
@@ -3279,7 +3279,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 183,
+      "id": 183,
       "paintKey": "PBT-100238249-B",
       "idPaint": "100238249",
       "batchNumber": "15695730",
@@ -3297,7 +3297,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 184,
+      "id": 184,
       "paintKey": "PBT-1395210-D",
       "idPaint": "1395210",
       "batchNumber": "11557366",
@@ -3315,7 +3315,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 185,
+      "id": 185,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -3333,7 +3333,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 186,
+      "id": 186,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -3351,7 +3351,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 187,
+      "id": 187,
       "paintKey": "C6-4964349-C",
       "idPaint": "4964349",
       "batchNumber": "-",
@@ -3369,7 +3369,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 188,
+      "id": 188,
       "paintKey": "PBN-1496486-C",
       "idPaint": "1496486",
       "batchNumber": "39564063",
@@ -3387,7 +3387,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 189,
+      "id": 189,
       "paintKey": "PBT-1401541-C",
       "idPaint": "1401541",
       "batchNumber": "-",
@@ -3405,7 +3405,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 190,
+      "id": 190,
       "paintKey": "PBT-100939548-B",
       "idPaint": "100939548",
       "batchNumber": "-",
@@ -3423,7 +3423,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 191,
+      "id": 191,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -3441,7 +3441,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 192,
+      "id": 192,
       "paintKey": "PBTM-100699412-B",
       "idPaint": "100699412",
       "batchNumber": "24292219",
@@ -3459,7 +3459,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 193,
+      "id": 193,
       "paintKey": "PBT-100272443-B",
       "idPaint": "100272443",
       "batchNumber": "-",
@@ -3477,7 +3477,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 194,
+      "id": 194,
       "paintKey": "PBT-1440838-D",
       "idPaint": "1440838",
       "batchNumber": "9590313",
@@ -3495,7 +3495,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 195,
+      "id": 195,
       "paintKey": "B8-65073-00-P",
       "idPaint": "4271146",
       "batchNumber": "-",
@@ -3513,7 +3513,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 196,
+      "id": 196,
       "paintKey": "PBN-5374100-B",
       "idPaint": "5374100",
       "batchNumber": "-",
@@ -3531,7 +3531,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 197,
+      "id": 197,
       "paintKey": "PBT-100324693-B",
       "idPaint": "100324693",
       "batchNumber": "33072317",
@@ -3549,7 +3549,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 198,
+      "id": 198,
       "paintKey": "C6-5188440-C",
       "idPaint": "5188440",
       "batchNumber": "-",
@@ -3567,7 +3567,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 199,
+      "id": 199,
       "paintKey": "C6-4963688-A",
       "idPaint": "4963688",
       "batchNumber": "23228269",
@@ -3585,7 +3585,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 200,
+      "id": 200,
       "paintKey": "C6-4968673-A",
       "idPaint": "4968673",
       "batchNumber": "13798392",
@@ -3603,7 +3603,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 201,
+      "id": 201,
       "paintKey": "PBT-100238286-C",
       "idPaint": "100238286",
       "batchNumber": "-",
@@ -3621,7 +3621,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 202,
+      "id": 202,
       "paintKey": "PBT-1395390-B",
       "idPaint": "1395390",
       "batchNumber": "14274984",
@@ -3639,7 +3639,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 203,
+      "id": 203,
       "paintKey": "PBT-1561056-B",
       "idPaint": "1561056",
       "batchNumber": "9411571",
@@ -3657,7 +3657,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 204,
+      "id": 204,
       "paintKey": "PBN-5371323-C",
       "idPaint": "5371323",
       "batchNumber": "-",
@@ -3675,7 +3675,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 205,
+      "id": 205,
       "paintKey": "PBN-5513869-C",
       "idPaint": "5513869",
       "batchNumber": "-",
@@ -3693,7 +3693,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 206,
+      "id": 206,
       "paintKey": "-",
       "idPaint": "654646",
       "batchNumber": "-",
@@ -3711,7 +3711,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 207,
+      "id": 207,
       "paintKey": "PBT-100470584-C",
       "idPaint": "100470584",
       "batchNumber": "14369990",
@@ -3729,7 +3729,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 208,
+      "id": 208,
       "paintKey": "C6-495883",
       "idPaint": "495883",
       "batchNumber": "-",
@@ -3747,7 +3747,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 209,
+      "id": 209,
       "paintKey": "-",
       "idPaint": "234443",
       "batchNumber": "-",
@@ -3765,7 +3765,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 210,
+      "id": 210,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -3783,7 +3783,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 211,
+      "id": 211,
       "paintKey": "PBT-100494572-A",
       "idPaint": "100494572",
       "batchNumber": "15625277",
@@ -3801,7 +3801,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 212,
+      "id": 212,
       "paintKey": "56-74090-00-B",
       "idPaint": "4283372",
       "batchNumber": "-",
@@ -3819,7 +3819,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 213,
+      "id": 213,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -3837,7 +3837,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 214,
+      "id": 214,
       "paintKey": "PBN-5763885-C",
       "idPaint": "5763885",
       "batchNumber": "-",
@@ -3855,7 +3855,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 215,
+      "id": 215,
       "paintKey": "C6-4968809-B",
       "idPaint": "4968809",
       "batchNumber": "19806765",
@@ -3873,7 +3873,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 216,
+      "id": 216,
       "paintKey": "-",
       "idPaint": "762206",
       "batchNumber": "-",
@@ -3891,7 +3891,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 217,
+      "id": 217,
       "paintKey": "PBT-1391051-C",
       "idPaint": "1391051",
       "batchNumber": "-",
@@ -3909,7 +3909,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 218,
+      "id": 218,
       "paintKey": "PBT-1571086-B",
       "idPaint": "1571086",
       "batchNumber": "-",
@@ -3927,7 +3927,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 219,
+      "id": 219,
       "paintKey": "PBT-100779562-B",
       "idPaint": "100779562",
       "batchNumber": "35910421",
@@ -3945,7 +3945,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 220,
+      "id": 220,
       "paintKey": "PBN-5373792-B",
       "idPaint": "5373792",
       "batchNumber": "-",
@@ -3963,7 +3963,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 221,
+      "id": 221,
       "paintKey": "C6-4952679-A",
       "idPaint": "4952679",
       "batchNumber": "-",
@@ -3981,7 +3981,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 222,
+      "id": 222,
       "paintKey": "PBN-5664143-B",
       "idPaint": "5664143",
       "batchNumber": "-",
@@ -3999,7 +3999,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 223,
+      "id": 223,
       "paintKey": "56-60589-00-B",
       "idPaint": "4428897",
       "batchNumber": "-",
@@ -4017,7 +4017,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 224,
+      "id": 224,
       "paintKey": "PBT-100699501-C",
       "idPaint": "100699501",
       "batchNumber": "-",
@@ -4035,7 +4035,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 225,
+      "id": 225,
       "paintKey": "C6-4978030-B",
       "idPaint": "4978030",
       "batchNumber": "-",
@@ -4053,7 +4053,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 226,
+      "id": 226,
       "paintKey": "56-75600-00-B",
       "idPaint": "4107267",
       "batchNumber": "-",
@@ -4071,7 +4071,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 227,
+      "id": 227,
       "paintKey": "PBT-100698876-B",
       "idPaint": "100698876",
       "batchNumber": "-",
@@ -4089,7 +4089,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 228,
+      "id": 228,
       "paintKey": "PBT-1391189-D",
       "idPaint": "1391189",
       "batchNumber": "21831121",
@@ -4107,7 +4107,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 229,
+      "id": 229,
       "paintKey": "C6-4971191-B",
       "idPaint": "4971191",
       "batchNumber": "10034703",
@@ -4125,7 +4125,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 230,
+      "id": 230,
       "paintKey": "PBN-5378086-C",
       "idPaint": "5378086",
       "batchNumber": "-",
@@ -4143,7 +4143,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 231,
+      "id": 231,
       "paintKey": "C6-4951995-B",
       "idPaint": "4951995",
       "batchNumber": "10054317",
@@ -4161,7 +4161,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 232,
+      "id": 232,
       "paintKey": "PBTM-100779605-C",
       "idPaint": "100779605",
       "batchNumber": "35920422",
@@ -4179,7 +4179,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 233,
+      "id": 233,
       "paintKey": "C6-4972929-A",
       "idPaint": "4972929",
       "batchNumber": "17083879",
@@ -4197,7 +4197,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 234,
+      "id": 234,
       "paintKey": "C6-4957989-A",
       "idPaint": "4957989",
       "batchNumber": "36600983",
@@ -4215,7 +4215,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 235,
+      "id": 235,
       "paintKey": "B8-57066-00-P",
       "idPaint": "4233840",
       "batchNumber": "-",
@@ -4233,7 +4233,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 236,
+      "id": 236,
       "paintKey": "C6-4984581-C",
       "idPaint": "4984581",
       "batchNumber": "39602887",
@@ -4251,7 +4251,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 237,
+      "id": 237,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -4269,7 +4269,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 238,
+      "id": 238,
       "paintKey": "C6-5270836-D",
       "idPaint": "5270836",
       "batchNumber": "36607742",
@@ -4287,7 +4287,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 239,
+      "id": 239,
       "paintKey": "PBT-100605876-B",
       "idPaint": "100605876",
       "batchNumber": "30843622",
@@ -4305,7 +4305,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 240,
+      "id": 240,
       "paintKey": "C6-105359309-A",
       "idPaint": "105359309",
       "batchNumber": "-",
@@ -4323,7 +4323,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 241,
+      "id": 241,
       "paintKey": "C6-100139582-C",
       "idPaint": "100139582",
       "batchNumber": "35107990",
@@ -4341,7 +4341,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 242,
+      "id": 242,
       "paintKey": "PBT-1402028-B",
       "idPaint": "1402028",
       "batchNumber": "34621130",
@@ -4359,7 +4359,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 243,
+      "id": 243,
       "paintKey": "PBT-5507770-D",
       "idPaint": "5507770",
       "batchNumber": "-",
@@ -4377,7 +4377,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 244,
+      "id": 244,
       "paintKey": "C64954263-B",
       "idPaint": "4954263",
       "batchNumber": "-",
@@ -4395,7 +4395,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 245,
+      "id": 245,
       "paintKey": "C6-101041016-A",
       "idPaint": "101041016",
       "batchNumber": "-",
@@ -4413,7 +4413,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 246,
+      "id": 246,
       "paintKey": "PBN-5369910-B",
       "idPaint": "5369910",
       "batchNumber": "-",
@@ -4431,7 +4431,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 247,
+      "id": 247,
       "paintKey": "C6-4978694-B",
       "idPaint": "4978694",
       "batchNumber": "-",
@@ -4449,7 +4449,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 248,
+      "id": 248,
       "paintKey": "B8-5761153-N",
       "idPaint": "5761153",
       "batchNumber": "-",
@@ -4467,7 +4467,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 249,
+      "id": 249,
       "paintKey": "500DB-103204279-3",
       "idPaint": "103204279",
       "batchNumber": "31400108",
@@ -4485,7 +4485,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 250,
+      "id": 250,
       "paintKey": "PBT-1641441-C",
       "idPaint": "1641441",
       "batchNumber": "19633346",
@@ -4503,7 +4503,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 251,
+      "id": 251,
       "paintKey": "PBT-100930656-A",
       "idPaint": "100930656",
       "batchNumber": "",
@@ -4521,7 +4521,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 252,
+      "id": 252,
       "paintKey": "PBT-1440579-C",
       "idPaint": "1440579",
       "batchNumber": "15532140",
@@ -4539,7 +4539,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 253,
+      "id": 253,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -4557,7 +4557,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 254,
+      "id": 254,
       "paintKey": "PBT-100547506-A",
       "idPaint": "100547506",
       "batchNumber": "24730310",
@@ -4575,7 +4575,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 255,
+      "id": 255,
       "paintKey": "PBN-5376039-B",
       "idPaint": "5376039",
       "batchNumber": "-",
@@ -4593,7 +4593,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 256,
+      "id": 256,
       "paintKey": "PBN-5379165-C",
       "idPaint": "5379165",
       "batchNumber": "-",
@@ -4611,7 +4611,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 257,
+      "id": 257,
       "paintKey": "PBT-1407834-A",
       "idPaint": "1407834",
       "batchNumber": "-",
@@ -4629,7 +4629,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 258,
+      "id": 258,
       "paintKey": "-",
       "idPaint": "28051",
       "batchNumber": "-",
@@ -4647,7 +4647,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 259,
+      "id": 259,
       "paintKey": "PBT-1389019-B",
       "idPaint": "1389019",
       "batchNumber": "37251823",
@@ -4665,7 +4665,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 260,
+      "id": 260,
       "paintKey": "PBT-100699501-C",
       "idPaint": "100699501",
       "batchNumber": "-",
@@ -4683,7 +4683,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 261,
+      "id": 261,
       "paintKey": "B8-67174-00-P",
       "idPaint": "4394996",
       "batchNumber": "-",
@@ -4701,7 +4701,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 262,
+      "id": 262,
       "paintKey": "PBT-1440531-D",
       "idPaint": "1440531",
       "batchNumber": "16397492",
@@ -4719,7 +4719,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 263,
+      "id": 263,
       "paintKey": "PBT Midcoa - 100280747- B",
       "idPaint": "100280747",
       "batchNumber": "12459173",
@@ -4737,7 +4737,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 264,
+      "id": 264,
       "paintKey": "PBT-1392373-D",
       "idPaint": "1392373",
       "batchNumber": "-",
@@ -4755,7 +4755,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 265,
+      "id": 265,
       "paintKey": "C6-4975767-B",
       "idPaint": "4975767",
       "batchNumber": "-",
@@ -4773,7 +4773,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 266,
+      "id": 266,
       "paintKey": "C6-4968159-C",
       "idPaint": "4968159",
       "batchNumber": "12394205",
@@ -4791,7 +4791,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 267,
+      "id": 267,
       "paintKey": "B8-67075-01-N",
       "idPaint": "4272654",
       "batchNumber": "-",
@@ -4809,7 +4809,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 268,
+      "id": 268,
       "paintKey": "PBN-5375134-C",
       "idPaint": "5375134",
       "batchNumber": "-",
@@ -4827,7 +4827,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 269,
+      "id": 269,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -4845,7 +4845,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 270,
+      "id": 270,
       "paintKey": "PBN-5365022-B",
       "idPaint": "5365022",
       "batchNumber": "-",
@@ -4863,7 +4863,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 271,
+      "id": 271,
       "paintKey": "-",
       "idPaint": "712006",
       "batchNumber": "-",
@@ -4881,7 +4881,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 272,
+      "id": 272,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -4899,7 +4899,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 273,
+      "id": 273,
       "paintKey": "PBT-1366190-D",
       "idPaint": "1366190",
       "batchNumber": "18256272",
@@ -4917,7 +4917,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 274,
+      "id": 274,
       "paintKey": "PBN-5378934-C",
       "idPaint": "5378934",
       "batchNumber": "-",
@@ -4935,7 +4935,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 275,
+      "id": 275,
       "paintKey": "PBN-5469203-C",
       "idPaint": "5469203",
       "batchNumber": "-",
@@ -4953,7 +4953,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 276,
+      "id": 276,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -4971,7 +4971,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 277,
+      "id": 277,
       "paintKey": "C6-4958995-C",
       "idPaint": "4958995",
       "batchNumber": "10550133",
@@ -4989,7 +4989,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 278,
+      "id": 278,
       "paintKey": "-",
       "idPaint": "248757",
       "batchNumber": "-",
@@ -5007,7 +5007,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 279,
+      "id": 279,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -5025,7 +5025,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 280,
+      "id": 280,
       "paintKey": "C6-4975289-B",
       "idPaint": "4975289",
       "batchNumber": "-",
@@ -5043,7 +5043,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 281,
+      "id": 281,
       "paintKey": "PBT-100842930-D",
       "idPaint": "100842930",
       "batchNumber": "41497995",
@@ -5061,7 +5061,7 @@ var inventory =
       "Volume": "0.473 L"
     },
     {
-      "Num": 282,
+      "id": 282,
       "paintKey": "C6-4958153-C",
       "idPaint": "4958153",
       "batchNumber": "-",
@@ -5079,7 +5079,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 283,
+      "id": 283,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -5097,7 +5097,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 284,
+      "id": 284,
       "paintKey": "PBN-5363554-B",
       "idPaint": "5363554",
       "batchNumber": "-",
@@ -5115,7 +5115,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 285,
+      "id": 285,
       "paintKey": "PBN-5376369-B",
       "idPaint": "5376369",
       "batchNumber": "-",
@@ -5133,7 +5133,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 286,
+      "id": 286,
       "paintKey": "56-59928-B",
       "idPaint": "59928",
       "batchNumber": "-",
@@ -5151,7 +5151,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 287,
+      "id": 287,
       "paintKey": "B8-45698-00-N",
       "idPaint": "45698",
       "batchNumber": "-",
@@ -5169,7 +5169,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 288,
+      "id": 288,
       "paintKey": "56-65724-00-B",
       "idPaint": "65724",
       "batchNumber": "-",
@@ -5187,7 +5187,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 289,
+      "id": 289,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -5205,7 +5205,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 290,
+      "id": 290,
       "paintKey": "C6-4966427-A",
       "idPaint": "4966427",
       "batchNumber": "-",
@@ -5223,7 +5223,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 291,
+      "id": 291,
       "paintKey": "56-34983-00-B",
       "idPaint": "1766414",
       "batchNumber": "-",
@@ -5241,7 +5241,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 292,
+      "id": 292,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -5259,7 +5259,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 293,
+      "id": 293,
       "paintKey": "PBN-5691080-C",
       "idPaint": "5691080",
       "batchNumber": "-",
@@ -5277,7 +5277,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 294,
+      "id": 294,
       "paintKey": "PBN-5377136-C",
       "idPaint": "5377136",
       "batchNumber": "-",
@@ -5295,7 +5295,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 295,
+      "id": 295,
       "paintKey": "PBN-5366438-C",
       "idPaint": "5366438",
       "batchNumber": "-",
@@ -5313,7 +5313,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 296,
+      "id": 296,
       "paintKey": "PBT-1573207-D",
       "idPaint": "1573207",
       "batchNumber": "13967498",
@@ -5331,7 +5331,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 297,
+      "id": 297,
       "paintKey": "-",
       "idPaint": "766245",
       "batchNumber": "-",
@@ -5349,7 +5349,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 298,
+      "id": 298,
       "paintKey": "56-6232-00-B",
       "idPaint": "2136349",
       "batchNumber": "-",
@@ -5367,7 +5367,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 299,
+      "id": 299,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -5385,7 +5385,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 300,
+      "id": 300,
       "paintKey": "PBN-5365554-C",
       "idPaint": "5365554",
       "batchNumber": "-",
@@ -5403,7 +5403,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 301,
+      "id": 301,
       "paintKey": "C6-4970406-D",
       "idPaint": "4970406",
       "batchNumber": "10326805",
@@ -5421,7 +5421,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 302,
+      "id": 302,
       "paintKey": "56-57133-00-B",
       "idPaint": "-",
       "batchNumber": "-",
@@ -5439,7 +5439,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 303,
+      "id": 303,
       "paintKey": "C6-10141016-A",
       "idPaint": "10141016",
       "batchNumber": "24441178",
@@ -5457,7 +5457,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 304,
+      "id": 304,
       "paintKey": "56-56106-00-B",
       "idPaint": "1771008",
       "batchNumber": "-",
@@ -5475,7 +5475,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 305,
+      "id": 305,
       "paintKey": "C6-4964192-A",
       "idPaint": "4964192",
       "batchNumber": "26440735",
@@ -5493,7 +5493,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 306,
+      "id": 306,
       "paintKey": "B8-45696-00-P",
       "idPaint": "-",
       "batchNumber": "-",
@@ -5511,7 +5511,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 307,
+      "id": 307,
       "paintKey": "PBN-5366908-C",
       "idPaint": "5366908",
       "batchNumber": "-",
@@ -5529,7 +5529,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 308,
+      "id": 308,
       "paintKey": "C6-4973509-B",
       "idPaint": "4973509",
       "batchNumber": "-",
@@ -5547,7 +5547,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 309,
+      "id": 309,
       "paintKey": "56-80116-B",
       "idPaint": "-",
       "batchNumber": "-",
@@ -5565,7 +5565,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 310,
+      "id": 310,
       "paintKey": "PBT-100133824-B",
       "idPaint": "100133824",
       "batchNumber": "9931500",
@@ -5583,7 +5583,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 311,
+      "id": 311,
       "paintKey": "56-60609-00-B",
       "idPaint": "4428898",
       "batchNumber": "-",
@@ -5601,7 +5601,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 312,
+      "id": 312,
       "paintKey": "C6-4977675-A",
       "idPaint": "4977675",
       "batchNumber": "-",
@@ -5619,7 +5619,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 313,
+      "id": 313,
       "paintKey": "C64963944-A",
       "idPaint": "4963944",
       "batchNumber": "36530150",
@@ -5637,7 +5637,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 314,
+      "id": 314,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -5655,7 +5655,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 315,
+      "id": 315,
       "paintKey": "56-69218-00-A",
       "idPaint": "3467252",
       "batchNumber": "-",
@@ -5673,7 +5673,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 316,
+      "id": 316,
       "paintKey": "-",
       "idPaint": "737227",
       "batchNumber": "-",
@@ -5691,7 +5691,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 317,
+      "id": 317,
       "paintKey": "-",
       "idPaint": "737227",
       "batchNumber": "-",
@@ -5709,7 +5709,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 318,
+      "id": 318,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -5727,7 +5727,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 319,
+      "id": 319,
       "paintKey": "PBN-5471019-C",
       "idPaint": "5471019",
       "batchNumber": "-",
@@ -5745,7 +5745,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 320,
+      "id": 320,
       "paintKey": "PBT-1660685-C",
       "idPaint": "1660685",
       "batchNumber": "32416294",
@@ -5763,7 +5763,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 321,
+      "id": 321,
       "paintKey": "PBT-1393362-B",
       "idPaint": "1393362",
       "batchNumber": "10556218",
@@ -5781,7 +5781,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 322,
+      "id": 322,
       "paintKey": "56-6243-1-00-B",
       "idPaint": "-",
       "batchNumber": "-",
@@ -5799,7 +5799,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 323,
+      "id": 323,
       "paintKey": "68144-00-B",
       "idPaint": "4106713",
       "batchNumber": "-",
@@ -5817,7 +5817,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 324,
+      "id": 324,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -5835,7 +5835,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 325,
+      "id": 325,
       "paintKey": "56-58299-00-B",
       "idPaint": "-",
       "batchNumber": "-",
@@ -5853,7 +5853,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 326,
+      "id": 326,
       "paintKey": "56-61272-00-B",
       "idPaint": "1773392",
       "batchNumber": "-",
@@ -5871,7 +5871,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 327,
+      "id": 327,
       "paintKey": "C6-4952679-A",
       "idPaint": "4952679",
       "batchNumber": "-",
@@ -5889,7 +5889,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 328,
+      "id": 328,
       "paintKey": "PBT-1557613-C",
       "idPaint": "1557613",
       "batchNumber": "13392694",
@@ -5907,7 +5907,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 329,
+      "id": 329,
       "paintKey": "PBT-1385024-C",
       "idPaint": "1385024",
       "batchNumber": "13671578",
@@ -5925,7 +5925,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 330,
+      "id": 330,
       "paintKey": "PBT-100942987-B",
       "idPaint": "100942987",
       "batchNumber": "28288307",
@@ -5943,7 +5943,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 331,
+      "id": 331,
       "paintKey": "PBN-5528192-B",
       "idPaint": "5528192",
       "batchNumber": "-",
@@ -5961,7 +5961,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 332,
+      "id": 332,
       "paintKey": "B8-74091-V",
       "idPaint": "-",
       "batchNumber": "-",
@@ -5979,7 +5979,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 333,
+      "id": 333,
       "paintKey": "PBN-5376486-C",
       "idPaint": "5376486",
       "batchNumber": "-",
@@ -5997,7 +5997,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 334,
+      "id": 334,
       "paintKey": "56-75800-00-B",
       "idPaint": "4107313",
       "batchNumber": "-",
@@ -6015,7 +6015,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 335,
+      "id": 335,
       "paintKey": "C6-4957007-B",
       "idPaint": "4957007",
       "batchNumber": "-",
@@ -6033,7 +6033,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 336,
+      "id": 336,
       "paintKey": "PBT-1565257-B",
       "idPaint": "1565257",
       "batchNumber": "11187399",
@@ -6051,7 +6051,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 337,
+      "id": 337,
       "paintKey": "C6-4979548-A",
       "idPaint": "4979548",
       "batchNumber": "-",
@@ -6069,7 +6069,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 338,
+      "id": 338,
       "paintKey": "56-48882-00-B",
       "idPaint": "-",
       "batchNumber": "-",
@@ -6087,7 +6087,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 339,
+      "id": 339,
       "paintKey": "56-53876-00-A",
       "idPaint": "-",
       "batchNumber": "-",
@@ -6105,7 +6105,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 340,
+      "id": 340,
       "paintKey": "56-63489-00-A",
       "idPaint": "2666136",
       "batchNumber": "-",
@@ -6123,7 +6123,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 341,
+      "id": 341,
       "paintKey": "B852965-V-00",
       "idPaint": "-",
       "batchNumber": "-",
@@ -6141,7 +6141,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 342,
+      "id": 342,
       "paintKey": "PBT-101203131-B",
       "idPaint": "101203131",
       "batchNumber": "30207893",
@@ -6159,7 +6159,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 343,
+      "id": 343,
       "paintKey": "56-66692-22",
       "idPaint": "3042019",
       "batchNumber": "-",
@@ -6177,7 +6177,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 344,
+      "id": 344,
       "paintKey": "PBT-100357065-C",
       "idPaint": "100357065",
       "batchNumber": "16716428",
@@ -6195,7 +6195,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 345,
+      "id": 345,
       "paintKey": "PBT-1457092-B",
       "idPaint": "1457092",
       "batchNumber": "-",
@@ -6213,7 +6213,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 346,
+      "id": 346,
       "paintKey": "C6-4973296-C",
       "idPaint": "4973296",
       "batchNumber": "25003764",
@@ -6231,7 +6231,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 347,
+      "id": 347,
       "paintKey": "56-42294-00-A",
       "idPaint": "-",
       "batchNumber": "-",
@@ -6249,7 +6249,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 348,
+      "id": 348,
       "paintKey": "PBT-1271980-C",
       "idPaint": "1271980",
       "batchNumber": "30443532",
@@ -6267,7 +6267,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 349,
+      "id": 349,
       "paintKey": "PBT-1391532-C",
       "idPaint": "1391532",
       "batchNumber": "15120793",
@@ -6285,7 +6285,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 350,
+      "id": 350,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -6303,7 +6303,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 351,
+      "id": 351,
       "paintKey": "PBT-1392391-B",
       "idPaint": "1392391",
       "batchNumber": "-",
@@ -6321,7 +6321,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 352,
+      "id": 352,
       "paintKey": "PBT-100983227-B",
       "idPaint": "100983227",
       "batchNumber": "-",
@@ -6339,7 +6339,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 353,
+      "id": 353,
       "paintKey": "C6-4953430-A",
       "idPaint": "4953430",
       "batchNumber": "26786301",
@@ -6357,7 +6357,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 354,
+      "id": 354,
       "paintKey": "PBT-100274215-D",
       "idPaint": "100274215",
       "batchNumber": "16166803",
@@ -6375,7 +6375,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 355,
+      "id": 355,
       "paintKey": "PBT-1454840-D",
       "idPaint": "1454840",
       "batchNumber": "9987111",
@@ -6393,7 +6393,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 356,
+      "id": 356,
       "paintKey": "56-60796-00-B",
       "idPaint": "4428909",
       "batchNumber": "-",
@@ -6411,7 +6411,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 357,
+      "id": 357,
       "paintKey": "PBT-101051382-B",
       "idPaint": "101051382",
       "batchNumber": "3058554",
@@ -6429,7 +6429,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 358,
+      "id": 358,
       "paintKey": "C6-4955898-C",
       "idPaint": "4955898",
       "batchNumber": "-",
@@ -6447,7 +6447,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 359,
+      "id": 359,
       "paintKey": "56-64594-00-C",
       "idPaint": "3332059",
       "batchNumber": "-",
@@ -6465,7 +6465,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 360,
+      "id": 360,
       "paintKey": "C6-4975767-B",
       "idPaint": "4975767",
       "batchNumber": "-",
@@ -6483,7 +6483,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 361,
+      "id": 361,
       "paintKey": "PBN-5470612-A",
       "idPaint": "5470612",
       "batchNumber": "-",
@@ -6501,7 +6501,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 362,
+      "id": 362,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -6519,7 +6519,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 363,
+      "id": 363,
       "paintKey": "PBN-5364191-C",
       "idPaint": "5364191",
       "batchNumber": "-",
@@ -6537,7 +6537,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 364,
+      "id": 364,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -6555,7 +6555,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 365,
+      "id": 365,
       "paintKey": "PBT-1454857-C",
       "idPaint": "1454857",
       "batchNumber": "30604611",
@@ -6573,7 +6573,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 366,
+      "id": 366,
       "paintKey": "56-4944268-C",
       "idPaint": "4944268",
       "batchNumber": "-",
@@ -6591,7 +6591,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 367,
+      "id": 367,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -6609,7 +6609,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 368,
+      "id": 368,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -6627,7 +6627,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 369,
+      "id": 369,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -6645,7 +6645,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 370,
+      "id": 370,
       "paintKey": "56-2119-00-B",
       "idPaint": "4408201",
       "batchNumber": "-",
@@ -6663,7 +6663,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 371,
+      "id": 371,
       "paintKey": "-",
       "idPaint": "-",
       "batchNumber": "-",
@@ -6681,7 +6681,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 372,
+      "id": 372,
       "paintKey": "B8-63498-06-V",
       "idPaint": "-",
       "batchNumber": "-",
@@ -6699,7 +6699,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 373,
+      "id": 373,
       "paintKey": "56-78820-00-B",
       "idPaint": "4136221",
       "batchNumber": "-",
@@ -6717,7 +6717,7 @@ var inventory =
       "Volume": "0.956 L"
     },
     {
-      "Num": 374,
+      "id": 374,
       "paintKey": "56-70900-00B",
       "idPaint": "4106876",
       "batchNumber": "-",
@@ -6735,35 +6735,39 @@ var inventory =
       "Volume": "0.956 L"
     }
    ];
-*/
+
 
 var server_dir = "https://script.google.com/macros/s/AKfycbyH0OLqVUGmK7fqahHCO1EXEDVGjEDV6CRw3euqQ5tA6dhJUb1XfQCe4e0hduTT5PnI/exec";
-var inventory;
+//var inventory;
 
 $( document ).ready(function(){
     $('.sidenav').sidenav();
     $('.tooltipped').tooltip();
     $('.modal').modal();
-    $('.btn-add-register').click(); 
 
+    //$('#modal-edit-data-paint').modal('open', 'true');
+    $('.col-txtCarBrand').hide();
+    $('.col-select-CarBrands2').show();
+
+    //$('#modal-data-paint').modal('open', 'true');
+
+    loadModelYears();
     getDataPaints();
-    //console.log( "App ready => " + carBrands.length );
 });
 
-$('.btn-add-register').on('click', function(){
-  console.log( 'Triggering function...' );
-  console.log('Init request ' + server_dir);
+function generateGUID() {
+  function s4() {
+      return Math.floor((1 + Math.random()) * 0x10000)
+          .toString(16)
+          .substring(1);
+  }
+  return s4() + s4() + '-' + s4() + '-' + s4() + '-' +
+         s4() + '-' + s4() + s4() + s4();
+}
 
-  $.get(server_dir, {fn: "RegisterNewPaint"}, function(ServerResponse_POST){
-      console.log( ServerResponse_POST[0].Layer + '  ' + server_dir );
-  }).done(function(){
-      console.log( " *** Done HTTP request *** " );
-  }).fail(function(error_srv) {
-      console.log( " *** Error in HTTP request *** " );
-  });
-
-});
-
+function isEmpty(obj) {
+  return Object.keys(obj).length === 0;
+}
 
 function postDataPaint(){
 
@@ -6788,7 +6792,6 @@ function getDataPaints(){
       addTableResultData( ServerResponse );
 
   }).done(function(){
-      console.log( " *** Done HTTP request *** " );
       $('.card-loading-data').hide();
   }).fail(function(error_srv) {
       $('.card-loading-data').hide();
@@ -6808,13 +6811,32 @@ function getDataPaints(){
 function loadCardBrands(){
     var carBrands = JSON.parse( localStorage.getItem('carBrands') );
     var dataCarBrands_InnerSelect = "<option value=-1> All </option>";
+    var dataCarBrands_InnerSelect2 = "";
 
     for(var brands = 0; brands < carBrands.length; brands++){
         dataCarBrands_InnerSelect = dataCarBrands_InnerSelect +
-        "<option value="+brands+">" + carBrands[brands] + "</option>"
+        "<option value="+brands+">" + carBrands[brands] + "</option>";
+
+        if( carBrands[brands] !== "-" ){
+          dataCarBrands_InnerSelect2 = dataCarBrands_InnerSelect2 +
+          "<option value="+brands+">" + carBrands[brands] + "</option>"
+        }
     }
 
     $("#select-CarBrands").html( dataCarBrands_InnerSelect );
+    $("#select-CarBrands2").html( dataCarBrands_InnerSelect2 );
+}
+
+function loadModelYears(){
+  var InnerSelect_ModelYears = "";
+
+  for(var years = 2014; years >= 1960; years--){
+      InnerSelect_ModelYears = InnerSelect_ModelYears +
+      "<option value="+years+">" + years + "</option>";
+  }
+
+  $("#txtInitYear_NewPaint").html( InnerSelect_ModelYears );
+  $("#txtEndYear_NewPaint" ).html( InnerSelect_ModelYears );
 }
 
 function addTableResultData( dataPaints ){
@@ -6831,7 +6853,7 @@ function addTableResultData( dataPaints ){
         $('.table-onlyBody').css('width', "100%");
     }else{
 
-        if( dataPaints.length <= 13 ){
+        if( dataPaints.length <= 12 ){
             $('.table-onlyBody').css('overflow-y', 'visible');
             $('.table-onlyBody').css('width', "100%");
         }else{
@@ -6872,32 +6894,147 @@ function addTableResultData( dataPaints ){
     
 }
 
-function isEmpty(obj) {
-    return Object.keys(obj).length === 0;
-}
+$('.btn-save-changes-paint-data').on('click', function(){
+  var carBrands       = JSON.parse( localStorage.getItem( 'carBrands' ) );
+  var isNewCarBrand = $(this).prop('checked');
+  var cardBrand_NewPaint;
+
+  if( isNewCarBrand )
+    cardBrand_NewPaint = $('#txtCarBrand_NewPaint').val()
+  else
+    cardBrand_NewPaint = $('#select-CarBrands2').val();
+  console.log(cardBrand_NewPaint);
+
+  var dataNewPaint = {
+      IdPaintGUID:    $('#txtIdPaintGUID'   ).val(),
+      PaintKey:       $('#txtPaintKey_NewPaint'      ).val(),
+      IdPaint:        $('#txtIdPaint_NewPaint'       ).val(),
+      BatchNumber:    $('#txtBatchNumber_NewPaint'   ).val(),
+      CarBrand:       carBrands[ cardBrand_NewPaint ],
+      PaintCode:     $('#txtPaintCodeM_NewPaint'    ).val(),
+      PaintName:      $('#txtPaintName_NewPaint'     ).val(),
+      InitYear:       $('#txtInitYear_NewPaint'      ).val(),
+      EndYear:        $('#txtEndYear_NewPaint'       ).val(),
+      PaintBrand:     $('#txtPaintBrand_NewPaint'    ).val(),
+      TypePaint:      $('#txtTypePaint_NewPaint'     ).val(),
+      PurchaseDate:   $('#txtPurchaseDate_NewPaint'  ).val(),
+      UnitsM:         $('#txtUnitsM_NewPaint'        ).val(),
+      LayersM:        $('#txtLayersM_NewPaint'       ).val(),
+      VolumenM:       $('#txtVolumenM_NewPaint'      ).val()
+  }
+
+  console.log( dataNewPaint );
+
+});
+
+/*
+$('.*****btn-add-register').on('click', function(){
+  $.get(server_dir, {fn: "RegisterNewPaint"}, function(ServerResponse_POST){
+      
+  }).done(function(){
+      
+  }).fail(function(error_srv) {
+      
+  });
+
+});
+*/
+
+$('.switch-new-car-brand').on('change', function(){
+  var isNewCarBrand = $(this).prop('checked');
+
+  if( isNewCarBrand ){
+    $('.col-txtCarBrand').show();
+    $('.col-select-CarBrands2').hide();
+  }else{
+    $('.col-txtCarBrand').hide();
+    $('.col-select-CarBrands2').show();
+  }
+})
 
 $('#dataTable-Body').on('click', 'tr', function(){
   var dataPaints = JSON.parse( localStorage.getItem('dataPaints') );
   var idPaintElement = $(this).children().find('.idPaintRegister').text();
   var dataPaintSelected = dataPaints.filter( dataPaints => dataPaints.id === idPaintElement );
 
-  $('#txtPaintKey'      ).val( dataPaintSelected[0].paintKey     );
-  $('#txtIdPaint'       ).val( dataPaintSelected[0].idPaint      );
-  $('#txtBatchNumber'   ).val( dataPaintSelected[0].batchNumber  );
-  $('#txtCarBrand'      ).val( dataPaintSelected[0].carBrand     );
-  $('#txtPaintCodeM'    ).val( dataPaintSelected[0].paintCode    );
-  $('#txtPaintName'     ).val( dataPaintSelected[0].paintName    );
-  $('#txtInitYear'      ).val( dataPaintSelected[0].initYear     );
-  $('#txtEndYear'       ).val( dataPaintSelected[0].endYear      );
-  $('#txtPaintBrand'    ).val( dataPaintSelected[0].paintBrand   );
-  $('#txtTypePaint'     ).val( dataPaintSelected[0].typePaint    );
-  $('#txtPurchaseDate'  ).val( dataPaintSelected[0].purchaseDate );
-  $('#txtUnitsM'        ).val( dataPaintSelected[0].Unit         );
-  $('#txtLayersM'       ).val( dataPaintSelected[0].Layer        );
-  $('#txtVolumenM'      ).val( dataPaintSelected[0].Volum        );
+  $('.btn-save-changes-paint-data').hide();
+  $('.btn-edit-data-paint').show();
+
+  $('#txtIdPaintGUID'   ).val( dataPaintSelected[0].id           );
+  $('#txtPaintKey'      ).val( dataPaintSelected[0].paintKey     ).prop('disabled', true);
+  $('#txtIdPaint'       ).val( dataPaintSelected[0].idPaint      ).prop('disabled', true);
+  $('#txtBatchNumber'   ).val( dataPaintSelected[0].batchNumber  ).prop('disabled', true);
+  $('#txtCarBrand'      ).val( dataPaintSelected[0].carBrand     ).prop('disabled', true);
+  $('#txtPaintCodeM'    ).val( dataPaintSelected[0].paintCode    ).prop('disabled', true);
+  $('#txtPaintName'     ).val( dataPaintSelected[0].paintName    ).prop('disabled', true);
+  $('#txtInitYear'      ).val( dataPaintSelected[0].initYear     ).prop('disabled', true);
+  $('#txtEndYear'       ).val( dataPaintSelected[0].endYear      ).prop('disabled', true);
+  $('#txtPaintBrand'    ).val( dataPaintSelected[0].paintBrand   ).prop('disabled', true);
+  $('#txtTypePaint'     ).val( dataPaintSelected[0].typePaint    ).prop('disabled', true);
+  $('#txtPurchaseDate'  ).val( dataPaintSelected[0].purchaseDate ).prop('disabled', true);
+  $('#txtUnitsM'        ).val( dataPaintSelected[0].Unit         ).prop('disabled', true);
+  $('#txtLayersM'       ).val( dataPaintSelected[0].Layer        ).prop('disabled', true);
+  $('#txtVolumenM'      ).val( dataPaintSelected[0].Volum        ).prop('disabled', true);
+
+  $('.col-input-guid').show();
+  if( dataPaintSelected[0].paintName == "" )
+    $('.lblTitleModal_PaintInformation').text('Paint information');
+  else
+  $('.lblTitleModal_PaintInformation').text( dataPaintSelected[0].carBrand + " - " + $('#txtPaintName').val() );
 
   $('#modal-data-paint').modal('open', 'true');
 })
+
+$('.btn-edit-data-paint').on('click', function(){
+
+  $('.btn-save-changes-paint-data').fadeIn(200);
+  $('.btn-edit-data-paint').fadeOut(200);
+
+  $('#txtPaintKey'      ).prop('disabled', false);
+  $('#txtIdPaint'       ).prop('disabled', false);
+  $('#txtBatchNumber'   ).prop('disabled', false);
+  $('#txtCarBrand'      ).prop('disabled', false);
+  $('#txtPaintCodeM'    ).prop('disabled', false);
+  $('#txtPaintName'     ).prop('disabled', false);
+  $('#txtInitYear'      ).prop('disabled', false);
+  $('#txtEndYear'       ).prop('disabled', false);
+  $('#txtPaintBrand'    ).prop('disabled', false);
+  $('#txtTypePaint'     ).prop('disabled', false);
+  $('#txtPurchaseDate'  ).prop('disabled', false);
+  $('#txtUnitsM'        ).prop('disabled', false);
+  $('#txtLayersM'       ).prop('disabled', false);
+  $('#txtVolumenM'      ).prop('disabled', false);
+
+});
+
+$('#txtPaintName').on('input', function(){
+  var titleModalDataPaint = $('.lblTitleModal_PaintInformation').text().split(' - ')[0];
+  console.log( titleModalDataPaint + " - " + $(this).val() );
+  $('.lblTitleModal_PaintInformation').text( titleModalDataPaint + " - " + $(this).val() );
+
+})
+
+$('.btn-add-register').on('click', function(){
+  $('#modal-edit-data-paint').modal('open', 'true');
+  $('.lblTitleModal_RegisterPaint').text('Register new paint');
+  
+  $('#txtIdPaintGUID'   ).val( "N/A" );
+  $('#txtPaintKey'      ).val( ""    );
+  $('#txtIdPaint'       ).val( ""    );
+  $('#txtBatchNumber'   ).val( ""    );
+  $('#txtCarBrand'      ).val( ""    );
+  $('#txtPaintCodeM'    ).val( ""    );
+  $('#txtPaintName'     ).val( ""    );
+  $('#txtInitYear'      ).val( ""    );
+  $('#txtEndYear'       ).val( ""    );
+  $('#txtPaintBrand'    ).val( ""    );
+  $('#txtTypePaint'     ).val( ""    );
+  $('#txtPurchaseDate'  ).val( ""    );
+  $('#txtUnitsM'        ).val( ""    );
+  $('#txtLayersM'       ).val( ""    );
+  $('#txtVolumenM'      ).val( ""    );
+
+});
 
 $('#dataTable-Body').on('mouseover', 'tr', function(){
   $(this).css('background-color', 'rgba(245, 245, 245)')
@@ -6922,26 +7059,25 @@ $('.btn-search').on('click', function(){
     var dataFiltered;
 
     if( carBrandSelected == -1 && txtPaintCode == "" ){
-        console.log( "carBrand => '' | txtPaintCode => ''" );
+        //console.log( "carBrand => '' | txtPaintCode => ''" );
         dataFiltered = dataPaints;
     }else if( carBrandSelected == -1 && txtPaintCode != "" ){
-        console.log( "carBrand => '' | txtPaintCode => " + txtPaintCode );
+        //console.log( "carBrand => '' | txtPaintCode => " + txtPaintCode );
         dataFiltered = dataPaints.filter( dataPaints => dataPaints.paintCode.includes( txtPaintCode ) || dataPaints.paintName.includes( txtPaintCode ) );
     }else if( carBrandSelected !== -1 && txtPaintCode == "" ){
-        console.log( "carBrand => "+carBrands[carBrandSelected]+" | txtPaintCode => ''" );
+        //console.log( "carBrand => "+carBrands[carBrandSelected]+" | txtPaintCode => ''" );
         dataFiltered = dataPaints.filter( dataPaints => dataPaints.carBrand === carBrands[carBrandSelected] );
     }else if( carBrandSelected !== -1 && txtPaintCode !== "" ){
-        console.log( "carBrand => "+carBrands[carBrandSelected]+" | txtPaintCode => " + txtPaintCode );
+        //console.log( "carBrand => "+carBrands[carBrandSelected]+" | txtPaintCode => " + txtPaintCode );
         dataFiltered = dataPaints.filter( 
             dataPaints => dataPaints.paintCode.includes( txtPaintCode ) || 
             dataPaints.paintName.includes( txtPaintCode )
         );
 
         dataFiltered = dataFiltered.filter( dataFiltered => dataFiltered.carBrand === carBrands[carBrandSelected] );
-    }else{
-        console.log( "ELSE" );
-        //dataFiltered = inventory.filter( inventory => inventory.carBrand === carBrands[carBrandSelected] );
     }
+    
+    //dataFiltered = inventory.filter( inventory => inventory.carBrand === carBrands[carBrandSelected] );
     
     addTableResultData( dataFiltered )
 })
