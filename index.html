@@ -13,7 +13,7 @@
     <!-- Document CSS -->
     <link rel="stylesheet" href="assets/css/app.css">
 
-    <title>Pain code inventory</title>
+    <title>1411 Auto repair & body shop</title>
 </head>
 <body>
 
@@ -65,50 +65,54 @@
 
             <div class="contianerNumRegisters">Number of records found: <span class="numRegisters"></span></div>
             
-            <!-- RESULT TABLES -->
-            <div class="table-onlyHeaders">
+            <div class="containerSearchResults">
+
+              <!-- RESULT TABLES -->
+              <div class="table-onlyHeaders">
+                
+                <table class="striped">
+                  <thead>
+                    <tr>
+                        <th class="col-Num">Num</th>
+                        <th class="col-CarBrand">Brand</th>
+                        <th class="col-PaintCode">Paint code</th>
+                        <th class="col-PaintName">Paint name</th>
+                        <th class="col-ModelCar">Model</th>
+                        <th class="col-Layer">Layer</th>
+                        <th class="col-Stock">Stock</th>
+                    </tr>
+                  </thead>
+
+                </table>
+
+              </div>
               
-              <table class="striped">
-                <thead>
-                  <tr>
-                      <th class="col-Num">Num</th>
-                      <th class="col-CarBrand">Brand</th>
-                      <th class="col-PaintCode">Paint code</th>
-                      <th class="col-PaintName">Paint name</th>
-                      <th class="col-ModelCar">Model</th>
-                      <th class="col-Layer">Layer</th>
-                      <th class="col-Stock">Stock</th>
-                  </tr>
-                </thead>
+              <div class="table-onlyBody">
+                
+                <table > <!--class="striped"-->
+                  <tbody id="dataTable-Body">
+                  </tbody>
+                </table>
 
-              </table>
+              </div>
 
-            </div>
-            
-            <div class="table-onlyBody">
-              
-              <table > <!--class="striped"-->
-                <tbody id="dataTable-Body">
-                </tbody>
-              </table>
+              <div class="card card-loading-data">
 
-            </div>
-
-            <div class="card card-loading-data">
-
-                <div class="preloader-wrapper preloader-table-data big active">
-                  <div class="spinner-layer spinner-blue-only">
-                    <div class="circle-clipper left">
-                      <div class="circle"></div>
-                    </div><div class="gap-patch">
-                      <div class="circle"></div>
-                    </div><div class="circle-clipper right">
-                      <div class="circle"></div>
+                  <div class="preloader-wrapper preloader-table-data big active">
+                    <div class="spinner-layer spinner-blue-only">
+                      <div class="circle-clipper left">
+                        <div class="circle"></div>
+                      </div><div class="gap-patch">
+                        <div class="circle"></div>
+                      </div><div class="circle-clipper right">
+                        <div class="circle"></div>
+                      </div>
                     </div>
                   </div>
-                </div>
-                
-                
+                  
+                  
+              </div>
+
             </div>
 
           </div>
