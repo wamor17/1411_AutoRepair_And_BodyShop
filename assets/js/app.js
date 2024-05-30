@@ -6755,8 +6755,11 @@ $( document ).ready(function(){
 
     //testGET();
     //testPOST();
-    loadModelYears();
+    var allData = JSON.parse( localStorage.getItem('dataPaints') );
+    Load_ModelYears();
     Get_DataPaints();
+    Load_CardBrands();
+    Show_ResultsSearchData( allData );
 });
 
 function generateGUID() {
@@ -6772,58 +6775,19 @@ function isEmpty(obj) {
   return Object.keys(obj).length === 0;
 }
 
-function postDataPaint(){
+function Load_ModelYears(){
+  var InnerSelect_ModelYears = "";
 
+  for(var years = 2014; years >= 1960; years--){
+      InnerSelect_ModelYears = InnerSelect_ModelYears +
+      "<option value="+years+">" + years + "</option>";
+  }
+
+  $("#txtInitYear_NewPaint").html( InnerSelect_ModelYears );
+  $("#txtEndYear_NewPaint" ).html( InnerSelect_ModelYears );
 }
 
-function testPOST(){
-  var server_dir_test = "https://script.google.com/macros/s/AKfycby-X7E7BsnUx-eQRB5pWLzNQJdU6WYjQ5yRHB9rYg9r4n78czILAVcMQYzEQUjB1M0/exec";
-
-  $.post(server_dir_test, {}, function(ServerResponse){
-    console.log('Starting call method POST');
-  }).done(function(){
-    console.log('Done call method POST');
-  }).fail(function(error_srv) {
-      console.log('Fail call method POST ');
-  });
-}
-
-function Get_DataPaints(){
-  $('.card-loading-data').show();
-  var allCarBrands, allPaintCodes, allPaintNames, carBrandsObj;
-
-  $.get(server_dir, {fn: "AllPaints"}, function(ServerResponse){
-      allPaintCodes = ServerResponse.map( ServerResponse => ServerResponse.paintCode );
-      allPaintNames = ServerResponse.map( ServerResponse => ServerResponse.paintName );
-      allCarBrands  = ServerResponse.map( ServerResponse => ServerResponse.carBrand  );
-      carBrandsObj = [...new Set(allCarBrands)];
-
-      localStorage.setItem( 'dataPaints',     JSON.stringify( ServerResponse  ) );
-      localStorage.setItem( 'allPaintCodes',  JSON.stringify( allPaintCodes   ) );
-      localStorage.setItem( 'allPaintNames',  JSON.stringify( allPaintNames   ) );
-      localStorage.setItem( 'carBrands',      JSON.stringify( carBrandsObj    ) );
-
-      loadCardBrands();
-      addTableResultData( ServerResponse );
-
-  }).done(function(){
-      $('.card-loading-data').hide();
-  }).fail(function(error_srv) {
-      $('.card-loading-data').hide();
-      var noDataFound = 
-      "<tr>" +
-          "<td colspan='6' class='center-align'>"+
-          "An error occurred while obtaining data from the server" +
-          "</td>" +
-      "</tr>";
-
-      $('#dataTable-Body').html( noDataFound );
-      $('.table-onlyBody').css('overflow-y', 'visible');
-      $('.table-onlyBody').css('width', "100%");
-  });
-}
-
-function loadCardBrands(){
+function Load_CardBrands(){
     var carBrands = JSON.parse( localStorage.getItem('carBrands') );
     var dataCarBrands_InnerSelect = "<option value=-1> All </option>";
     var dataCarBrands_InnerSelect2 = "";
@@ -6842,19 +6806,7 @@ function loadCardBrands(){
     $("#select-CarBrands2").html( dataCarBrands_InnerSelect2 );
 }
 
-function loadModelYears(){
-  var InnerSelect_ModelYears = "";
-
-  for(var years = 2014; years >= 1960; years--){
-      InnerSelect_ModelYears = InnerSelect_ModelYears +
-      "<option value="+years+">" + years + "</option>";
-  }
-
-  $("#txtInitYear_NewPaint").html( InnerSelect_ModelYears );
-  $("#txtEndYear_NewPaint" ).html( InnerSelect_ModelYears );
-}
-
-function addTableResultData( dataPaints ){
+function Show_ResultsSearchData( dataPaints ){
     var dataInventory_InnerTable = "";
 
     if( isEmpty( dataPaints ) ){
@@ -6905,8 +6857,67 @@ function addTableResultData( dataPaints ){
         $('.numRegisters').html( dataPaints.length );
         $('#dataTable-Body').html( dataInventory_InnerTable );
     }
+}
 
-    
+function Search_PaintsWithFilters(){
+  var dataPaints      = JSON.parse( localStorage.getItem( 'dataPaints' ) );
+  var carBrands       = JSON.parse( localStorage.getItem( 'carBrands'  ) );
+  var carBrandSelected = $('#select-CarBrands').val();
+  var txtPaintCode = $('#txtPaintCode').val();
+  var dataFiltered;
+
+  if( carBrandSelected == -1 && txtPaintCode == "" ){
+      //console.log( "carBrand => '' | txtPaintCode => ''" );
+      dataFiltered = dataPaints;
+  }else if( carBrandSelected == -1 && txtPaintCode != "" ){
+      //console.log( "carBrand => '' | txtPaintCode => " + txtPaintCode );
+      dataFiltered = dataPaints.filter( dataPaints => dataPaints.paintCode.includes( txtPaintCode ) || dataPaints.paintName.includes( txtPaintCode ) );
+  }else if( carBrandSelected !== -1 && txtPaintCode == "" ){
+      //console.log( "carBrand => "+carBrands[carBrandSelected]+" | txtPaintCode => ''" );
+      dataFiltered = dataPaints.filter( dataPaints => dataPaints.carBrand === carBrands[carBrandSelected] );
+  }else if( carBrandSelected !== -1 && txtPaintCode !== "" ){
+      //console.log( "carBrand => "+carBrands[carBrandSelected]+" | txtPaintCode => " + txtPaintCode );
+      dataFiltered = dataPaints.filter( 
+          dataPaints => dataPaints.paintCode.includes( txtPaintCode ) || 
+          dataPaints.paintName.includes( txtPaintCode )
+      );
+
+      dataFiltered = dataFiltered.filter( dataFiltered => dataFiltered.carBrand === carBrands[carBrandSelected] );
+  }
+
+  Show_ResultsSearchData( dataFiltered );
+}
+
+function Get_DataPaints(){
+  $('.card-loading-data').show();
+  var allCarBrands, allPaintCodes, allPaintNames, carBrandsObj;
+
+  $.get(server_dir, {fn: "AllPaints"}, function(ServerResponse){
+      allPaintCodes = ServerResponse.map( ServerResponse => ServerResponse.paintCode );
+      allPaintNames = ServerResponse.map( ServerResponse => ServerResponse.paintName );
+      allCarBrands  = ServerResponse.map( ServerResponse => ServerResponse.carBrand  );
+      carBrandsObj = [...new Set(allCarBrands)];
+
+      localStorage.setItem( 'dataPaints',     JSON.stringify( ServerResponse  ) );
+      localStorage.setItem( 'allPaintCodes',  JSON.stringify( allPaintCodes   ) );
+      localStorage.setItem( 'allPaintNames',  JSON.stringify( allPaintNames   ) );
+      localStorage.setItem( 'carBrands',      JSON.stringify( carBrandsObj    ) );
+  }).done(function(){
+      $('.card-loading-data').hide();
+      Search_PaintsWithFilters();
+  }).fail(function(error_srv) {
+      $('.card-loading-data').hide();
+      var noDataFound = 
+      "<tr>" +
+          "<td colspan='6' class='center-align'>"+
+          "An error occurred while obtaining data from the server" +
+          "</td>" +
+      "</tr>";
+
+      $('#dataTable-Body').html( noDataFound );
+      $('.table-onlyBody').css('overflow-y', 'visible');
+      $('.table-onlyBody').css('width', "100%");
+  });
 }
 
 function PATCH_EditDataPaint(objIn){
@@ -6916,19 +6927,19 @@ function PATCH_EditDataPaint(objIn){
 
   $.post(server_dir, {varData: JSON.stringify(objIn)}, function(ServerResponse){
     var respuestaPatch = JSON.parse( ServerResponse );
-    console.log('Reponse => ' + respuestaPatch.status + " | " + respuestaPatch.details );
 
     if( respuestaPatch.status == "Correct" ){
       M.toast({html: respuestaPatch.details, classes: 'rounded green darken-1'});
       $('#modal-data-paint').modal('close', 'true');
+
+      Get_DataPaints();
     }else{
       M.toast({html: respuestaPatch.details, classes: 'rounded red darken-1'});
     }
 
   }).done(function(){
-    console.log('Done call method POST');
     $('.loading-updating-data-paint').hide();
-    $('.btn-close-modal-paint-data'     ).removeClass('disabled');
+    $('.btn-close-modal-paint-data' ).removeClass('disabled');
     $('.btn-save-changes-paint-data').removeClass('disabled');
   }).fail(function(error_srv) {
     $('.loading-updating-data-paint').hide();
@@ -6965,6 +6976,7 @@ $('.switch-new-car-brand').on('change', function(){
   if( isNewCarBrand ){
     $('.col-txtCarBrand').show();
     $('.col-select-CarBrands2').hide();
+    Get_DataPaints();
   }else{
     $('.col-txtCarBrand').hide();
     $('.col-select-CarBrands2').show();
@@ -7055,19 +7067,6 @@ $('.btn-add-register').on('click', function(){
 
 });
 
-/*
-$('.*****btn-add-register').on('click', function(){
-  $.get(server_dir, {fn: "RegisterNewPaint"}, function(ServerResponse_POST){
-      
-  }).done(function(){
-      
-  }).fail(function(error_srv) {
-      
-  });
-
-});
-*/
-
 $('#dataTable-Body').on('mouseover', 'tr', function(){
   $(this).css('background-color', 'rgba(245, 245, 245)')
 })
@@ -7082,34 +7081,5 @@ $('.btn-clear-filters').on('click', function(){
 });
 
 $('.btn-search').on('click', function(){
-    var dataPaints      = JSON.parse( localStorage.getItem( 'dataPaints'    ) );
-    var carBrands       = JSON.parse( localStorage.getItem( 'carBrands' ) );
-    var allPaintCodes   = JSON.parse( localStorage.getItem( 'allPaintCodes' ) );
-    var allPaintNames   = JSON.parse( localStorage.getItem( 'allPaintNames' ) );
-    var carBrandSelected = $('#select-CarBrands').val();
-    var txtPaintCode = $('#txtPaintCode').val();
-    var dataFiltered;
-
-    if( carBrandSelected == -1 && txtPaintCode == "" ){
-        //console.log( "carBrand => '' | txtPaintCode => ''" );
-        dataFiltered = dataPaints;
-    }else if( carBrandSelected == -1 && txtPaintCode != "" ){
-        //console.log( "carBrand => '' | txtPaintCode => " + txtPaintCode );
-        dataFiltered = dataPaints.filter( dataPaints => dataPaints.paintCode.includes( txtPaintCode ) || dataPaints.paintName.includes( txtPaintCode ) );
-    }else if( carBrandSelected !== -1 && txtPaintCode == "" ){
-        //console.log( "carBrand => "+carBrands[carBrandSelected]+" | txtPaintCode => ''" );
-        dataFiltered = dataPaints.filter( dataPaints => dataPaints.carBrand === carBrands[carBrandSelected] );
-    }else if( carBrandSelected !== -1 && txtPaintCode !== "" ){
-        //console.log( "carBrand => "+carBrands[carBrandSelected]+" | txtPaintCode => " + txtPaintCode );
-        dataFiltered = dataPaints.filter( 
-            dataPaints => dataPaints.paintCode.includes( txtPaintCode ) || 
-            dataPaints.paintName.includes( txtPaintCode )
-        );
-
-        dataFiltered = dataFiltered.filter( dataFiltered => dataFiltered.carBrand === carBrands[carBrandSelected] );
-    }
-    
-    //dataFiltered = inventory.filter( inventory => inventory.carBrand === carBrands[carBrandSelected] );
-    
-    addTableResultData( dataFiltered )
+  Search_PaintsWithFilters();
 })
