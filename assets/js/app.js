@@ -7042,7 +7042,12 @@ $('#txtPaintName_EditDataPaint').on('input', function(){
   var titleModalDataPaint = $('.lblTitleModal_PaintInformation').text().split(' - ')[0];
   console.log( titleModalDataPaint + " - " + $(this).val() );
   $('.lblTitleModal_PaintInformation').text( titleModalDataPaint + " - " + $(this).val() );
+})
 
+$('#txtCarBrand_EditDataPaint').on('input', function(){
+  var titleModalDataPaint = $('.lblTitleModal_PaintInformation').text().split(' - ')[1];
+  console.log( $(this).val() + " - " + titleModalDataPaint );
+  $('.lblTitleModal_PaintInformation').text( $(this).val() + " - " + titleModalDataPaint );
 })
 
 $('.btn-add-register').on('click', function(){
