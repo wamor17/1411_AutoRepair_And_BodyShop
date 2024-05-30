@@ -6758,7 +6758,6 @@ $( document ).ready(function(){
     var allData = JSON.parse( localStorage.getItem('dataPaints') );
     Load_ModelYears();
     Get_DataPaints();
-    Load_CardBrands();
     Show_ResultsSearchData( allData );
 });
 
@@ -6904,6 +6903,7 @@ function Get_DataPaints(){
       localStorage.setItem( 'carBrands',      JSON.stringify( carBrandsObj    ) );
   }).done(function(){
       $('.card-loading-data').hide();
+      Load_CardBrands();
       Search_PaintsWithFilters();
   }).fail(function(error_srv) {
       $('.card-loading-data').hide();
@@ -7040,13 +7040,11 @@ $('.btn-enable-edit-data-paint').on('click', function(){
 
 $('#txtPaintName_EditDataPaint').on('input', function(){
   var titleModalDataPaint = $('.lblTitleModal_PaintInformation').text().split(' - ')[0];
-  console.log( titleModalDataPaint + " - " + $(this).val() );
   $('.lblTitleModal_PaintInformation').text( titleModalDataPaint + " - " + $(this).val() );
 })
 
 $('#txtCarBrand_EditDataPaint').on('input', function(){
   var titleModalDataPaint = $('.lblTitleModal_PaintInformation').text().split(' - ')[1];
-  console.log( $(this).val() + " - " + titleModalDataPaint );
   $('.lblTitleModal_PaintInformation').text( $(this).val() + " - " + titleModalDataPaint );
 })
 
