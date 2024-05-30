@@ -123,40 +123,57 @@
     <!-- View Information Modal Structure -->
     <div id="modal-data-paint" class="modal bottom-sheet modal-fixed-footer">
       <div class="modal-content">
+
+        <div class="loading-updating-data-paint">
+
+          <div class="preloader-wrapper element-loading-updating-data small active">
+            <div class="spinner-layer spinner-blue-only">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div>
+          <span class="lblUpdatingData">Updating, wait a second...</span>
+
+        </div>
         
         <h4 class="lblTitleModal_PaintInformation truncate"></h4>
-        <a class="btn-floating btn-small waves-effect yellow darken-3 btn-edit-data-paint"><i class="material-icons">edit</i></a>
+        <a class="btn-floating btn-small waves-effect yellow darken-3 btn-enable-edit-data-paint"><i class="material-icons">edit</i></a>
         
         <div class="row">
 
           <div class="input-field col s6 m3 l3 xl3 col-input-guid">
-            <input placeholder="E.g. 2F92-B50A6435-7225-21303D4A" id="txtIdPaintGUID" type="text" class="validate" disabled>
-            <label for="txtIdPaintGUID">Inventory Id Paint</label>
+            <input placeholder="E.g. 2F92-B50A6435-7225-21303D4A" id="txtIdPaintGUID_EditDataPaint" type="text" class="validate" disabled>
+            <label for="txtIdPaintGUID_EditDataPaint">Inventory Id Paint</label>
           </div>
 
           <div class="input-field col s6 m3 l2 xl2">
-            <input placeholder="E.g. Cadillac" id="txtCarBrand" type="text" class="validate">
-            <label for="txtCarBrand">Car brand</label>
+            <input placeholder="E.g. Cadillac" id="txtCarBrand_EditDataPaint" type="text" class="validate">
+            <label for="txtCarBrand_EditDataPaint">Car brand</label>
           </div>
 
           <div class="input-field col s6 m3 l3 xl3">
-            <input placeholder="E.g. 815T" id="txtPaintCodeM" type="text" class="validate">
-            <label for="txtPaintCodeM">Paint code</label>
+            <input placeholder="E.g. 815T" id="txtPaintCode_EditDataPaint" type="text" class="validate">
+            <label for="txtPaintCode_EditDataPaint">Paint code</label>
           </div>
 
           <div class="input-field col s6 m3 l2 xl2">
-            <input placeholder="E.g. Black Diamond" id="txtPaintName" type="text" class="validate">
-            <label for="txtPaintName">Paint name</label>
+            <input placeholder="E.g. Black Diamond" id="txtPaintName_EditDataPaint" type="text" class="validate">
+            <label for="txtPaintName_EditDataPaint">Paint name</label>
           </div>
 
           <div class="input-field col s6 m3 l1 xl1">
-            <input placeholder="E.g. 2011" id="txtInitYear" type="text" class="validate">
-            <label for="txtInitYear">Init year</label>
+            <input placeholder="E.g. 2011" id="txtInitYear_EditDataPaint" type="text" class="validate">
+            <label for="txtInitYear_EditDataPaint">Init year</label>
           </div>
 
           <div class="input-field col s6 m3 l1 xl1">
-            <input placeholder="E.g. 2015" id="txtEndYear" type="text" class="validate">
-            <label for="txtEndYear">End year</label>
+            <input placeholder="E.g. 2015" id="txtEndYear_EditDataPaint" type="text" class="validate">
+            <label for="txtEndYear_EditDataPaint">End year</label>
           </div>
 
         </div>
@@ -164,55 +181,55 @@
         <div class="row">
 
           <div class="input-field col s6 m3 l2 xl2">
-            <input placeholder="E.g. PBT-1564990-A" id="txtPaintKey" type="text" class="validate">
-            <label for="txtPaintKey">Paint key</label>
+            <input placeholder="E.g. PBT-1564990-A" id="txtPaintKey_EditDataPaint" type="text" class="validate">
+            <label for="txtPaintKey_EditDataPaint">Paint key</label>
           </div>
 
           <div class="input-field col s6 m3 l1 xl1">
-            <input placeholder="E.g. 1564990" id="txtIdPaint" type="text" class="validate">
-            <label for="txtIdPaint">Id paint</label>
+            <input placeholder="E.g. 1564990" id="txtIdPaint_EditDataPaint" type="text" class="validate">
+            <label for="txtIdPaint_EditDataPaint">Id paint</label>
           </div>
 
           <div class="input-field col s6 m3 l1 xl1">
-            <input placeholder="E.g. 20447494" id="txtBatchNumber" type="text" class="validate">
-            <label for="txtBatchNumber">Batch number</label>
+            <input placeholder="E.g. 20447494" id="txtBatchNumber_EditDataPaint" type="text" class="validate">
+            <label for="txtBatchNumber_EditDataPaint">Batch number</label>
           </div>
 
           <div class="input-field col s6 m3 l1 xl1">
-            <input placeholder="E.g. 04/20/2021" id="txtPurchaseDate" type="text" class="validate">
-            <label for="txtPurchaseDate">Purchase date</label>
+            <input placeholder="E.g. 04/20/2021" id="txtPurchaseDate_EditDataPaint" type="text" class="validate">
+            <label for="txtPurchaseDate_EditDataPaint">Purchase date</label>
           </div>
 
           <div class="input-field col s6 m3 l2 xl2">
-            <input placeholder="E.g. PBT" id="txtPaintBrand" type="text" class="validate">
-            <label for="txtPaintBrand">Paint brand</label>
+            <input placeholder="E.g. PBT" id="txtPaintBrand_EditDataPaint" type="text" class="validate">
+            <label for="txtPaintBrand_EditDataPaint">Paint brand</label>
           </div>
 
           <div class="input-field col s6 m3 l2 xl2">
-            <input placeholder="E.g. Basecoat" id="txtTypePaint" type="text" class="validate">
-            <label for="txtTypePaint">Type paint</label>
+            <input placeholder="E.g. Basecoat" id="txtTypePaint_EditDataPaint" type="text" class="validate">
+            <label for="txtTypePaint_EditDataPaint">Type paint</label>
           </div>
 
           <div class="input-field col s6 m3 l1 xl1">
-            <input placeholder="E.g. 0.473 L" id="txtVolumenM" type="text" class="validate">
-            <label for="txtVolumen">Volumen</label>
+            <input placeholder="E.g. 0.473 L" id="txtVolumen_EditDataPaint" type="text" class="validate">
+            <label for="txtVolumen_EditDataPaint">Volumen</label>
           </div>
 
           <div class="input-field col s6 m3 l1 xl1">
-            <input placeholder="E.g. 1" id="txtLayersM" type="text" class="validate">
-            <label for="txtLayers">Layers</label>
+            <input placeholder="E.g. 1" id="txtLayers_EditDataPaint" type="text" class="validate">
+            <label for="txtLayers_EditDataPaint">Layers</label>
           </div>
 
           <div class="input-field col s6 m3 l1 xl1">
-            <input placeholder="E.g. 1" id="txtUnitsM" type="text" class="validate">
-            <label for="txtUnits">Stock</label>
+            <input placeholder="E.g. 1" id="txtUnits_EditDataPaint" type="text" class="validate">
+            <label for="txtUnits_EditDataPaint">Stock</label>
           </div>
         </div>
 
       </div>
       <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect grey darken-1 btn btn-close-modal-paint-data border-rounded left"><i class="material-icons left">close</i>Close</a>
-        <a href="#!" class="modal-close waves-effect yellow darken-3 btn btn-save-changes-paint-data border-rounded right"><i class="material-icons left">save</i>Save changes</a>
+        <a href="#!" class="modal-close grey darken-1 btn btn-close-modal-paint-data border-rounded left"><i class="material-icons left">close</i>Close</a>
+        <a href="#!" class="waves-effect yellow darken-3 btn btn-save-changes-paint-data border-rounded right"><i class="material-icons left">save</i>Save changes</a>
       </div>
     </div>
 
