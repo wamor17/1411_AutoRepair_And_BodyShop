@@ -6737,7 +6737,7 @@ var inventory =
    ];
 */
 
-var server_dir = "https://script.google.com/macros/s/AKfycbz0qSH9frHTyqRqPO1hi7hZz3udiJ9OFtcG9CabPkF9jseXPny_z7Yrq5C20htBHgU1/exec";
+var server_dir = "https://script.google.com/macros/s/AKfycbzLeRLdusJkiOL9DosGKi0vov3wsY-j_JzUP-pVBn7Ht1NTiz4Nvlh1gcG4tHA_U9kx/exec";
 //POST, GET //var server_dir = "https://script.google.com/macros/s/AKfycbzfPLjjbPCOjNff--RNDBjTAHufALDrbg6YSYohL8OzCeTmIZFR8RPw4vMQbn09zSU/exec";
 //ONLY GET //var server_dir = "https://script.google.com/macros/s/AKfycbyH0OLqVUGmK7fqahHCO1EXEDVGjEDV6CRw3euqQ5tA6dhJUb1XfQCe4e0hduTT5PnI/exec";
 
@@ -6760,15 +6760,6 @@ $( document ).ready(function(){
     Get_DataPaints();
     Show_ResultsSearchData( allData );
 });
-
-function generateGUID() {
-  function s4() {
-      return Math.floor((1 + Math.random()) * 0x10000)
-          .toString(16)
-          .substring(1);
-  }
-  return s4() + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4();
-}
 
 function isEmpty(obj) {
   return Object.keys(obj).length === 0;
@@ -6931,8 +6922,6 @@ function PATCH_EditDataPaint(objIn){
     if( respuestaPatch.status == "Correct" ){
       M.toast({html: respuestaPatch.details, classes: 'rounded green darken-1'});
       $('#modal-data-paint').modal('close', 'true');
-
-      Get_DataPaints();
     }else{
       M.toast({html: respuestaPatch.details, classes: 'rounded red darken-1'});
     }
@@ -6941,6 +6930,8 @@ function PATCH_EditDataPaint(objIn){
     $('.loading-updating-data-paint').hide();
     $('.btn-close-modal-paint-data' ).removeClass('disabled');
     $('.btn-save-changes-paint-data').removeClass('disabled');
+
+    Get_DataPaints();
   }).fail(function(error_srv) {
     $('.loading-updating-data-paint').hide();
       console.log('Fail call method POST');
