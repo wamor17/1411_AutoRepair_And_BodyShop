@@ -6737,7 +6737,7 @@ var inventory =
    ];
 */
 
-var server_dir = "https://script.google.com/macros/s/AKfycbzLeRLdusJkiOL9DosGKi0vov3wsY-j_JzUP-pVBn7Ht1NTiz4Nvlh1gcG4tHA_U9kx/exec";
+var server_dir = "https://script.google.com/macros/s/AKfycbz-bXjxSCN3AxCry4A6rKKcGwIJZi1pnHc8QQJJATpMvpCVQCkpCYI_KEnP_J0hjrhA/exec";
 //POST, GET //var server_dir = "https://script.google.com/macros/s/AKfycbzfPLjjbPCOjNff--RNDBjTAHufALDrbg6YSYohL8OzCeTmIZFR8RPw4vMQbn09zSU/exec";
 //ONLY GET //var server_dir = "https://script.google.com/macros/s/AKfycbyH0OLqVUGmK7fqahHCO1EXEDVGjEDV6CRw3euqQ5tA6dhJUb1XfQCe4e0hduTT5PnI/exec";
 
@@ -6750,16 +6750,25 @@ $( document ).ready(function(){
     $('.col-txtCarBrand').hide();
     $('.col-select-CarBrands2').show();
     $('.loading-updating-data-paint').hide();
+    $('.loading-creating-data-paint').hide();
 
-    //$('#modal-data-paint').modal('open', 'true');
+    $('#modal-edit-data-paint').modal('open', 'true');
+    $('.btn-add-register').trigger('click');
 
-    //testGET();
-    //testPOST();
     var allData = JSON.parse( localStorage.getItem('dataPaints') );
     Load_ModelYears();
     Get_DataPaints();
     Show_ResultsSearchData( allData );
 });
+
+function generateGUID() {
+  function s4() {
+      return Math.floor((1 + Math.random()) * 0x10000)
+          .toString(16)
+          .substring(1);
+  }
+  return s4() + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4();
+}
 
 function isEmpty(obj) {
   return Object.keys(obj).length === 0;
@@ -6768,7 +6777,7 @@ function isEmpty(obj) {
 function Load_ModelYears(){
   var InnerSelect_ModelYears = "";
 
-  for(var years = 2014; years >= 1960; years--){
+  for(var years = 2024; years >= 1960; years--){
       InnerSelect_ModelYears = InnerSelect_ModelYears +
       "<option value="+years+">" + years + "</option>";
   }
@@ -6922,6 +6931,8 @@ function PATCH_EditDataPaint(objIn){
     if( respuestaPatch.status == "Correct" ){
       M.toast({html: respuestaPatch.details, classes: 'rounded green darken-1'});
       $('#modal-data-paint').modal('close', 'true');
+
+      Get_DataPaints();
     }else{
       M.toast({html: respuestaPatch.details, classes: 'rounded red darken-1'});
     }
@@ -6930,13 +6941,40 @@ function PATCH_EditDataPaint(objIn){
     $('.loading-updating-data-paint').hide();
     $('.btn-close-modal-paint-data' ).removeClass('disabled');
     $('.btn-save-changes-paint-data').removeClass('disabled');
-
-    Get_DataPaints();
   }).fail(function(error_srv) {
     $('.loading-updating-data-paint').hide();
       console.log('Fail call method POST');
   });
 }
+
+function POST_EditDataPaint(objIn){
+  $('.btn-close-register-new-paint').addClass('disabled');
+  $('.btn-save-new-paint').addClass('disabled');
+  $('.loading-creating-data-paint').show();
+  $('.modal.modal-fixed-footer .modal-content').css('overflow-y', 'hidden');
+
+  $.post(server_dir, {varData: JSON.stringify(objIn)}, function(ServerResponse){
+    var respuestaPost = JSON.parse( ServerResponse );
+
+    if( respuestaPost.status == "Correct" ){
+      M.toast({html: respuestaPost.details, classes: 'rounded green darken-1'});
+      $('#modal-edit-data-paint').modal('close', 'true');
+
+      Get_DataPaints();
+    }else{
+      M.toast({html: respuestaPost.details, classes: 'rounded red darken-1'});
+    }
+  }).done(function(){
+    $('.modal.modal-fixed-footer .modal-content').css('overflow-y', 'auto');
+    $('.loading-creating-data-paint').hide();
+    $('.btn-close-register-new-paint').removeClass('disabled');
+    $('.btn-save-new-paint').removeClass('disabled');
+  }).fail(function(error_srv) {
+    $('.loading-updating-data-paint').hide();
+      console.log('Fail call method POST');
+  });
+}
+
 
 $('.btn-save-changes-paint-data').on('click', function(){
   var dataNewPaint = {
@@ -6961,8 +6999,81 @@ $('.btn-save-changes-paint-data').on('click', function(){
   PATCH_EditDataPaint( dataNewPaint );
 });
 
+$('.btn-save-new-paint').on('click', function(){
+  var txtPaintKey_NewPaint, txtIdPaint_NewPaint, txtBatchNumber_NewPaint, txtPaintCode_NewPaint, txtPaintName_NewPaint;
+  var txtInitYear_NewPaint, txtEndYear_NewPaint, txtPaintBrand_NewPaint, txtTypePaint_NewPaint, txtPurchaseDate_NewPaint;
+  var txtUnits_NewPaint, txtLayers_NewPaint, txtVolumen_NewPaint;
+  var carBrands     = JSON.parse( localStorage.getItem( 'carBrands'  ) );
+  var isNewCarBrand = $('.switch-new-car-brand').prop('checked');
+  var valueCarBrand;
+
+  if( isNewCarBrand )
+    if( $('#txtCarBrand_NewPaint').val() == "" )
+      valueCarBrand = "-";
+    else
+      valueCarBrand = $('#txtCarBrand_NewPaint').val();
+  else
+      valueCarBrand = carBrands[ $('#select-CarBrands2').val() ];
+
+  if( $('#txtPaintKey_NewPaint'      ).val() == ""   ){ txtPaintKey_NewPaint      = "-" }else{ txtPaintKey_NewPaint       = $('#txtPaintKey_NewPaint'      ).val() }
+  if( $('#txtIdPaint_NewPaint'       ).val() == ""   ){ txtIdPaint_NewPaint       = "-" }else{ txtIdPaint_NewPaint        = $('#txtIdPaint_NewPaint'       ).val() }
+  if( $('#txtBatchNumber_NewPaint'   ).val() == ""   ){ txtBatchNumber_NewPaint   = "-" }else{ txtBatchNumber_NewPaint    = $('#txtBatchNumber_NewPaint'   ).val() }
+  if( $('#txtPaintCode_NewPaint'     ).val() == ""   ){ txtPaintCode_NewPaint     = "-" }else{ txtPaintCode_NewPaint      = $('#txtPaintCode_NewPaint'     ).val() }
+  if( $('#txtPaintName_NewPaint'     ).val() == ""   ){ txtPaintName_NewPaint     = "-" }else{ txtPaintName_NewPaint      = $('#txtPaintName_NewPaint'     ).val() }
+  if( $('#txtInitYear_NewPaint'      ).val() == null ){ txtInitYear_NewPaint      = "-" }else{ txtInitYear_NewPaint       = $('#txtInitYear_NewPaint'      ).val() }
+  if( $('#txtEndYear_NewPaint'       ).val() == null ){ txtEndYear_NewPaint       = "-" }else{ txtEndYear_NewPaint        = $('#txtEndYear_NewPaint'       ).val() }
+  if( $('#txtPaintBrand_NewPaint'    ).val() == ""   ){ txtPaintBrand_NewPaint    = "-" }else{ txtPaintBrand_NewPaint     = $('#txtPaintBrand_NewPaint'    ).val() }
+  if( $('#txtTypePaint_NewPaint'     ).val() == ""   ){ txtTypePaint_NewPaint     = "-" }else{ txtTypePaint_NewPaint      = $('#txtTypePaint_NewPaint'     ).val() }
+  if( $('#txtPurchaseDate_NewPaint'  ).val() == ""   ){ txtPurchaseDate_NewPaint  = "-" }else{ txtPurchaseDate_NewPaint   = $('#txtPurchaseDate_NewPaint'  ).val() }
+  if( $('#txtUnits_NewPaint'         ).val() == ""   ){ txtUnits_NewPaint         = "-" }else{ txtUnits_NewPaint          = $('#txtUnits_NewPaint'         ).val() }
+  if( $('#txtLayers_NewPaint'        ).val() == ""   ){ txtLayers_NewPaint        = "-" }else{ txtLayers_NewPaint         = $('#txtLayers_NewPaint'        ).val() }
+  if( $('#txtVolumen_NewPaint'       ).val() == null ){ txtVolumen_NewPaint       = "-" }else{ txtVolumen_NewPaint        = $('#txtVolumen_NewPaint'       ).val() }
+
+  var dataNewPaint = {
+    fun:            'Register_Paint',
+    paintKey:       txtPaintKey_NewPaint,
+    idPaint:        txtIdPaint_NewPaint,
+    batchNumber:    txtBatchNumber_NewPaint,
+    carBrand:       valueCarBrand,
+    paintCode:      txtPaintCode_NewPaint,
+    paintName:      txtPaintName_NewPaint,
+    initYear:       txtInitYear_NewPaint,
+    endYear:        txtEndYear_NewPaint,
+    paintBrand:     txtPaintBrand_NewPaint,
+    typePaint:      txtTypePaint_NewPaint,
+    purchaseDate:   txtPurchaseDate_NewPaint,
+    units:          txtUnits_NewPaint,
+    layers:         txtLayers_NewPaint,
+    volumen:        txtVolumen_NewPaint
+  }
+
+  POST_EditDataPaint( dataNewPaint );
+});
+
+$('.btn-add-register').on('click', function(){
+  $('.lblTitleModal_RegisterPaint').text('Register new paint');
+
+  $('#txtPaintKey_NewPaint'      ).val("");
+  $('#txtIdPaint_NewPaint'       ).val("");
+  $('#txtBatchNumber_NewPaint'   ).val("");
+  $('#txtCarBrand_NewPaint'      ).val("");
+  $('#select-CarBrands2'         ).val(0);
+  $('#txtPaintCode_NewPaint'     ).val("");
+  $('#txtPaintName_NewPaint'     ).val("");
+  $('#txtInitYear_NewPaint'      ).val("");
+  $('#txtEndYear_NewPaint'       ).val("");
+  $('#txtPaintBrand_NewPaint'    ).val("");
+  $('#txtTypePaint_NewPaint'     ).val("");
+  $('#txtPurchaseDate_NewPaint'  ).val("");
+  $('#txtUnits_NewPaint'         ).val("");
+  $('#txtLayers_NewPaint'        ).val("");
+  $('#txtVolumen_NewPaint'       ).val("");
+
+});
+
 $('.switch-new-car-brand').on('change', function(){
   var isNewCarBrand = $(this).prop('checked');
+  $('#txtCarBrand_NewPaint').val("");
 
   if( isNewCarBrand ){
     $('.col-txtCarBrand').show();
@@ -7038,28 +7149,6 @@ $('#txtCarBrand_EditDataPaint').on('input', function(){
   var titleModalDataPaint = $('.lblTitleModal_PaintInformation').text().split(' - ')[1];
   $('.lblTitleModal_PaintInformation').text( $(this).val() + " - " + titleModalDataPaint );
 })
-
-$('.btn-add-register').on('click', function(){
-  $('#modal-edit-data-paint').modal('open', 'true');
-  $('.lblTitleModal_RegisterPaint').text('Register new paint');
-  
-  $('#txtIdPaintGUID'   ).val( "N/A" );
-  $('#txtPaintKey'      ).val( ""    );
-  $('#txtIdPaint'       ).val( ""    );
-  $('#txtBatchNumber'   ).val( ""    );
-  $('#txtCarBrand'      ).val( ""    );
-  $('#txtPaintCodeM'    ).val( ""    );
-  $('#txtPaintName'     ).val( ""    );
-  $('#txtInitYear'      ).val( ""    );
-  $('#txtEndYear'       ).val( ""    );
-  $('#txtPaintBrand'    ).val( ""    );
-  $('#txtTypePaint'     ).val( ""    );
-  $('#txtPurchaseDate'  ).val( ""    );
-  $('#txtUnitsM'        ).val( ""    );
-  $('#txtLayersM'       ).val( ""    );
-  $('#txtVolumenM'      ).val( ""    );
-
-});
 
 $('#dataTable-Body').on('mouseover', 'tr', function(){
   $(this).css('background-color', 'rgba(245, 245, 245)')
