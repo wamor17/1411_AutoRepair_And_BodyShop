@@ -6801,7 +6801,9 @@ function Load_CardBrands(){
         }
     }
 
+    console.log(dataCarBrands_InnerSelect)
     $("#select-CarBrands").html( dataCarBrands_InnerSelect );
+    $("#select-CarBrands1").html( dataCarBrands_InnerSelect );
     $("#select-CarBrands2").html( dataCarBrands_InnerSelect2 );
 }
 
