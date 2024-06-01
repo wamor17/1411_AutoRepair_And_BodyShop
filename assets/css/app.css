@@ -285,9 +285,38 @@ table tbody tr:hover{
         overflow-y: scroll;
         z-index: 5;
         height: 380px !important;
+        margin-bottom: 20px !important;
     }
 
+    /* LOADING SEARCH PAINTS */
+    .card-loading-data{
+        background-color: rgba(255, 255, 255, 0.9) !important;
+        border-radius: 8px !important;
+        position: absolute;
+        top: 198px;
+        left: 22px;
+        height: 420px;
+        width: 88.5%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* ======================================================*/
+
+    /* FILTERS */
+    .btn-add-register{
+        margin-top: -10px !important;
+        margin-bottom: 15px !important;
+    }
+
+    /* ============================================================*/
+
     /* TABLA DE RESULTADOS DE LA BÚSQUEDA */
+    .card-main-results{
+        padding-bottom: 30px !important;
+    }
+
     .table-onlyBody{
         overflow-y: scroll !important;
     }

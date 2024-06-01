@@ -6752,8 +6752,8 @@ $( document ).ready(function(){
     $('.loading-updating-data-paint').hide();
     $('.loading-creating-data-paint').hide();
 
-    $('#modal-edit-data-paint').modal('open', 'true');
-    $('.btn-add-register').trigger('click');
+    //$('#modal-edit-data-paint').modal('open', 'true');
+    //$('.btn-add-register').trigger('click');
 
     var allData = JSON.parse( localStorage.getItem('dataPaints') );
     Load_ModelYears();
@@ -6801,7 +6801,9 @@ function Load_CardBrands(){
         }
     }
 
+    console.log(dataCarBrands_InnerSelect)
     $("#select-CarBrands").html( dataCarBrands_InnerSelect );
+    $("#select-CarBrands1").html( dataCarBrands_InnerSelect );
     $("#select-CarBrands2").html( dataCarBrands_InnerSelect2 );
 }
 
