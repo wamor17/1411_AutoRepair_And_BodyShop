@@ -6752,8 +6752,8 @@ $( document ).ready(function(){
     $('.loading-updating-data-paint').hide();
     $('.loading-creating-data-paint').hide();
 
-    $('#modal-edit-data-paint').modal('open', 'true');
-    $('.btn-add-register').trigger('click');
+    //$('#modal-edit-data-paint').modal('open', 'true');
+    //$('.btn-add-register').trigger('click');
 
     var allData = JSON.parse( localStorage.getItem('dataPaints') );
     Load_ModelYears();
