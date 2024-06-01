@@ -42,7 +42,7 @@
           <div class="card-content">
             
             <!-- FILTERS -->
-            <div class="row">
+            <div class="row hide-on-small-only show-on-medium-and-up">
 
               <div class="input-field col s6 m3 l3 xl3">
                 <input placeholder="E.g. WA800J" id="txtPaintCode" type="text" class="validate">
@@ -59,6 +59,28 @@
                 <a class="waves-effect white btn-flat border-rounded btn-clear-filters left tooltipped black-text" data-position="bottom" data-tooltip="Borrar filtros"><i class="material-icons left">delete_sweep</i></a>
                 <a class="waves-effect blue darken-4 btn-small border-rounded btn-search left"><i class="material-icons left">search</i>Search</a>
                 <a class="waves-effect blue blue-grey lighten-2 btn-small border-rounded btn-add-register modal-trigger right" href="#modal-edit-data-paint"><i class="material-icons left">add</i>Register new paint</a>
+              </div>
+
+            </div>
+
+            <div class="row show-on-small hide-on-med-and-up">
+
+              <a class="waves-effect blue blue-grey lighten-2 btn-small border-rounded btn-add-register modal-trigger right" href="#modal-edit-data-paint"><i class="material-icons left">add</i>Register new paint</a>
+
+              <div class="input-field col s6 m3 l3 xl3">
+                <input placeholder="E.g. WA800J" id="txtPaintCode" type="text" class="validate">
+                <label for="txtPaintCode">Paint code or name</label>
+              </div>
+
+              <div class="col s6 m2 l2 xl2">
+                <label>Car brand</label>
+                <select id="select-CarBrands" class="browser-default">
+                </select>
+              </div>
+
+              <div class="col s12 m7 l7 xl7">
+                <a class="waves-effect blue darken-4 btn-small border-rounded btn-search right"><i class="material-icons left">search</i>Search</a>
+                <a class="waves-effect white btn-flat border-rounded btn-clear-filters right tooltipped black-text" data-position="bottom" data-tooltip="Borrar filtros"><i class="material-icons left">delete_sweep</i></a>
               </div>
 
             </div>
@@ -95,6 +117,7 @@
                 </table>
 
               </div>
+              <br>
 
               <div class="card card-loading-data">
 
