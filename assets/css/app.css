@@ -244,7 +244,7 @@ table tbody tr:hover{
 }
 
 .idPaintRegister{
-    display: none;
+    display: block;
 }
 
 .lblVersion{
@@ -331,8 +331,8 @@ table tbody tr:hover{
     .modal.bottom-sheet {
         max-height: 85%;
         height: 85%;
-        width: 96%;
-        left: 2%;
+        width: 94%;
+        left: 3%;
     }
 
     #txtInitYear_NewPaint{
