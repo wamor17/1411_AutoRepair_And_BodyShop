@@ -1,6 +1,5 @@
 
-/*
-var inventory = 
+var dataPaints_Offline = 
 [
     {
       "id": 1,
@@ -8,7 +7,6 @@ var inventory =
       "idPaint": "1559971",
       "batchNumber": "34963855",
       "carBrand": "Nissan",
-      "paintCodeAndName": "FAR / Airtech Blue Metallic",
       "paintCode": "FAR ",
       "paintName": " Airtech Blue Metallic",
       "initYear": "2011",
@@ -17,7 +15,7 @@ var inventory =
       "typePaint": "Basecoat",
       "purchaseDate": "08/01/2023",
       "Unit": 0,
-      "Layer": "1 ",
+      "Layer": "1",
       "Volume": "0.473 L"
     },
     {
@@ -35,7 +33,7 @@ var inventory =
       "typePaint": "Basecoat",
       "purchaseDate": "04/00/2019",
       "Unit": 0,
-      "Layer": "1/2",
+      "Layer": "1 of 2",
       "Volume": "0.473 L"
     },
     {
@@ -1925,7 +1923,7 @@ var inventory =
       "typePaint": "Basecoat",
       "purchaseDate": "",
       "Unit": 1,
-      "Layer": "2/2",
+      "Layer": "2 of 2",
       "Volume": "0.473 L"
     },
     {
@@ -2303,7 +2301,7 @@ var inventory =
       "typePaint": "Basecoat",
       "purchaseDate": "-",
       "Unit": 1,
-      "Layer": "1/2",
+      "Layer": "1 of 2",
       "Volume": "0.473 L"
     },
     {
@@ -2321,7 +2319,7 @@ var inventory =
       "typePaint": "Basecoat",
       "purchaseDate": "-",
       "Unit": 1,
-      "Layer": "2/2",
+      "Layer": "2 of 2",
       "Volume": "0.473 L"
     },
     {
@@ -2591,7 +2589,7 @@ var inventory =
       "typePaint": "Basecoat",
       "purchaseDate": "-",
       "Unit": 1,
-      "Layer": "1/2",
+      "Layer": "1 of 2",
       "Volume": "0.473 L"
     },
     {
@@ -5687,7 +5685,7 @@ var inventory =
       "typePaint": "Basecoat",
       "purchaseDate": "11/28/2017",
       "Unit": 1,
-      "Layer": "2/2",
+      "Layer": "2 of 2",
       "Volume": "0.956 L"
     },
     {
@@ -5705,7 +5703,7 @@ var inventory =
       "typePaint": "Basecoat",
       "purchaseDate": "11/28/2017",
       "Unit": 1,
-      "Layer": "1/2",
+      "Layer": "1 of 2",
       "Volume": "0.956 L"
     },
     {
@@ -6735,7 +6733,6 @@ var inventory =
       "Volume": "0.956 L"
     }
    ];
-*/
 
 var server_dir = "https://script.google.com/macros/s/AKfycbz-bXjxSCN3AxCry4A6rKKcGwIJZi1pnHc8QQJJATpMvpCVQCkpCYI_KEnP_J0hjrhA/exec";
 //POST, GET //var server_dir = "https://script.google.com/macros/s/AKfycbzfPLjjbPCOjNff--RNDBjTAHufALDrbg6YSYohL8OzCeTmIZFR8RPw4vMQbn09zSU/exec";
@@ -6747,6 +6744,7 @@ $( document ).ready(function(){
     $('.modal').modal();
 
     //$('#modal-data-paint').modal('open', 'true');
+    
     $('.col-txtCarBrand').hide();
     $('.col-select-CarBrands2').show();
     $('.loading-updating-data-paint').hide();
@@ -6757,7 +6755,12 @@ $( document ).ready(function(){
 
     var allData = JSON.parse( localStorage.getItem('dataPaints') );
     Load_ModelYears();
-    Get_DataPaints();
+
+    //Get_DataPaints();
+    $('.card-loading-data').hide();
+    Get_DataPaints_Offline(dataPaints_Offline);
+
+
     Show_ResultsSearchData( allData );
 });
 
@@ -6801,7 +6804,6 @@ function Load_CardBrands(){
         }
     }
 
-    console.log(dataCarBrands_InnerSelect)
     $("#select-CarBrands").html( dataCarBrands_InnerSelect );
     $("#select-CarBrands1").html( dataCarBrands_InnerSelect );
     $("#select-CarBrands2").html( dataCarBrands_InnerSelect2 );
@@ -6863,9 +6865,15 @@ function Show_ResultsSearchData( dataPaints ){
 function Search_PaintsWithFilters(){
   var dataPaints      = JSON.parse( localStorage.getItem( 'dataPaints' ) );
   var carBrands       = JSON.parse( localStorage.getItem( 'carBrands'  ) );
-  var carBrandSelected = $('#select-CarBrands').val();
-  var txtPaintCode = $('#txtPaintCode').val();
-  var dataFiltered;
+  var carBrandSelected, txtPaintCode, dataFiltered;
+
+  if( $('.filters-show-on-high').css('display') === 'block' ){
+    carBrandSelected = $('#select-CarBrands').val();
+    txtPaintCode = $('#txtPaintCode').val();
+  }else if( $('.filters-show-on-small').css('display') === "block"  ){
+    carBrandSelected = $('#select-CarBrands2').val();
+    txtPaintCode = $('#txtPaintCode2').val();
+  }
 
   if( carBrandSelected == -1 && txtPaintCode == "" ){
       //console.log( "carBrand => '' | txtPaintCode => ''" );
@@ -6887,6 +6895,21 @@ function Search_PaintsWithFilters(){
   }
 
   Show_ResultsSearchData( dataFiltered );
+}
+
+function Get_DataPaints_Offline(DatOffline){
+  allPaintCodes = DatOffline.map( DatOffline => DatOffline.paintCode );
+  allPaintNames = DatOffline.map( DatOffline => DatOffline.paintName );
+  allCarBrands  = DatOffline.map( DatOffline => DatOffline.carBrand  );
+  carBrandsObj = [...new Set(allCarBrands)];
+
+  localStorage.setItem( 'dataPaints',     JSON.stringify( DatOffline  ) );
+  localStorage.setItem( 'allPaintCodes',  JSON.stringify( allPaintCodes   ) );
+  localStorage.setItem( 'allPaintNames',  JSON.stringify( allPaintNames   ) );
+  localStorage.setItem( 'carBrands',      JSON.stringify( carBrandsObj    ) );
+
+  Load_CardBrands();
+  Search_PaintsWithFilters();
 }
 
 function Get_DataPaints(){
@@ -7090,7 +7113,8 @@ $('.switch-new-car-brand').on('change', function(){
 $('#dataTable-Body').on('click', 'tr', function(){
   var dataPaints = JSON.parse( localStorage.getItem('dataPaints') );
   var idPaintElement = $(this).children().find('.idPaintRegister').text();
-  var dataPaintSelected = dataPaints.filter( dataPaints => dataPaints.id === idPaintElement );
+  var dataPaintSelected = dataPaints.filter( dataPaints => dataPaints.id == idPaintElement );
+  // cambiar el operador lógico de igualdad == por === ya que se comparará un texto, pero en el modo offline se compara un número
 
   $('.btn-save-changes-paint-data').hide();
   $('.btn-enable-edit-data-paint').show();
