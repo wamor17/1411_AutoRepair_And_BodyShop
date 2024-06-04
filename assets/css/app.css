@@ -244,7 +244,7 @@ table tbody tr:hover{
 }
 
 .idPaintRegister{
-    display: block;
+    display: none;
 }
 
 .lblVersion{
