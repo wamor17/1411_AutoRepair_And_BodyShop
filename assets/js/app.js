@@ -6752,16 +6752,10 @@ $( document ).ready(function(){
 
     //$('#modal-edit-data-paint').modal('open', 'true');
     //$('.btn-add-register').trigger('click');
+    //Get_DataPaints_Offline(dataPaints_Offline);
 
-    var allData = JSON.parse( localStorage.getItem('dataPaints') );
     Load_ModelYears();
-
-    //Get_DataPaints();
-    $('.card-loading-data').hide();
-    Get_DataPaints_Offline(dataPaints_Offline);
-
-
-    Show_ResultsSearchData( allData );
+    Get_DataPaints();
 });
 
 function generateGUID() {
